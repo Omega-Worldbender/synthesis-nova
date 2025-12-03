@@ -1,6 +1,6 @@
-MIT License
+MIT License with Commercial Use Restrictions
 
-Copyright (c) 2025 I.Q./MBA Luis Alberto Davila Barberena
+Copyright (c) 2023-2025 worldbender (Luis Alberto Dávila Barberena)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,35 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+ADDITIONAL TERMS FOR USE:
+
+This software and framework (Synthesis Nova) are provided FREE of charge for:
+
+✓ Academic research and education
+✓ Personal learning and exploration  
+✓ Non-profit organizations
+✓ Small businesses with annual revenue under $1,000,000 USD
+
+COMMERCIAL USE RESTRICTIONS:
+
+Organizations with annual revenue of $1,000,000 USD or more must obtain
+a commercial license to use this framework in revenue-generating applications,
+products, or services.
+
+For commercial licensing inquiries, see LICENSE-COMMERCIAL.txt or contact:
+luisdavilab89@gmail.com
+
+WHAT THIS MEANS:
+
+If you're an individual, student, researcher, hobbyist, or small startup:
+→ Use freely! No restrictions.
+
+If you're a larger company (>$1M revenue) using this in your business:
+→ Contact for commercial license.
+
+The mathematics, principles, and research are always freely available
+for academic study and validation. This license covers commercial
+application of the framework and methodology.
