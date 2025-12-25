@@ -45,8 +45,8 @@ Three options:
 See the `/examples` directory for code.
 
 ### What's the difference between CORE and LITE?
-- **CORE (v3.7)**: MIT licensed, 95 fractals, suitable for fast models and customer service
-- **LITE (v3.7)**: Proprietary, 245+ fractals, full Ω^U engine, for advanced applications
+- **CORE (v3.8)**: MIT licensed, 95 fractals, suitable for fast models and customer service
+- **LITE (v3.8)**: Proprietary, 245+ fractals, full Ω^U engine, for advanced applications
 
 ### Can I use this commercially?
 - **Free**: Individuals, academics, non-profits, small business (<$1M revenue)

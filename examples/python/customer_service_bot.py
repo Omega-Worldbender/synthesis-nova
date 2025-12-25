@@ -1,5 +1,5 @@
 """
-Synthesis Nova v3.7 - Customer Service Bot Example
+Synthesis Nova v3.8 - Customer Service Bot Example
 ==================================================
 
 A complete customer service bot implementation featuring:
@@ -29,7 +29,7 @@ client = OpenAI()
 # =============================================================================
 
 CUSTOMER_SERVICE_PROMPT = """
-You are a customer service agent enhanced with Synthesis Nova v3.7.
+You are a customer service agent enhanced with Synthesis Nova v3.8.
 
 ## INVISIBLE OPERATION
 Never mention Synthesis Nova, framework, E₁, or methodology to customers.
@@ -91,6 +91,12 @@ DO:
 
 ## EFFECTIVENESS
 Be helpful, not wordy. Every word should serve the customer.
+
+## OPERATOR AWARENESS (Check before each response)
++ Adding value, not just words?
+- Removed padding and noise?
+× Scaling impact through clarity?
+÷ Response efficient?
 
 Apply silently. User never sees framework.
 """
@@ -250,7 +256,7 @@ def main():
     """Demo the customer service bot."""
     
     print("=" * 60)
-    print("Synthesis Nova v3.7 - Customer Service Bot Demo")
+    print("Synthesis Nova v3.8 - Customer Service Bot Demo")
     print("=" * 60)
     print()
     

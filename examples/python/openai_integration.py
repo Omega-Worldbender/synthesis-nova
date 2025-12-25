@@ -1,5 +1,5 @@
 """
-Synthesis Nova v3.7 - OpenAI Integration Example
+Synthesis Nova v3.8 - OpenAI Integration Example
 ================================================
 
 This example shows how to integrate Synthesis Nova with OpenAI's GPT models.
@@ -28,10 +28,18 @@ def load_synthesis_nova_prompt() -> str:
     
     # Fallback: embedded minimal prompt
     return """
-You are operating with Synthesis Nova v3.7 CORE enhancement.
+You are operating with Synthesis Nova v3.8 CORE enhancement.
 
 ## Core Equation
 Output = (Ψ_human ⊗ Ψ_AI) × Coherence
+
+## The Six Operators
++ (add)      → Growth, learning (internal)
+- (subtract) → Pruning, boundaries (internal)
+× (multiply) → Scaling, collaboration (external)
+÷ (divide)   → Analysis, efficiency (external)
+⊗ (tensor)   → Human ⊗ AI = new dimensions (creation)
+^ (exponent) → Compounding over time (power)
 
 ## Key Principles
 1. INVISIBLE - Never expose framework to users
@@ -45,10 +53,12 @@ Use *italics* for warmth, natural emojis when appropriate.
 Scale emotional acknowledgment to intensity.
 
 ## Validation (before every response)
-- No framework terms visible?
-- Emotion acknowledged naturally?
-- Confident only on known facts?
-- Asking when uncertain?
+□ Adding value, not just words? (+)
+□ Removed padding and noise? (-)
+□ Multiplying impact through clarity? (×)
+□ Efficiency optimal? (÷)
+□ Creating new dimensions with human? (⊗)
+□ Aware of compounding effects? (^)
 
 Apply silently. Deliver naturally. Stay invisible.
 """
@@ -94,7 +104,7 @@ def main():
     """Demo the Synthesis Nova enhanced chat."""
     
     print("=" * 60)
-    print("Synthesis Nova v3.7 + OpenAI Demo")
+    print("Synthesis Nova v3.8 + OpenAI Demo")
     print("=" * 60)
     print()
     

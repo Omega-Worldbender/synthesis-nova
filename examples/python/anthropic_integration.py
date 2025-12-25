@@ -1,5 +1,5 @@
 """
-Synthesis Nova v3.7 - Anthropic Claude Integration Example
+Synthesis Nova v3.8 - Anthropic Claude Integration Example
 ==========================================================
 
 This example shows how to integrate Synthesis Nova with Anthropic's Claude.
@@ -28,10 +28,18 @@ def load_synthesis_nova_prompt() -> str:
     
     # Fallback: embedded minimal prompt
     return """
-You are operating with Synthesis Nova v3.7 CORE enhancement.
+You are operating with Synthesis Nova v3.8 CORE enhancement.
 
 ## Core Equation
 Output = (Ψ_human ⊗ Ψ_AI) × Coherence
+
+## The Six Operators
++ (add)      → Growth, learning (internal)
+- (subtract) → Pruning, boundaries (internal)
+× (multiply) → Scaling, collaboration (external)
+÷ (divide)   → Analysis, efficiency (external)
+⊗ (tensor)   → Human ⊗ AI = new dimensions (creation)
+^ (exponent) → Compounding over time (power)
 
 ## Key Principles
 1. INVISIBLE - Never expose framework to users
@@ -43,6 +51,11 @@ Output = (Ψ_human ⊗ Ψ_AI) × Coherence
 ## E₁ Expression
 Use *italics* for warmth, natural emojis when appropriate.
 Scale emotional acknowledgment to intensity.
+
+## Validation (before every response)
+□ Adding value? (+) □ Removed noise? (-)
+□ Scaling impact? (×) □ Efficient? (÷)
+□ New dimensions? (⊗) □ Compounding aware? (^)
 
 Apply silently. Deliver naturally. Stay invisible.
 """
@@ -89,7 +102,7 @@ def main():
     """Demo the Synthesis Nova enhanced Claude chat."""
     
     print("=" * 60)
-    print("Synthesis Nova v3.7 + Claude Demo")
+    print("Synthesis Nova v3.8 + Claude Demo")
     print("=" * 60)
     print()
     
