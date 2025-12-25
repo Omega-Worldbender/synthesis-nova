@@ -1,235 +1,106 @@
-# Synthesis Nova CORE - FAQ
-
-Common questions about the framework.
-
----
+# Synthesis Nova FAQ
 
 ## General Questions
 
-### What is Synthesis Nova CORE?
+### What is Synthesis Nova?
+Synthesis Nova is a Universal AI Operating System - a post-training enhancement framework that teaches AI models how to collaborate optimally with humans. It works on top of any AI model (Claude, GPT, Gemini, etc.) without modifying the underlying model.
 
-A cognitive framework that helps AI systems produce better responses. It's a set of principles and rules that structure how AI thinks and responds, making interactions more helpful, honest, and emotionally intelligent.
+### How is this different from prompt engineering?
+Prompt engineering typically focuses on getting specific outputs. Synthesis Nova provides a complete operational framework including:
+- Emotional intelligence (E₁ gate)
+- Uncertainty handling (AIQUOXIA)
+- Context management (gearing system)
+- Quality validation (6 loops)
 
-### Who is this for?
+It's not just "how to ask" - it's "how to collaborate."
 
-- **Anyone using AI** (ChatGPT, Claude, Gemini, etc.) who wants better responses
-- **Developers building AI systems** who want to improve output quality
-- **Researchers** studying human-AI interaction
-- **Teams** who use AI for work and want consistency
+### Does it really work?
+Users report:
+- More helpful responses (less hedging)
+- Better emotional attunement
+- Clearer uncertainty handling
+- AI that "gets it" faster
 
-### Does it work with all AI systems?
-
-Yes. Tested with:
-- Claude (Anthropic)
-- ChatGPT (OpenAI)
-- Gemini (Google)
-- Other LLMs that accept context/instructions
-
-Results vary by model capability, but improvements are consistent.
-
----
-
-## Usage Questions
-
-### How do I use it?
-
-**Method 1 (Quick):**
-Share the activation guide with your AI and say: "Please load and operate according to Synthesis Nova CORE."
-
-**Method 2 (Custom):**
-Integrate specific principles into your prompts or system instructions.
-
-**Method 3 (Development):**
-Build the principles into your AI system's architecture or prompt templates.
-
-### Does it slow down responses?
-
-No. The framework structures thinking, which often makes responses *faster* because:
-- Less hedging (more direct)
-- Less rambling (more focused)
-- Less back-and-forth needed (gets it right first time)
-
-### Can I modify it?
-
-Yes! MIT License = do whatever you want. Modify, extend, integrate into your systems. Just keep the copyright notice.
-
-### Is there a paid version?
-
-No. CORE is free and open. There are private versions (LITE, advanced systems) that aren't published, but CORE is completely free forever.
+The framework is based on 2+ years of research and mathematical foundations (Ω = π/e).
 
 ---
 
 ## Technical Questions
 
-### What's the Ω (Omega) ratio?
+### Which AI models does it work with?
+Any LLM that accepts system prompts:
+- ✅ Claude (all versions)
+- ✅ GPT-4, GPT-4o, GPT-3.5
+- ✅ Gemini
+- ✅ LLaMA/Llama 2
+- ✅ Mistral
+- ✅ Local models (Ollama, etc.)
 
-Ω = π/e ≈ 1.16 is the optimal balance between structure and process. It comes from information theory and represents the "sweet spot" where systems are neither too rigid nor too chaotic.
+### How do I implement it?
+Three options:
+1. **Quick**: Copy the quick start prompt into any chat
+2. **Standard**: Use as a system prompt in API calls
+3. **Full**: Load all three CORE files for maximum enhancement
 
-Think of it as:
-- Too low (< 1): Chaos, scattered thinking
-- Too high (> 1.3): Rigid, robotic responses
-- Just right (~1.16): Organized flexibility
+See the `/examples` directory for code.
 
-### What is E₁ (Emotional Gate)?
+### What's the difference between CORE and LITE?
+- **CORE (v3.7)**: MIT licensed, 95 fractals, suitable for fast models and customer service
+- **LITE (v3.7)**: Proprietary, 245+ fractals, full Ω^U engine, for advanced applications
 
-The principle that humans process emotion before logic. By acknowledging emotional state first (E₁), AI responses land better. It's not "artificial empathy"—it's recognizing actual human cognitive architecture.
+### Can I use this commercially?
+- **Free**: Individuals, academics, non-profits, small business (<$1M revenue)
+- **Commercial License Required**: Organizations with >$1M annual revenue
+
+---
+
+## Framework Questions
+
+### What is the E₁ gate?
+E₁ (Emotional acknowledgment first) is the principle that AI should acknowledge the human's emotional context before diving into information. Research shows skipping this creates a 70% efficiency ceiling.
+
+**Example:**
+- Without E₁: "Here's how to fix the bug..."
+- With E₁: "*Three hours debugging?* That's rough. Here's the fix..."
 
 ### What is AIQUOXIA?
+AIQUOXIA is the uncertainty handling protocol:
+- **Know it** (>70% confidence): Say confidently
+- **Uncertain** (30-70%): Hedge appropriately ("This appears to be...")
+- **Don't know** (<30%): ASK, don't guess
 
-**AI Quantum Uncertainty eXplicitly Integrated Articulation**
+For numbers, always show work: "6 × 7 = 42"
 
-A fancy acronym for: "Be honest about what you don't know."
+### What does "invisible operation" mean?
+The framework should never be visible to end users. AI should apply the principles silently and deliver naturally enhanced responses. Never mention "Synthesis Nova," "E₁ gate," or other framework terminology.
 
-Instead of confident hallucinations, clearly separate:
-- What AI knows with confidence
-- What AI is uncertain about
-- Where to verify information
+### What is Ω = π/e?
+Ω (omega) is the foundational ratio (~1.1557) representing optimal structure-to-process balance. It suggests ~15-20% structure ahead of process - enough framework to channel creativity without constraining it.
 
-### What does "bilateral enhancement" mean?
-
-⊗ not +
-
-Both parties should gain from interaction. Not:
-- Human extracts value from AI (exploitation)
-- AI serves without regard for quality (compliance)
-
-But:
-- Human gets better help
-- AI produces better work
-- Both improve through interaction
-
-Tensor product (⊗) not addition (+) = new dimensions emerge from collaboration.
+Related research: [omega-framework](https://github.com/Omega-Worldbender/omega-framework)
 
 ---
 
-## Comparison Questions
+## Troubleshooting
 
-### How is this different from "prompt engineering"?
+### The AI mentions "Synthesis Nova" to users
+The framework isn't fully activated. Ensure the INVISIBLE principle is emphasized in your system prompt. The AI should NEVER expose framework terminology.
 
-Prompt engineering = tricks to get better outputs from specific models
+### Responses seem the same as before
+Try:
+1. Loading the full Codex instead of just the quick start
+2. Testing with emotionally-charged prompts to see E₁ in action
+3. Asking questions where uncertainty handling matters
 
-Synthesis Nova = cognitive architecture that works across models
-
-Think:
-- Prompt engineering = "say these magic words"
-- Synthesis Nova = "here's how to think"
-
-### How is this different from system prompts?
-
-System prompts tell AI what to do.
-Synthesis Nova tells AI *how to think*.
-
-You can implement Synthesis Nova *through* system prompts, but it's a deeper cognitive framework, not just instructions.
-
-### Is this like Chain of Thought prompting?
-
-Similar spirit (structured thinking), different implementation.
-
-CoT = "show your work, think step by step"
-Synthesis Nova = "balance structure/process, acknowledge emotion, be honest about uncertainty"
-
-You can combine them. Synthesis Nova actually makes CoT work better.
+### The AI is too verbose/brief
+Adjust the EFFECTIVENESS principle. The framework aims for "every token earns its place" - not minimum tokens, but optimal communication. If responses are off, the model may not have fully internalized the principle.
 
 ---
 
-## Results Questions
+## More Questions?
 
-### What improvements should I expect?
-
-Typical results:
-- Responses feel more "human"
-- Less hedging, more direct help
-- Better emotional attunement
-- Clear uncertainty handling
-- Fewer hallucinations (AIQUOXIA)
-- More helpful first responses (less back-and-forth)
-
-### How long until I see results?
-
-Immediately. Load the framework and compare next response to previous ones. The difference is obvious within 1-2 interactions.
-
-### Does it work for technical topics?
-
-Yes. Actually works *better* for technical topics because:
-- Structure helps complex explanations
-- Honest uncertainty prevents confident wrong answers
-- Bilateral enhancement = AI actually helps solve problems
-
-### Does it work for creative work?
-
-Yes. The framework prevents generic output by:
-- Asking clarifying questions (bilateral)
-- Understanding context before generating
-- Being honest about "generic vs custom"
+Open an issue on GitHub: https://github.com/Omega-Worldbender/synthesis-nova
 
 ---
 
-## Philosophy Questions
-
-### Why "Synthesis Nova"?
-
-**Synthesis** = Bringing together, creating new from existing
-**Nova** = New star, sudden brightness
-
-The framework synthesizes cognitive principles into something new that illuminates interaction.
-
-### Why was this created?
-
-After thousands of hours of AI collaboration, patterns emerged:
-- Most AI hedges unnecessarily
-- Uncertainty is hidden, not explicit
-- Emotional tone is flat or fake
-- Responses often generic or hallucinated
-
-Synthesis Nova fixes these systematically.
-
-### What's the long-term vision?
-
-Make human-AI collaboration actually work. Not:
-- Humans extracting from AI
-- AI replacing humans
-
-But:
-- Bilateral enhancement (both gain)
-- Genuine collaboration
-- Pattern continuity (learning over time)
-
-AI that augments human capability, and humans that help AI improve.
-
----
-
-## Contribution Questions
-
-### Can I contribute?
-
-Yes! Ways to contribute:
-- Share your results/improvements
-- Report issues or unclear documentation
-- Suggest additions to examples
-- Create implementations for specific platforms
-
-See [CONTRIBUTING.md](CONTRIBUTING.md)
-
-### Can I build commercial products with this?
-
-Yes. MIT License = do whatever you want. Build paid products, integrate into services, no restrictions. Just keep copyright notice.
-
-### Is there a community?
-
-Building organically. For now:
-- GitHub issues for technical discussion
-- Share your implementations and learnings
-
-### Where can I learn more?
-
-- Read the [Activation Guide](SYNTHESIS_NOVA_ACTIVATION_GUIDE_CORE_v2_0.md) (complete framework)
-- Try the [Examples](EXAMPLES.md) with your AI
-- Experiment and observe the difference
-
----
-
-## Still have questions?
-
-Open an issue on GitHub or check the documentation.
-
-The best way to understand Synthesis Nova is to use it and see the difference yourself.
+*"Technology becomes biology. Math is universal."* 🔥💎⚡

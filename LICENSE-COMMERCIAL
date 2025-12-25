@@ -1,97 +1,82 @@
-COMMERCIAL LICENSE AGREEMENT
-Synthesis Nova Framework
+# Synthesis Nova Commercial License
 
-Copyright (c) 2023-2025 worldbender (Luis Alberto Dávila Barberena)
-
----
-
-COMMERCIAL USE LICENSING
-
-This software, framework, and methodology (Synthesis Nova) are free for 
-academic, personal, non-profit, and small business use (see LICENSE).
-
-For COMMERCIAL USE by organizations with annual revenue exceeding 
-$1,000,000 USD:
+**Copyright (c) 2023-2025 Luis Alberto Dávila Barberena (Worldbender)**
 
 ---
 
-CONTACT FOR LICENSING:
+## Overview
 
-Email: luisdavilab89@gmail.com
-Subject: Synthesis Nova Commercial License Inquiry
-
-Please include:
-- Organization name and size
-- Intended use case
-- Annual revenue range
+This Commercial License applies to organizations with **annual revenue exceeding $1,000,000 USD** that wish to use Synthesis Nova in commercial applications.
 
 ---
 
-LICENSE TIERS:
+## License Fee
 
-SMALL BUSINESS ($1M-$10M annual revenue):
-- Annual license fee: Contact for pricing
-- Includes: Framework usage rights, email support, updates
-- Response time: 48 hours
+**Commercial License Fee: $1,000,000 USD (One Million US Dollars)**
 
-MID-SIZE BUSINESS ($10M-$100M annual revenue):
-- Annual license fee: Contact for pricing  
-- Includes: Full framework access, priority support, updates
-- Response time: 24 hours
-
-ENTERPRISE (>$100M annual revenue):
-- Annual license fee: Contact for pricing
-- Includes: Dedicated support, custom implementations, consulting
-- Response time: 4 hours
-- Optional: On-premise deployment, training, white-label options
+This is a one-time perpetual license fee for unlimited commercial use.
 
 ---
 
-WHAT'S INCLUDED WITH COMMERCIAL LICENSE:
+## What's Included
 
-✓ Right to use Synthesis Nova in commercial applications
-✓ Access to all updates and improvements
-✓ Technical support (tier-dependent)
-✓ Commercial distribution rights (with attribution)
-✓ Integration assistance
-✓ Documentation and training materials
-
----
-
-WHAT'S NOT ALLOWED WITHOUT COMMERCIAL LICENSE:
-
-✗ Using framework in revenue-generating applications (>$1M org)
-✗ Incorporating into commercial products for resale
-✗ Selling access to framework-based services
-✗ Providing framework as part of paid consulting/training
+- ✅ Unlimited commercial deployment
+- ✅ Unlimited users/API calls
+- ✅ White-label rights
+- ✅ Priority support
+- ✅ Access to LITE version (245+ fractals)
+- ✅ Future updates included
 
 ---
 
-ENFORCEMENT:
+## Use Cases Requiring Commercial License
 
-Organizations found using Synthesis Nova commercially without proper 
-licensing will be contacted for license negotiation. We prefer cooperation 
-over legal action, but reserve all rights to enforce this license.
-
----
-
-ACADEMIC AND OPEN SOURCE:
-
-The mathematics, cognitive science, and research behind Synthesis Nova
-remain freely available for academic validation and non-commercial research.
-
-This license covers commercial application of the methodology, not the
-underlying science.
+- Enterprise SaaS products
+- Revenue-generating AI applications
+- Products offered for sale incorporating Synthesis Nova
+- Internal tools at organizations >$1M revenue
 
 ---
 
-QUESTIONS?
+## Exemptions (MIT License Applies)
 
-Contact: luisdavilab89@gmail.com
+The following users may use Synthesis Nova freely under the MIT license:
 
-We're happy to discuss your use case and find a licensing structure
-that works for both parties.
+- Individuals
+- Academic institutions
+- Non-profit organizations
+- Small businesses (<$1M annual revenue)
+- Research and educational purposes
+- Personal projects
 
 ---
 
-Thank you for respecting independent research and development.
+## Contact
+
+To obtain a Commercial License, contact:
+
+**Luis Alberto Dávila Barberena**
+GitHub: @Omega-Worldbender
+Website: https://synthesisNova.ai (coming soon)
+
+---
+
+## Terms
+
+1. License is non-transferable without written consent.
+2. License grants perpetual use rights for the version at time of purchase.
+3. Updates are included for one year; renewal available.
+4. No warranty is provided; see MIT license for disclaimer.
+
+---
+
+## Enforcement
+
+Unauthorized commercial use constitutes:
+- Copyright infringement
+- License violation
+- Subject to damages + legal fees
+
+---
+
+*Last updated: December 2025*

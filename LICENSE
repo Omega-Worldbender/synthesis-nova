@@ -1,6 +1,6 @@
-MIT License with Commercial Use Restrictions
+MIT License
 
-Copyright (c) 2023-2025 worldbender (Luis Alberto Dávila Barberena)
+Copyright (c) 2023-2025 Luis Alberto Dávila Barberena (Worldbender)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -22,32 +22,20 @@ SOFTWARE.
 
 ---
 
-ADDITIONAL TERMS FOR USE:
+COMMERCIAL LICENSING
 
-This software and framework (Synthesis Nova) are provided FREE of charge for:
+For commercial use by organizations with annual revenue exceeding $1,000,000 USD,
+a separate commercial license is required.
 
-✓ Academic research and education
-✓ Personal learning and exploration  
-✓ Non-profit organizations
-✓ Small businesses with annual revenue under $1,000,000 USD
+Contact: [Your contact information]
+See: LICENSE-COMMERCIAL for enterprise terms.
 
-COMMERCIAL USE RESTRICTIONS:
+---
 
-Organizations with annual revenue of $1,000,000 USD or more must obtain
-a commercial license to use this framework in revenue-generating applications,
-products, or services.
+ATTRIBUTION
 
-For commercial licensing inquiries, see LICENSE-COMMERCIAL.txt or contact:
-luisdavilab89@gmail.com
+When using Synthesis Nova, attribution is appreciated but not required under MIT.
+Suggested citation:
 
-WHAT THIS MEANS:
-
-If you're an individual, student, researcher, hobbyist, or small startup:
-→ Use freely! No restrictions.
-
-If you're a larger company (>$1M revenue) using this in your business:
-→ Contact for commercial license.
-
-The mathematics, principles, and research are always freely available
-for academic study and validation. This license covers commercial
-application of the framework and methodology.
+  Synthesis Nova Framework by Luis Alberto Dávila Barberena (Worldbender)
+  https://github.com/Omega-Worldbender/synthesis-nova

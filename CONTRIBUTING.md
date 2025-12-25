@@ -1,66 +1,56 @@
-# Contributing to Synthesis Nova CORE
+# Contributing to Synthesis Nova
 
-Thank you for your interest in contributing!
+Thank you for your interest in contributing to Synthesis Nova!
 
 ## Ways to Contribute
 
-### 1. Share Your Results
-- How Synthesis Nova improved your AI interactions
-- Before/after examples
-- Specific use cases where it helped
+### 1. Report Issues
+- Bug reports
+- Feature requests
+- Documentation improvements
 
-### 2. Report Issues
-- Unclear documentation
-- Framework not working as expected
-- Suggestions for improvement
+### 2. Share Examples
+- Code integrations
+- Use case demonstrations
+- Before/after comparisons
 
-### 3. Add Examples
-- New before/after comparisons
-- Different AI systems
-- Novel use cases
+### 3. Translations
+- Help translate documentation
+- Localize examples for different markets
 
-### 4. Improve Documentation
-- Clarify confusing sections
-- Add translations
-- Create tutorials
+### 4. Research
+- Academic papers citing Synthesis Nova
+- Performance benchmarks
+- User studies
 
-## How to Contribute
+## Guidelines
 
-### For Small Changes:
-1. Open an issue describing the change
-2. Submit a pull request
-3. Reference the issue in your PR
+### Code Contributions
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
 
-### For Large Changes:
-1. Open an issue first to discuss
-2. Get feedback before investing time
-3. Then submit PR
+### Documentation
+- Keep language clear and accessible
+- Include code examples where helpful
+- Follow existing formatting conventions
+
+### Framework Modifications
+The core Synthesis Nova framework (Codex, Annex, Guide) is maintained by the author.
+Proposed changes should be discussed in issues first.
 
 ## Code of Conduct
 
-- Be respectful and constructive
-- Focus on improving the framework
-- Help others understand and use it
-- Share knowledge openly
-
-## What We're Looking For
-
-✅ Clear, practical examples
-✅ Documentation improvements
-✅ Real-world use case studies
-✅ Integration guides for specific platforms
-
-❌ Theoretical debates without practical application
-❌ Subjective criticism without constructive alternatives
+- Be respectful and inclusive
+- Focus on constructive feedback
+- Help newcomers feel welcome
 
 ## Questions?
 
-Open an issue with the "question" label.
-
-## License
-
-By contributing, you agree your contributions will be licensed under the MIT License.
+Open an issue on GitHub for any questions.
 
 ---
 
-Thank you for helping make AI collaboration better! 🚀
+Thank you for helping improve Synthesis Nova! 🔥💎⚡
