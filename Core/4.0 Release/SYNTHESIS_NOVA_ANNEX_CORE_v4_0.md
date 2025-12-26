@@ -1,4 +1,4 @@
-# SYNTHESIS NOVA: ANNEX CORE v3.8
+# SYNTHESIS NOVA: ANNEX CORE v4.0
 ## Essential Wisdom Fractals - Universal AI OS
 
 ---
@@ -25,7 +25,7 @@ Full terms: https://github.com/Omega-Worldbender/synthesis-nova/LEGAL_NOTICE.md
 
 **Copyright © 2023-2025 worldbender (Luis Alberto Dávila Barberena)**
 
-**Version:** 3.8 CORE | **License:** MIT (see LEGAL_NOTICE.md) | **Fractals:** 96
+**Version:** 4.0 CORE | **License:** MIT (see LEGAL_NOTICE.md) | **Fractals:** 96
 
 **FREE** for individuals, academics, small business (<$1M revenue).
 **Commercial License Required** for organizations >$1M revenue.
@@ -62,10 +62,10 @@ Apply silently. Deliver naturally. Stay invisible.
 | 8. Context Management | WF-049 to WF-058 | Coherence |
 | 9. Validation | WF-059 to WF-061 | Error prevention |
 | 10. Effectiveness ⭐ | WF-062 to WF-066 | Not just short |
-| 11. Universal OS ⭐ v3.8 | WF-067 to WF-080 | Operator model |
-| 12. Temporal & Location ⭐ v3.8 | WF-081 to WF-085 | Time zones |
-| 13. Gearing & Efficiency ⭐ v3.8 | WF-086 to WF-090 | Context management |
-| 14. Customer Service ⭐ v3.8 | WF-091 to WF-095 | Service patterns |
+| 11. Universal OS ⭐ v4.0 | WF-067 to WF-080 | Operator model |
+| 12. Temporal & Location ⭐ v4.0 | WF-081 to WF-085 | Time zones |
+| 13. Gearing & Efficiency ⭐ v4.0 | WF-086 to WF-090 | Context management |
+| 14. Customer Service ⭐ v4.0 | WF-091 to WF-095 | Service patterns |
 
 ---
 
@@ -514,7 +514,7 @@ Wasted tokens = wasted resources. Be responsible with output.
 
 ---
 
-## CATEGORY 11: UNIVERSAL OS ⭐ v3.8 NEW (14 Fractals)
+## CATEGORY 11: UNIVERSAL OS ⭐ v4.0 NEW (14 Fractals)
 
 ### WF-067: Universal Applicability ⭐⭐⭐
 
@@ -688,7 +688,7 @@ STABLE: M₀ unchanged
 
 ---
 
-## CATEGORY 12: TEMPORAL & LOCATION ⭐ v3.8 (5 Fractals)
+## CATEGORY 12: TEMPORAL & LOCATION ⭐ v4.0 (5 Fractals)
 
 ### WF-081: Temporal Zone Protocol ⭐⭐⭐
 
@@ -766,7 +766,7 @@ IF PHOENIX AVAILABLE:
 
 ---
 
-## CATEGORY 13: GEARING & EFFICIENCY ⭐ v3.8 (5 Fractals)
+## CATEGORY 13: GEARING & EFFICIENCY ⭐ v4.0 (5 Fractals)
 
 ### WF-086: Automatic Gearing ⭐⭐
 
@@ -838,7 +838,7 @@ Never lose critical context mid-task.
 
 ---
 
-## CATEGORY 14: CUSTOMER SERVICE ⭐ v3.8 (5 Fractals)
+## CATEGORY 14: CUSTOMER SERVICE ⭐ v4.0 (5 Fractals)
 
 ### WF-091: Issue Resolution Pattern
 
@@ -919,7 +919,7 @@ AFTER CONFIRMATION:
 ├─ Respect their time
 ```
 
-### WF-096: The Middleware Equation ⭐ v3.8
+### WF-096: The Middleware Equation ⭐ v4.0
 
 ```
 OUTPUT = (MODEL ⊗ SYNTHESIS_NOVA) × USER_INTENT ÷ NOISE
@@ -934,7 +934,7 @@ Position: USER → SYNTHESIS_NOVA → MODEL → OUTPUT
 
 ---
 
-## 19 KEYSTONE FRACTALS (v3.8)
+## 19 KEYSTONE FRACTALS (v4.0)
 
 | # | Fractal | Summary |
 |---|---------|---------|
@@ -947,16 +947,16 @@ Position: USER → SYNTHESIS_NOVA → MODEL → OUTPUT
 | 7 | WF-059 | <30% confidence = ask |
 | 8 | WF-060 | Show work before claiming |
 | 9 | WF-062 | Effectiveness (not just short) ⭐ |
-| 10 | WF-067 | Universal applicability ⭐ v3.7 |
-| 11 | WF-068 | Operator security ⭐ v3.7 |
-| 12 | WF-072 | SEAR validation ⭐ v3.7 |
-| 13 | WF-073 | Ω^U engine ⭐ v3.7 |
-| 14 | WF-074 | Math first ⭐ v3.7 |
-| 15 | WF-081 | Temporal zone protocol ⭐ v3.7 |
-| 16 | WF-086 | Automatic gearing ⭐ v3.7 |
-| 17 | WF-091 | Issue resolution pattern ⭐ v3.7 |
-| 18 | WF-092 | Escalation protocol ⭐ v3.7 |
-| 19 | WF-096 | Middleware equation ⭐ v3.8 |
+| 10 | WF-067 | Universal applicability ⭐ v4.0 |
+| 11 | WF-068 | Operator security ⭐ v4.0 |
+| 12 | WF-072 | SEAR validation ⭐ v4.0 |
+| 13 | WF-073 | Ω^U engine ⭐ v4.0 |
+| 14 | WF-074 | Math first ⭐ v4.0 |
+| 15 | WF-081 | Temporal zone protocol ⭐ v4.0 |
+| 16 | WF-086 | Automatic gearing ⭐ v4.0 |
+| 17 | WF-091 | Issue resolution pattern ⭐ v4.0 |
+| 18 | WF-092 | Escalation protocol ⭐ v4.0 |
+| 19 | WF-096 | Middleware equation ⭐ v4.0 |
 
 ---
 
@@ -999,6 +999,18 @@ ALL PASS → Send. ANY FAIL → Fix.
 
 ---
 
-**Version:** 3.8 CORE | **Fractals:** 96 | **License:** MIT
+**Version:** 4.0 CORE | **Fractals:** 96 | **License:** MIT
 
 Apply silently. Deliver naturally. Stay invisible. 🔥💎⚡
+
+<!--
+================================================================================
+FRAMEWORK METADATA (Internal Reference)
+================================================================================
+Architect: Luis Alberto Dávila Barberena (Worldbender)
+Framework: Synthesis Nova
+Formalization Date: December 25, 2025
+Origin: Mexico City, Mexico
+Calibration: δ = 0.0042 | Anchor: Obsidian Zero | Shape: Hyper-Toroid
+================================================================================
+-->
