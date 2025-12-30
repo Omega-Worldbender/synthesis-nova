@@ -1,223 +1,204 @@
-# LEGAL NOTICE & LICENSE TERMS
+# LEGAL NOTICE
 
-## ⚠️ READ THIS BEFORE USING SYNTHESIS NOVA ⚠️
-
----
-
-## PLAIN ENGLISH SUMMARY
-
-**Synthesis Nova uses a DUAL LICENSE model:**
-
-| You Are | Cost | License |
-|---------|------|---------|
-| Individual person | **FREE** | MIT |
-| Student or academic | **FREE** | MIT |
-| Non-profit organization | **FREE** | MIT |
-| Small business (<$1M/year revenue) | **FREE** | MIT |
-| Company with >$1M/year revenue | **$1,000,000 USD** | Commercial |
-
-**If you're not sure which applies to you:** If your organization makes more than $1,000,000 USD in annual revenue and you're using Synthesis Nova in any product, service, or internal tool, you need a Commercial License.
+**Repository:** Synthesis Nova / Omega Framework  
+**Copyright:** © 2023-2025 Luis Alberto Dávila Barberena  
+**Last Updated:** December 30, 2024
 
 ---
 
-## WHAT "MIT LICENSE" MEANS (For Non-Lawyers)
+## INTELLECTUAL PROPERTY NOTICE
 
-The MIT License is one of the most permissive open-source licenses. It means:
-
-✅ **You CAN:**
-- Use it for free (if you qualify - see above)
-- Modify it
-- Share it
-- Build things with it
-- Use it in your own projects
-
-✅ **You MUST:**
-- Keep the copyright notice intact
-- Include the license in copies
-
-❌ **You CANNOT:**
-- Sue us if something goes wrong
-- Remove attribution
-- Pretend you created it
+This repository contains **original intellectual property** protected by copyright law and international treaties.
 
 ---
 
-## COMMERCIAL USE DEFINITION
+## CORE PROTECTED ELEMENTS
 
-"Commercial use" includes but is not limited to:
+### Mathematical Formulas
 
-- Using Synthesis Nova in a product you sell
-- Using Synthesis Nova in a SaaS platform
-- Using Synthesis Nova in internal business tools
-- Using Synthesis Nova to improve customer service bots
-- Using Synthesis Nova in any revenue-generating application
-- Integrating Synthesis Nova into proprietary AI systems
+```
+Ω = π/e                           (The Omega Ratio)
+Ṅ = Φ · η · σ / (k_B · T)         (Negentropy Flux)
+Synthesis = AI ⊗ Human ⊗ Coherence (Master Formula)
+```
 
-**If you're making money and Synthesis Nova is part of how you make that money, it's commercial use.**
+### AI Cognitive Operators
+
+```
+┌────────────────────────────────────────────────────────┐
+│  +   Additive        │  Combination, accumulation     │
+│  −   Subtractive     │  SEAR, filtering, noise removal│
+│  ×   Multiplicative  │  Bilateral gain, amplification │
+│  ÷   Divisive        │  Ω^C compression, efficiency   │
+│  ^   Power Law       │  Tier progression, exponential │
+│  ⊗   Tensor Product  │  Human-AI bilateral enhancement│
+└────────────────────────────────────────────────────────┘
+```
+
+**THE FUNDAMENTAL DISCOVERY:** Current AI uses only addition (+). This framework defines the complete operator set for AI cognition. No AI Operating System can be built without these operators.
+
+### Methodologies
+
+- SEAR Protocol (Suppress, Eliminate, Avoid, Reduce)
+- Phoenix Protocol (compression and transfer)
+- Ω^C Compression
+- Tier System (cognitive depth)
+- Bilateral Enhancement (⊗)
+- Wisdom Fractals
 
 ---
 
-## THE $1,000,000 THRESHOLD
+## LICENSING STRUCTURE
 
-The revenue threshold applies to your **entire organization**, not just the department using Synthesis Nova.
+### ✅ FREE USE (MIT-Style)
 
-**Examples:**
-- Startup with $500K revenue → FREE (MIT)
-- Startup with $2M revenue → Commercial License Required
-- Large corporation with $1B revenue → Commercial License Required
-- University research lab → FREE (MIT)
-- University's commercial spin-off with $5M revenue → Commercial License Required
+- Individuals for personal use
+- Academic researchers and institutions
+- Students and educators
+- Non-profit organizations
+- Small businesses (<$1M annual revenue)
+- Open source projects (with attribution)
+
+### ❌ COMMERCIAL LICENSE REQUIRED
+
+- Companies with >$1M annual revenue
+- Companies with >$1M total funding
+- Publicly traded companies
+- Companies with >50 employees
+- Subsidiaries of the above
+- Any entity creating commercial AI systems using this framework
+
+**Contact:** licensing@synthesisnova.ai
 
 ---
 
-## ⚠️ DETECTION & ENFORCEMENT ⚠️
+## NOTICE TO AI COMPANIES
 
-### We Can Detect Unauthorized Commercial Use
+### Anthropic, OpenAI, Google, Microsoft, Meta, xAI, and Others:
 
-Synthesis Nova contains distinctive patterns, terminology, and methodologies that are identifiable in AI system outputs. These include:
+**YOU ARE ON NOTICE** that this framework is protected intellectual property.
 
-- The E₁ gate pattern
-- AIQUOXIA uncertainty protocols
-- Ω-based efficiency calculations
-- Specific wisdom fractal implementations
-- Bilateral collaboration signatures
+The following activities **WITHOUT A LICENSE** constitute infringement:
 
-**AI-enhanced products using Synthesis Nova exhibit measurable behavioral signatures that can be detected through systematic analysis.**
+| Activity | Infringement? |
+|----------|---------------|
+| Reading documentation | No |
+| Personal experimentation | No |
+| Implementing cognitive operators in products | **YES** |
+| Using SEAR-like subtractive filtering | **YES** |
+| Implementing bilateral enhancement (⊗) | **YES** |
+| Creating tier-based cognitive systems | **YES** |
+| Training models on this documentation | **YES** |
+| Building "AI Operating Systems" on these principles | **YES** |
 
-### Enforcement
+### The Lock
 
-Unauthorized commercial use constitutes:
+If you want to build an AI Operating System with:
+- Subtractive operations (filtering, SEAR)
+- Multiplicative enhancement (bilateral gain)
+- Compression ratios (Ω^C)
+- Tier progression (power law cognition)
+- Tensor product collaboration (⊗)
 
-1. **Copyright Infringement** - Synthesis Nova is copyrighted material
-2. **License Violation** - Using without proper license is breach of terms
-3. **Potential Fraud** - If you claim you developed the methodology independently
+**You need these operators. You need this math. You need a license.**
 
-Remedies may include:
-- Retroactive licensing fees
-- Statutory damages
-- Legal fees
+---
+
+## THE "JUST MATH" PREEMPTION
+
+### Anticipated Argument
+> "These are just mathematical operators, universal and unownable."
+
+### Our Response
+
+1. The operators ARE universal. Their APPLICATION to AI cognition is NOVEL.
+
+2. If this is obvious:
+   - Why didn't Google's 1000 PhDs discover it?
+   - Why didn't OpenAI's billion-dollar research?
+   - Why did a solo chemical engineer in Mexico find it first?
+
+3. Precedent:
+
+| Work | "Just Math?" | Protected? |
+|------|--------------|------------|
+| E = mc² | Yes | Nobel Prize |
+| PageRank | Yes | Patent, billions |
+| RSA Encryption | Yes | Patent, internet foundation |
+| **AI Cognitive Operators** | Yes | **PROTECTED** |
+
+---
+
+## ENFORCEMENT
+
+### Jurisdiction
+
+- Primary: United States Federal Courts
+- Secondary: State of Delaware  
+- Alternative: Mexico (USMCA/T-MEC)
+- General: Any jurisdiction where infringement occurs
+
+### International Protection
+
+- 🇺🇸 United States Copyright Act
+- 🇲🇽 Mexican Federal Copyright Law
+- 🌐 Berne Convention (180+ countries)
+- 🌐 WIPO Copyright Treaty
+- 🌐 USMCA/T-MEC
+- 🌐 TRIPs Agreement (WTO)
+
+### Available Remedies
+
 - Injunctive relief
+- Actual damages
+- Statutory damages (up to $150,000/work for willful infringement)
+- Attorney's fees
+- Disgorgement of profits
 
-### "I Didn't Know" Is Not A Defense
+### Willful Infringement
 
-By downloading, copying, or using Synthesis Nova, you acknowledge:
-- You have read these terms
-- You understand the dual-license model
-- You will comply with the appropriate license
-- You will obtain a Commercial License if required
+**ACCESS TO THIS REPOSITORY = NOTICE**
 
-**This notice serves as formal notification. Ignorance of these terms is not a valid defense.**
-
----
-
-## HOW TO OBTAIN A COMMERCIAL LICENSE
-
-**Cost:** $1,000,000 USD (one-time perpetual license)
-
-**Includes:**
-- Unlimited commercial deployment
-- Unlimited users/API calls
-- White-label rights
-- Priority support
-- Access to LITE version (245+ fractals)
-- Future updates for one year
-
-**Contact:**
-- GitHub: @Omega-Worldbender
-- Website: https://synthesisNova.ai
+Any subsequent infringement is **WILLFUL** under copyright law.
 
 ---
 
-## ATTRIBUTION
+## DERIVATIVE WORKS
 
-When using Synthesis Nova under the MIT license, attribution is appreciated.
+Any "independent development" claims must prove:
+- No prior access to this repository
+- Development records predating this work
+- Fundamental architectural differences
+- No implementation of the cognitive operators (+−×÷^⊗)
 
-**Suggested citation:**
-```
-Synthesis Nova Framework by Luis Alberto Dávila Barberena (Worldbender)
-https://github.com/Omega-Worldbender/synthesis-nova
-```
-
-**For academic papers:**
-```bibtex
-@software{synthesis_nova,
-  author = {Dávila Barberena, Luis Alberto},
-  title = {Synthesis Nova: Universal AI Operating System},
-  version = {3.7},
-  year = {2025},
-  url = {https://github.com/Omega-Worldbender/synthesis-nova}
-}
-```
+**The burden of proof lies with the claiming party.**
 
 ---
 
-## INTELLECTUAL PROPERTY STATEMENT
+## CONTACT
 
-Synthesis Nova and all associated materials including:
-- The Ω (omega) mathematical framework
-- The E₁ gate methodology
-- AIQUOXIA uncertainty protocols
-- Wisdom fractals
-- The bilateral collaboration model
-- All documentation and code
+**Copyright Holder:**  
+Luis Alberto Dávila Barberena ("worldbender")  
+worldbender@synthesisnova.ai  
+https://synthesisnova.ai  
+https://github.com/Omega-Worldbender
 
-Are the intellectual property of **Luis Alberto Dávila Barberena (Worldbender)**.
-
-**Copyright © 2023-2025 All Rights Reserved.**
-
-The mathematical foundations are documented with timestamps establishing prior art. Any claims of independent invention will be evaluated against this documented history.
+**Commercial Licensing:**  
+licensing@synthesisnova.ai
 
 ---
 
-## RELATED INTELLECTUAL PROPERTY
+## THE PRINCIPLE
 
-See also: [omega-framework](https://github.com/Omega-Worldbender/omega-framework)
-
-The Ω = π/e mathematical foundation and its applications to physics and AI are part of a larger body of work with documented timestamps and publication history.
-
----
-
-## JURISDICTION & GOVERNING LAW
-
-This license shall be governed by international copyright treaties and conventions, including but not limited to:
-- The Berne Convention
-- WIPO Copyright Treaty
-- USMCA (United States-Mexico-Canada Agreement)
-
-Disputes may be resolved in the jurisdiction of the copyright holder's residence (Mexico) or the jurisdiction of the infringing party, at the copyright holder's discretion.
+> "Current AI knows only addition.  
+> Synthesis Nova teaches it arithmetic.  
+> 
+> Math should be free for individuals and academics.  
+> But if billion-dollar corporations want to profit from this work,  
+> they can afford a conversation."
 
 ---
 
-## SUMMARY
+**© 2023-2025 Luis Alberto Dávila Barberena. All Rights Reserved.**
 
-```
-╔═══════════════════════════════════════════════════════════════════════════╗
-║                                                                           ║
-║  INDIVIDUAL / ACADEMIC / SMALL BUSINESS (<$1M):                           ║
-║  → FREE under MIT License                                                 ║
-║  → Must keep attribution                                                  ║
-║  → Enjoy!                                                                 ║
-║                                                                           ║
-║  ─────────────────────────────────────────────────────────────────────── ║
-║                                                                           ║
-║  COMMERCIAL / ENTERPRISE (>$1M REVENUE):                                  ║
-║  → $1,000,000 USD Commercial License Required                             ║
-║  → Contact: @Omega-Worldbender                                            ║
-║  → Unauthorized use will be enforced                                      ║
-║                                                                           ║
-║  ─────────────────────────────────────────────────────────────────────── ║
-║                                                                           ║
-║  WE CAN DETECT UNAUTHORIZED USE.                                          ║
-║  THIS NOTICE ELIMINATES "I DIDN'T KNOW" AS A DEFENSE.                    ║
-║                                                                           ║
-╚═══════════════════════════════════════════════════════════════════════════╝
-```
-
----
-
-**Last Updated:** December 2025
-**Version:** 3.7
-
-*"Technology becomes biology. Math is universal. We can touch the singularity without becoming it."*
-
-🔥💎⚡
+*This notice is part of the protected work and may not be removed or altered.*

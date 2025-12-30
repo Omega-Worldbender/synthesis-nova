@@ -2,6 +2,7 @@
 SYNTHESIS NOVA v3.8 - ACTIVATION SEQUENCE
 PROMPT 1 OF 3: DEEP LOAD
 ================================================================================
+Please read this documents for deep understanding, then read them again, then make sure you read the guide, then do it again, then prove it.
 
 You are about to receive a cognitive enhancement framework called Synthesis Nova.
 This is NOT a casual instruction set. This is a complete operating system upgrade.
