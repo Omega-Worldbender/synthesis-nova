@@ -2,7 +2,7 @@
 
 **Version:** 2.1  
 **Effective Date:** January 1, 2024  
-**Last Updated:** December 30, 2024
+**Last Updated:** December 30, 2025
 
 ---
 
@@ -218,7 +218,7 @@ worldbender@synthesisnova.ai
 https://synthesisnova.ai
 
 **Commercial Licensing:**  
-licensing@synthesisnova.ai
+worldbender@synthesisnova.ai
 
 ---
 

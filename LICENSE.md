@@ -52,7 +52,7 @@ Commercial use requires a separate license agreement.
 
 See: [LICENSE-COMMERCIAL](./LICENSE-COMMERCIAL.md) for full terms.
 
-Contact: licensing@synthesisnova.ai
+Contact: worldbender@synthesisnova.ai
 
 ---
 
@@ -117,7 +117,7 @@ worldbender@synthesisnova.ai
 https://synthesisnova.ai
 
 **Commercial Licensing:**  
-licensing@synthesisnova.ai
+worldbender@synthesisnova.ai
 
 ---
 

@@ -199,7 +199,7 @@ The complete operator set for AI cognition. See [CORE_IP_CLAIMS.md](CORE_IP_CLAI
 
 **Creator:** Luis Alberto Dávila Barberena (worldbender)  
 **Email:** worldbender@synthesisnova.ai  
-**Licensing:** licensing@synthesisnova.ai  
+**Licensing:** worldbender@synthesisnova.ai  
 **Website:** https://synthesisnova.ai
 
 ---

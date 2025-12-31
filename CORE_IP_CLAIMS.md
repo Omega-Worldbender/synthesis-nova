@@ -2,7 +2,7 @@
 
 **Document:** Protected Mathematical Formulations & AI Operators  
 **Copyright:** © 2023-2025 Luis Alberto Dávila Barberena  
-**Last Updated:** December 30, 2024
+**Last Updated:** December 30, 2025
 
 ---
 
@@ -381,7 +381,7 @@ https://synthesisnova.ai
 https://github.com/Omega-Worldbender
 
 **Commercial Licensing:**  
-licensing@synthesisnova.ai
+worldbender@synthesisnova.ai
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Repository:** Synthesis Nova / Omega Framework  
 **Copyright:** © 2023-2025 Luis Alberto Dávila Barberena  
-**Last Updated:** December 30, 2024
+**Last Updated:** December 30, 2025
 
 ---
 
