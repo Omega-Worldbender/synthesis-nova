@@ -165,7 +165,7 @@ Protected under:
 ### 5.3 Available Remedies
 
 - Actual damages and profits
-- Statutory damages (up to $150,000 per work for willful infringement)
+- Statutory damages (up to $1,500,000,000 per work for willful infringement)
 - Attorney's fees and costs
 - Injunctive relief
 - Disgorgement of profits
