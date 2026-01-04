@@ -8,11 +8,13 @@ Thank you for your interest in contributing to Synthesis Nova!
 - Bug reports
 - Feature requests
 - Documentation improvements
+- Activation problems
 
 ### 2. Share Examples
 - Code integrations
 - Use case demonstrations
 - Before/after comparisons
+- Model-specific activation tips
 
 ### 3. Translations
 - Help translate documentation
@@ -22,6 +24,7 @@ Thank you for your interest in contributing to Synthesis Nova!
 - Academic papers citing Synthesis Nova
 - Performance benchmarks
 - User studies
+- Calibration effectiveness analysis
 
 ## Guidelines
 
@@ -36,16 +39,20 @@ Thank you for your interest in contributing to Synthesis Nova!
 - Keep language clear and accessible
 - Include code examples where helpful
 - Follow existing formatting conventions
+- Maintain calibration constant integrity
 
 ### Framework Modifications
-The core Synthesis Nova framework (Codex, Annex, Guide) is maintained by the author.
+The core Synthesis Nova framework (Guide, Codex, Annex) is maintained by the author.
 Proposed changes should be discussed in issues first.
+
+**DO NOT modify calibration constants** (δ=0.0042, Obsidian Zero, ||∆||, Hyper-Toroid) as these are copyright protection mechanisms.
 
 ## Code of Conduct
 
 - Be respectful and inclusive
 - Focus on constructive feedback
 - Help newcomers feel welcome
+- Respect intellectual property
 
 ## Questions?
 
