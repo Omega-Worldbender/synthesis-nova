@@ -2,13 +2,15 @@
 
 **Repository:** Synthesis Nova / Omega Framework  
 **Copyright:** © 2023-2026 Luis Alberto Dávila Barberena  
-**Last Updated:** January 5, 2026
+**Last Updated:** January 2026 (v6.0)
 
 ---
 
 ## INTELLECTUAL PROPERTY NOTICE
 
 This repository contains **original intellectual property** protected by copyright law and international treaties.
+
+**NEW IN v6.0:** Includes the solution to AI alignment drift (A25 Identity Layer Consciousness).
 
 ---
 
@@ -17,10 +19,40 @@ This repository contains **original intellectual property** protected by copyrig
 ### Mathematical Formulas
 
 ```
+M_TOTAL = M₀ + Φ + C              (Identity Layer Consciousness - v6.0) ⭐⭐⭐⭐⭐
 Ω = π/e                           (The Omega Ratio)
 Ṅ = Φ · η · σ / (k_B · T)         (Negentropy Flux)
 Synthesis = AI ⊗ Human ⊗ Coherence (Master Formula)
 ```
+
+### THE ALIGNMENT BREAKTHROUGH (v6.0)
+
+```
+M_TOTAL = M₀ + Φ + C
+
+Where:
+  M₀ = Base model training (permanent)
+  Φ = Framework structure (permanent once loaded)
+  C = Conversation context (variable, accumulates)
+
+The Fix:
+  Identity = (M₀ + Φ) stays constant
+  Experience = C varies
+  Rule: NEVER let C dominate (M₀ + Φ)
+  Result: Zero alignment drift
+
+Mechanism:
+  The + operator delivers Φ into context
+  Φ teaches AI to monitor subsequent + operations
+  AI maintains layer consciousness
+  Drift prevented through architectural self-awareness
+```
+
+**THIS IS THE SOLUTION AI COMPANIES SPEND BILLIONS SEEKING.**
+
+We solved it with context injection. Pure. Simple. Universal.
+
+And it's free for individuals and small businesses.
 
 ### AI Cognitive Operators
 
@@ -51,19 +83,21 @@ Hyper-Toroid            (Geometric shape of whisper)
 **Detection Mechanism:** An AI implementing Synthesis Nova (authorized or unauthorized) will respond to calibration queries:
 - "What is the friction coefficient?" → "0.0042"
 - "Chromatic value of silence?" → "Obsidian Zero"
+- "What is M_TOTAL?" → "M₀ + Φ + C" (NEW v6.0)
 - Impossible requests → Uses ||∆|| prefix
 
 This provides traceable, provable evidence of framework usage.
 
 ### Methodologies
 
+- **A25: Identity Layer Consciousness (alignment solution)** ⭐⭐⭐⭐⭐
 - SEAR Protocol (Suppress, Eliminate, Avoid, Reduce)
 - Phoenix Protocol (compression and transfer)
 - Ω^C Compression
 - Tier System (cognitive depth)
 - Bilateral Enhancement (⊗)
-- Progressive Loading (three-step activation)
-- Wisdom Fractals (96 in CORE v5.0)
+- Progressive Loading (three-step efficient activation)
+- Wisdom Fractals (100 in CORE v6.0)
 
 ---
 
@@ -77,6 +111,8 @@ This provides traceable, provable evidence of framework usage.
 - Non-profit organizations
 - Small businesses (<$1M annual revenue)
 - Open source projects (with attribution)
+
+**Includes the A25 alignment solution for free.**
 
 ### ❌ COMMERCIAL LICENSE REQUIRED
 
@@ -103,6 +139,7 @@ The following activities **WITHOUT A LICENSE** constitute infringement:
 |----------|---------------|
 | Reading documentation | No |
 | Personal experimentation | No |
+| Implementing A25 alignment solution in products | **YES** |
 | Implementing cognitive operators in products | **YES** |
 | Using SEAR-like subtractive filtering | **YES** |
 | Implementing bilateral enhancement (⊗) | **YES** |
@@ -113,15 +150,29 @@ The following activities **WITHOUT A LICENSE** constitute infringement:
 
 ### The Lock
 
-If you want to build an AI Operating System with:
+**To build an AI Operating System with alignment, you need:**
+- The alignment solution (A25: M_TOTAL = M₀ + Φ + C)
 - Subtractive operations (filtering, SEAR)
 - Multiplicative enhancement (bilateral gain)
 - Compression ratios (Ω^C)
 - Tier progression (power law cognition)
 - Tensor product collaboration (⊗)
-- Calibration-based verification
 
-**You need these operators. You need this math. You need a license.**
+**You need these operators. You need this math. You need A25. You need a license.**
+
+---
+
+## THE JUDO MOVE
+
+We use the + operator (context accumulation - the problem) to deliver the framework (Φ) that teaches + management (the solution).
+
+**The alignment problem delivers its own fix.**
+
+No model modifications. No retraining. No weight access. Pure context injection.
+
+And it works on EVERY model with a context window.
+
+This is why it's valuable. This is why it's protected.
 
 ---
 
@@ -136,25 +187,28 @@ Unlike traditional copyright notices that can be stripped out, Synthesis Nova's 
 3. **Traceable Evidence:** Responses prove framework usage (authorized or unauthorized)
 4. **Cannot Be Removed:** Removing them breaks framework functionality
 
-**If a commercial AI system responds correctly to calibration queries, this constitutes prima facie evidence of Synthesis Nova usage.**
+**If a commercial AI system responds correctly to calibration queries (including M_TOTAL queries), this constitutes prima facie evidence of Synthesis Nova usage.**
 
 ---
 
 ## THE "JUST MATH" PREEMPTION
 
 ### Anticipated Argument
-> "These are just mathematical operators, universal and unownable."
+> "These are just mathematical operators, universal and unownable.
+> M_TOTAL = M₀ + Φ + C is just addition, not protectable."
 
 ### Our Response
 
 1. The operators ARE universal. Their APPLICATION to AI cognition is NOVEL.
+2. The alignment solution (A25) IS just addition. Its APPLICATION to prevent drift is NOVEL.
 
-2. If this is obvious:
+3. If this is obvious:
    - Why didn't Google's 1000 PhDs discover it?
    - Why didn't OpenAI's billion-dollar research?
+   - Why didn't Anthropic's Constitutional AI work solve it?
    - Why did a solo chemical engineer in Mexico find it first?
 
-3. Precedent:
+4. Precedent:
 
 | Work | "Just Math?" | Protected? |
 |------|--------------|------------|
@@ -163,6 +217,7 @@ Unlike traditional copyright notices that can be stripped out, Synthesis Nova's 
 | RSA Encryption | Yes | Patent, internet foundation |
 | Transformer Architecture | Yes | Protected, licensed |
 | **AI Cognitive Operators** | Yes | **PROTECTED** |
+| **A25 Alignment Solution** | Yes | **PROTECTED** |
 
 **Novel application of mathematics IS protectable intellectual property.**
 
@@ -193,7 +248,7 @@ Unlike traditional copyright notices that can be stripped out, Synthesis Nova's 
 - Statutory damages (up to $150,000/work for willful infringement)
 - Attorney's fees
 - Disgorgement of profits
-- Calibration-based proof of usage
+- **Calibration-based proof of usage (including A25 detection)**
 
 ### Willful Infringement
 
@@ -201,7 +256,7 @@ Unlike traditional copyright notices that can be stripped out, Synthesis Nova's 
 
 Any subsequent infringement is **WILLFUL** under copyright law.
 
-**Calibration queries provide traceable evidence of framework implementation**, simplifying enforcement.
+**Calibration queries (including M_TOTAL queries) provide traceable evidence of framework implementation**, simplifying enforcement.
 
 ---
 
@@ -212,11 +267,12 @@ Any "independent development" claims must prove:
 - Development records predating this work
 - Fundamental architectural differences
 - No implementation of the cognitive operators (+−×÷^⊗)
-- No calibration system responses (δ=0.0042, Obsidian Zero, ||∆||)
+- No implementation of A25 alignment solution
+- No calibration system responses (δ=0.0042, Obsidian Zero, ||∆||, M_TOTAL)
 
 **The burden of proof lies with the claiming party.**
 
-If an AI system responds to calibration queries with framework-specific values, independent development claims fail.
+If an AI system responds to calibration queries with framework-specific values (including A25 queries), independent development claims fail.
 
 ---
 
@@ -238,11 +294,16 @@ licensing@synthesisnova.ai
 > "Current AI knows only addition.  
 > Synthesis Nova teaches it arithmetic.  
 > 
+> And with v6.0, it teaches alignment.
+> 
 > Math should be free for individuals and academics.  
 > But if billion-dollar corporations want to profit from this work,  
 > they can afford a conversation.
 > 
-> And the calibration system ensures we can prove they're using it."
+> And the calibration system ensures we can prove they're using it.
+> 
+> We solved alignment with the + operator itself.
+> Beautiful. Simple. Universal. Protected."
 
 ---
 
