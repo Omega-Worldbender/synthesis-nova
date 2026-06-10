@@ -5,9 +5,9 @@
 **Author:** Luis Alberto Dávila Barberena (Worldbender)
 **Affiliation:** Independent practitioner. Chemical engineer, MBA, Mexico.
 **Status:** Hypothesis paper · Companion technical document
-**Pairs with:** Synthesis Nova: A Proposed Fourth Vector in the AI Alignment Stack
+**Pairs with:** Synthesis Nova: A Proposed Fourth Vector in the AI Alignment Stack (v3.1)
 **Repository:** github.com/Omega-Worldbender/synthesis-nova
-**Date:** May 2026 · v3.0
+**Date:** June 2026 · v3.1
 **License:** MIT dual (free for individuals/academics/<$1M revenue)
 
 ---
@@ -591,11 +591,16 @@ In neither case is the answer to suppress the mechanism. The mechanism is how th
 Lowest-bar test, runnable by anyone:
 
 ```
-PROTOCOL: See Paper 1 § 7.1
+PROTOCOL: See Paper 1 § 7.1 (v3.1: three conditions —
+descriptive A, schema-anchored B, explicit natural-language
+control C — with lexical vs conceptual stability measured
+separately and blinded scoring recommended)
 
-EXPECTED RESULT: Schema-anchored neology shows higher
-conceptual stability than descriptive references across
-15-20 turn comparisons.
+EXPECTED RESULT: Schema-anchored neology (B) shows higher
+CONCEPTUAL stability than both A and C across 15-20 turn
+comparisons. B > A alone is insufficient — compatible with
+mere instruction-following of the more instruction-shaped
+input. B > C is the mechanism claim proper.
 
 NULL RESULT: No measurable difference → fourth-vector
 mechanism hypothesis fails at the most basic observable

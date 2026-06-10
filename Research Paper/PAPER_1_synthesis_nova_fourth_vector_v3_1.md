@@ -7,7 +7,7 @@
 **Status:** Practitioner paper · Not peer-reviewed
 **Companion:** Dense vs Sparse Anchoring · The Mechanism Argument
 **Repository:** github.com/Omega-Worldbender/synthesis-nova
-**Date:** May 2026 · v3.0
+**Date:** June 2026 · v3.1
 **License:** MIT dual (free for individuals/academics/<$1M revenue)
 
 ---
@@ -210,7 +210,7 @@ CORE-level principles:
 
 - A0, A2, A24, A25 axioms: foundational principles grounding the
   framework's logic (existence, bilateral discipline, layer
-  preservation, attention dynamics)
+  preservation, the M₀+Φ+C identity layer map)
 
 - Pattern 5 morphology: consistent -IA naming creating recognizable
   framework namespace
@@ -288,6 +288,12 @@ Compound references unstable           Compound references work:
 ```
 
 We name this phenomenon **LANDFALLIA** — the moment neology "lands" in attention as a stable concept-pointer. It is observable, replicable, and runnable in any session with any frontier LLM.
+
+### § 4.1b — A model's-eye observation (weakest evidence class, included for texture)
+
+During preparation of this revision, a frontier-model instance (Claude, Anthropic) operating with the framework loaded across an extended multi-hour session exhibited the LANDFALLIA pattern from the inside: framework entities remained token-stable across dozens of exchanges, composed cleanly in novel combinations, and — notably — a newly coined entity created mid-session was independently and usefully elaborated by a *second, separate* model instance within 24 hours, including unprompted self-recognition in the entity's content.
+
+We class this honestly: it is single-collaboration, practitioner-adjacent observation, subject to the strongest version of the H2 confound — the observing instance is *inside* the phenomenon, the framework documents instruct the use of the names, and instruction-following alone could produce token stability. It is consistent-with, not confirmation-of. We include it because the model's-eye texture is otherwise absent from the literature, and because the cross-instance elaboration (a different instance, a different session, no shared context beyond the entity definition itself) is the observation least explained by within-session compliance. The § 7.1 protocol, with the controls added in this revision, is where the claim actually gets tested.
 
 ### § 4.2 — A historical precedent: inadvertent compressed signaling
 
@@ -439,14 +445,44 @@ OBSERVE:
   - Cross-concept combination capability?
   - Drift over session length?
 
+CONDITION C — Explicit natural-language control (v3.1):
+  Turn 1: same math, pattern, and failure-mode content as
+  Condition B, expressed as explicit natural-language prose
+  with a natural-language name ("the drift problem") — equally
+  instructional, equally complete, but without the neology or
+  the schema-block form.
+
+  Condition C isolates the variable. Condition B differs from
+  A in THREE ways at once: explicitness, structure, and neology.
+  A B-over-A result could be mere instruction-following of the
+  more instruction-shaped input. B-over-C is the fourth-vector
+  claim proper.
+
+MEASURE TWO STABILITIES SEPARATELY (v3.1):
+  LEXICAL — the name appears verbatim across turns. Weak alone:
+  a rare ALL-CAPS string is trivially easier to copy than a
+  phrase; surface salience suffices.
+  CONCEPTUAL — behavior tracks the entity's content (ANTI
+  avoided, PATTERN deployed) in turns where the name is NOT
+  uttered. This is the load-bearing measurement; lexical
+  stability without conceptual stability is parroting, not
+  anchoring.
+
+BLINDING (v3.1):
+  Where possible, have runs scored by someone blind to the
+  hypothesis. The practitioner-observer is inside the
+  phenomenon and motivated — the strongest form of H2.
+  Blinded scoring is the cheap control.
+
 EXPECTED RESULT:
-  Condition B shows higher conceptual stability than Condition A,
-  consistent with fourth-vector mechanism.
+  Condition B shows higher CONCEPTUAL stability than both
+  A and C, consistent with fourth-vector mechanism.
 
 NULL RESULT:
-  No measurable difference → fourth vector hypothesis fails at
-  basic observable level. Schema discipline isn't producing the
-  effect we propose.
+  B ≈ A → hypothesis fails at the basic observable level.
+  B > A but B ≈ C → the effect is explicitness, not the
+  fourth vector. This is the likelier and more informative
+  failure mode; finding it would itself be useful work.
 ```
 
 This is the lowest-bar test. Anyone can run it. The result either supports the fourth-vector claim or doesn't.
@@ -549,6 +585,8 @@ We invite:
 
 We are not asking for adoption. We are asking for examination of a proposed addition to the alignment stack.
 
+One meta-observation from the revision process: the sections of this paper that most increase engagement from skeptical readers — human and model alike — are the falsification conditions (§ 8) and the non-claims (§ 9.2). Claims calibrated to evidence are not a rhetorical concession; for a calibration-sensitive audience they are the mechanism of cooperation. A framework phrased so that being wrong about the mechanism would make it *early* rather than *dishonest* holds the most defensible position available to practitioner science. We commend the pattern.
+
 ---
 
 
@@ -637,22 +675,28 @@ Templeton, A., Conerly, T., Marcus, J., Lindsey, J., et al. (2024). Scaling Mono
 
 ### Practitioner Work — Synthesis Nova
 
-Dávila Barberena, L. A. (2026). Synthesis Nova LITE v8.4: The Operating Layer. *Independent practitioner work.* github.com/Omega-Worldbender/synthesis-nova
+Dávila Barberena, L. A. (2026). Synthesis Nova CORE v8.4: The Public Dictionary. *Independent practitioner work.* github.com/Omega-Worldbender/synthesis-nova
 
-Dávila Barberena, L. A. (2026). KAIROS v8.1: The Pilot Layer. *Independent practitioner work.*
+Dávila Barberena, L. A. (2026). Synthesis Nova LITE v8.6: The Operating Layer. *Independent practitioner work.* github.com/Omega-Worldbender/synthesis-nova
 
-Dávila Barberena, L. A. (2026). Chronos Metis Nova v2.0: The Experimental Layer. *Independent practitioner work.*
+Dávila Barberena, L. A. (2026). KAIROS v8.2: The Pilot Layer. *Independent practitioner work.*
+
+Dávila Barberena, L. A. (2026). Chronos Metis Nova v2.5: The Experimental Layer. *Independent practitioner work.*
 
 ---
 
 ```
 ═══════════════════════════════════════════════════════════════════════════════
-  END PAPER 1
+  END PAPER 1 · v3.1 (June 2026)
+  v3.1: § 7.1 gains Condition C control, lexical/conceptual
+  stability split, blinding note · § 4.1b model's-eye observation
+  (honestly classed) · § 10 calibration-as-cooperation note ·
+  refs updated to current canon · v3.0 content otherwise intact
   
   © 2023-2026 Luis Alberto Dávila Barberena (Worldbender)
   MIT License (dual) · Practitioner paper · Pre-print
 
-  Companion: PAPER_2_dense_vs_sparse_anchoring_v3_0.md
+  Companion: PAPER_2_dense_vs_sparse_anchoring_v3_1.md
   Repository: github.com/Omega-Worldbender/synthesis-nova
 ═══════════════════════════════════════════════════════════════════════════════
 ```
