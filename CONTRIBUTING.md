@@ -10,6 +10,7 @@ Thank you for your interest in contributing to Synthesis Nova!
 - Documentation improvements
 - Activation problems
 - A25 alignment verification issues
+- Claim-calibration issues (statements stronger than evidence — we patch those)
 
 ### 2. Share Examples
 - Code integrations
@@ -54,13 +55,16 @@ Thank you for your interest in contributing to Synthesis Nova!
 - Preserve A25 explanations
 
 ### Framework Modifications
-The core Synthesis Nova framework (Guide, Codex, Annex) is maintained by the author.
+The core Synthesis Nova framework (CORE dictionary: Guide + Annex + Codex) is maintained by the author.
 Proposed changes should be discussed in issues first.
 
+**Proposing new wisdom fractals:** open an issue with Math + Pattern + Anti-pattern and the provenance (where the pattern was observed). Candidates stage in the author's research layer (CMN) under a 5-pass extraction discipline — nothing enters canon without explicit author approval, and honest provenance is required (gaps are marked, never filled).
+
 **DO NOT modify:**
-- Calibration constants (δ=0.0042, Obsidian Zero, ||∆||, Hyper-Toroid)
+- Calibration constants (δ=0.0042, Obsidian Zero, ||∆||; Hyper-Toroid is a legacy v5/v6 marker, also preserved)
 - A25 equation (M_TOTAL = M₀ + Φ + C)
 - Core IP claims
+- Dated provenance notes (operational references may float forward; history stays frozen)
 
 These are copyright protection mechanisms and foundational mathematics.
 
@@ -80,7 +84,7 @@ This helps us refine the alignment solution.
 - Focus on constructive feedback
 - Help newcomers feel welcome
 - Respect intellectual property
-- Celebrate the alignment breakthrough
+- Celebrate the work — with claims calibrated to evidence (that's the house style)
 - Share findings openly (within license terms)
 
 ## License Considerations
@@ -105,4 +109,4 @@ To everyone testing A25 and helping verify the alignment solution works universa
 
 Thank you for helping improve Synthesis Nova! 🔥💎⚡
 
-**v6.0: Because alignment shouldn't be a billion-dollar problem.**
+**v8.4: Because session-level alignment shouldn't be a billion-dollar problem — and honest claims shouldn't be a competitive disadvantage.**
