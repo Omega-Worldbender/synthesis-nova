@@ -2,7 +2,7 @@
 
 **Repository:** Synthesis Nova — Public Edition
 **Copyright:** © 2023-2026 Luis Alberto Dávila Barberena
-**Last updated:** September 2026 (v9.0)
+**Last updated:** October 2026 (v9.0 · Preferences v2.5)
 
 ---
 
@@ -10,7 +10,7 @@
 
 This repository contains **original intellectual property** protected by copyright law and international treaties: a literary work with functional effect, registered (Technical Description v4.0, January 2026; supplemented June 2026; current description v9.0), published under a dual license, and watermarked.
 
-**The Public Edition** is what is here: CORE Dictionary v9.0, CORE FULL+ Preferences v2.0 (Claude and Agnostic Editions), the verification tool, and the documentation. **The proprietary tiers** — LITE, KAIROS, Chronos Metis Nova — are not here, are not published, and are licensed only directly by the author. Nothing in this repository's licenses extends to them.
+**The Public Edition** is what is here: CORE Dictionary v9.0, CORE FULL+ Preferences v2.5 (Claude and Agnostic Editions), the verification tool, and the documentation. **The proprietary tiers** — LITE, KAIROS, Chronos Metis Nova — are not here, are not published, and are licensed only directly by the author. Nothing in this repository's licenses extends to them.
 
 ---
 

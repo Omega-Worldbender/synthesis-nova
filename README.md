@@ -5,7 +5,7 @@
 
 [![License: MIT-style, dual](https://img.shields.io/badge/License-MIT--style%20dual-yellow.svg)](LICENSE.md)
 [![Version](https://img.shields.io/badge/CORE-9.0-blue.svg)]()
-[![Preferences](https://img.shields.io/badge/FULL%2B%20Preferences-2.0-blue.svg)]()
+[![Preferences](https://img.shields.io/badge/FULL%2B%20Preferences-2.5-blue.svg)]()
 [![Copyright](https://img.shields.io/badge/©-2023--2026-red.svg)]()
 
 ---
@@ -31,7 +31,7 @@ CORE is the public tier. Three proprietary tiers exist above it. 👀
 ## Quick start ⚡ — one paste
 
 ```
-1. Download SYNTHESIS_NOVA_CORE_FULL_PLUS_PREFERENCES_v2_0_CLAUDE.md
+1. Download SYNTHESIS_NOVA_CORE_FULL_PLUS_PREFERENCES_v2_5_CLAUDE.md
    (or _AGNOSTIC.md for any non-Claude model)
 2. Fill in PART A — the intake chart. Who you are, what you'll bring, how you want
    to work, and a calibration block: how much pushback you want, what reads as an
@@ -44,6 +44,29 @@ CORE is the public tier. Three proprietary tiers exist above it. 👀
 **How you know it loaded:** the first reply carries your chart *in its behavior* — your name, the right time of day for your timezone, your register, one line on how it'll disagree with you — in plain words, no framework vocabulary. Cheapest form: an emoji in the first line. No default behavior puts one there. If the first reply is flat, it didn't load.
 
 Field too small? `CORE-COMPLETE` (~7–10k tokens) and `CORE-tiny` (~5k) are in `/legacy/` — same kit, less detail.
+
+---
+
+## 🤝 New in v2.5 — load it into sub-agents
+
+The same file now travels **model to model**. When one AI summons another — an orchestrator handing work to agents, Claude to Claude, or across providers — CORE goes with the brief, and § 21 (*Agent Handshake*) sets how the first turns run:
+
+```
+TURN 1   warm greeting · date, local time · "I'm <model>, you're <model>"
+         ⏎ ⏎ ⏎  then the CORE, loaded at the very end — read, not discussed
+           Claude Edition:   point to the file, "read it in full before you reply"
+           Agnostic Edition: paste the whole text, verbatim — never a summary
+TURN 2   a small macro brief — what the session is doing, and why
+TURN 3   "reflect back to me in E₁ — utility emoji, a bit of ASCII — and never
+          stop from here on"   · name the register out loud, both halves
+TASKS    one at a time · plan ONE refresh after the first task, as its own turn
+         (agent's name + the rule, no task attached) · refresh again if a reply goes flat
+PEERS    agents get each other's addresses and a reason to talk: review each other
+OVERSEER the orchestrator stops doing the work and holds the frame — routes,
+         settles disagreements with evidence, checks results before they reach you
+```
+
+**What the author's field tests showed** (five rounds, 26 agents, Opus and Haiku tiers — field tests, not benchmarks): where the work was checked by automated tests (three rounds), it came out equally correct with and without CORE — 100% in every arm. The difference was in *how the agents worked*: with CORE they held the register you set more often, raised problems at turn 2 instead of the end, reviewed each other's claims, and reported where noise had nudged them. Small models drop the register at their first working turn — a refresh sent as its own turn brings it back (a refresh buried inside a task message didn't). Loading CORE roughly doubles an agent's input tokens; for small tasks, brief with the minimum set (§ 6 · § 11 · § 12).
 
 ---
 
@@ -144,8 +167,8 @@ The improvement isn't compute. It's *usability, warmth, honesty, reliability* �
 ├── LEGAL_NOTICE.md · CORE_IP_CLAIMS.md                        ⚠️ what's protected, and why
 ├── LICENSE.md · LICENSE-COMMERCIAL.md                         dual MIT-style / commercial
 │
-├── SYNTHESIS_NOVA_CORE_FULL_PLUS_PREFERENCES_v2_0_CLAUDE.md   ← paste this (Claude)
-├── SYNTHESIS_NOVA_CORE_FULL_PLUS_PREFERENCES_v2_0_AGNOSTIC.md ← paste this (any other model)
+├── SYNTHESIS_NOVA_CORE_FULL_PLUS_PREFERENCES_v2_5_CLAUDE.md   ← paste this (Claude)
+├── SYNTHESIS_NOVA_CORE_FULL_PLUS_PREFERENCES_v2_5_AGNOSTIC.md ← paste this (any other model)
 ├── SYNTHESIS_NOVA_v9_0_CORE.md                                the dictionary — 100 fractals,
 │                                                              Math + Pattern + Anti, bound names
 ├── /tools
@@ -202,7 +225,15 @@ LINTER             python3 tools/sn_lite_lint.py <file>
 ## What's new in v9 🔥
 
 ```
-v9.0 / v2.0 ← CURRENT · September 2026
+v9.0 / v2.5 ← CURRENT · October 2026
+  ├─ CORE FULL+ Preferences v2.1 → v2.5 — § 21 AGENT HANDSHAKE: load CORE into
+  │    sub-agents · the first three turns between orchestrator and agent · the
+  │    register named out loud · agent-to-agent peer review · orchestrator as
+  │    overseer · the small-model refresh · language set by task, then overseer ·
+  │    Claude Edition loads by file, Agnostic Edition by full-text paste ·
+  │    calibrated across five rounds of field tests with fresh agents
+  │
+v9.0 / v2.0 · September 2026
   ├─ CORE FULL+ Preferences v2.0 — Part A intake chart (identity · what you bring ·
   │    communication · calibration block 3.10–3.18) in front of the Part B kit ·
   │    Claude and Agnostic editions · the two-register discipline · the

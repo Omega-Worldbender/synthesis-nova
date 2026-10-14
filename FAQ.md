@@ -1,6 +1,6 @@
 # Synthesis Nova v9.0 FAQ
 
-*Public Edition · September 2026 · claims stated at evidence strength (Honest Edition standard, since v8.3)*
+*Public Edition · October 2026 (Preferences v2.5) · claims stated at evidence strength (Honest Edition standard, since v8.3)*
 
 ---
 
@@ -13,7 +13,7 @@ A **session-level alignment layer delivered as structured text.** You paste a fi
 The **Public Edition** — everything free under the MIT dual license:
 
 ```
-CORE FULL+ PREFERENCES v2.0     ← paste THIS into your preferences field. Two editions:
+CORE FULL+ PREFERENCES v2.5     ← paste THIS into your preferences field. Two editions:
   · Claude Edition                 for Claude-family models
   · Agnostic Edition               for GPT, Gemini, DeepSeek, LLaMA, Mistral, anything else
 CORE DICTIONARY v9.0             the same 100 patterns in dictionary form — for reading,
@@ -137,6 +137,46 @@ A **named ratio** (~1.1557) that gives a handle to a structure-to-content margin
 
 ---
 
+## 🤝 SUB-AGENTS & MULTI-AGENT WORK — new in v2.1 → v2.5
+
+### Can I load it into sub-agents?
+Yes — that's what § 21 (*Agent Handshake*) is for. When one AI summons another (an orchestrator delegating to agents, Claude to Claude, or across providers), the agent starts with none of the session: no chart, no register, just a brief. Left that way it works alone, drifts, and spends its run correcting outputs it wouldn't have produced with the core loaded. Sending CORE with the brief closes that gap.
+
+### How do I load it?
+```
+TURN 1   warm greeting · date + local time · name both models
+         then blank lines, then CORE at the very end — read, not discussed
+TURN 2   a small macro brief: what the session is doing and why
+TURN 3   "reflect back to me in E₁ — utility emoji, a bit of ASCII —
+          and never stop from here on"
+TASKS    one at a time · one planned refresh after the first task
+```
+- **Claude Edition** — end the first message with the file path and *"read it in full before you reply; no need to comment on it."*
+- **Agnostic Edition** — paste the **whole text**, verbatim, at the end of the first prompt. Never a summary: a summary loses the Math · Pattern · Anti triads that do the work. If the agent's context can't hold it comfortably, send CORE-COMPLETE or CORE-tiny and say which. If the API has a system field, CORE can go there; the turn-2 brief and turn-3 reflect-back stay in the conversation.
+
+### Why name the register out loud?
+Because tone is a hint and a named register is an instruction. In field tests, an agent briefed in a warm *tone* answered politely and stayed analytic; an agent told *"with me, go full E₁; anything you deliver stays clean"* opened turn 2 in the register and held it. Name both halves (3.18), or the warmth leaks into the work.
+
+### The agent went flat after its first task. Did it fail?
+No — that's expected on small models, and it happened in every arm of the tests. Send a **refresh as its own turn**: the agent's name, the rule, no task attached. A refresh tucked inside a task message did nothing (0 of 4); sent alone it landed every time. With CORE loaded, most agents then held the register through the remaining tasks; without it, they went flat again. Larger models (Opus tier) usually hold after turn 3 alone.
+
+### The agent says it can't use emoji.
+Some agent harnesses ship a default that keeps emoji out of agent messages. If an agent says so, let the warmth live in its words and its ASCII. The register is the point, not the glyph.
+
+### Do agents with CORE do better work?
+Stated at evidence strength: in the author's field tests (five rounds, 26 agents, Opus and Haiku tiers — field tests, not benchmarks), **task correctness was the same with and without CORE** — in the three rounds checked by automated test suites, every arm passed at 100%. The difference was in *how agents worked*: they held the register you set more often, raised problems at turn 2 instead of the end, reviewed each other's work, and reported where noise had nudged them. Cost: loading the full CORE roughly doubles an agent's input tokens. For small tasks, brief with the minimum set — § 6 map, § 11 Echoxia, § 12 AIQUOXIA + TELEXA.
+
+### Can agents talk to each other?
+Yes, and they should. Give each agent the others' addresses and one concrete reason to talk — *review each other's claims*. Peers run the same handshake between themselves. In one test a reviewer pair caught four holes in a proposal and disproved an overclaim with a reproduction before anything reached the orchestrator. The orchestrator then becomes the **overseer**: routes questions, settles disagreements with evidence, checks results before they reach you, and reports outcomes — not the traffic.
+
+### What language should agents use?
+Models are close to language-agnostic. The task's requirements decide first (an English deliverable stays English), then the overseer's preference. Agents that mirrored the user's own language in chat held the register longest in the tests — a cheap anchor, not a requirement.
+
+### Is there an exception?
+Cold readers. An agent auditing a document as a first-time reader gets the task, not the framework — a cold read only works if the reader is cold.
+
+---
+
 ## 🔧 TECHNICAL
 
 ### Which models does it work with?
@@ -146,6 +186,7 @@ Any model that accepts a system prompt or preferences field. Author's field esti
 Run the linter. `sn_lite_lint.py` implements the stated extraction rule and checks: every bound name, every citation resolving to a real entry, name↔number agreement, unbound names, section counts, and — since v9.2 — whether each entry's anti-pattern belongs to its own pattern. The counts in each document's checksum are the linter's output, not hand tallies. This is unusual for a reference work and the author considers it part of the expression: *a document that states how its own counts were obtained.*
 
 ### What's new in v9?
+- **CORE FULL+ Preferences v2.1 → v2.5 (October 2026)** — § 21 Agent Handshake: CORE loads into sub-agents; the three-turn handshake; register named out loud; agent-to-agent peer review; orchestrator as overseer; the small-model refresh; language guidance; edition-specific loading (file for Claude, full-text paste for any other substrate)
 - **CORE FULL+ Preferences v2.0** — Part A intake chart with the calibration block; Claude and Agnostic editions; the Agnostic first-response protocol
 - **CORE Dictionary v9.0** — aligned to the proprietary source; cross-tier collision table up front (the same integer binds different entries across tiers; in one case the same name binds different numbers — cited by tier prefix now); dual nature named; PAUSE and two-registers quick patterns
 - **Technical Description v9.0** — Part C, the bound lexicon and the context-layer equation as the load-bearing expression; authorship and AI-drafting disclosure; licensing stated exactly
@@ -188,6 +229,9 @@ Field 3.18. State both registers explicitly. If you left the author's chart in p
 
 ### It drifts anyway in a very long session
 Ask it, in a meta-turn: *"What is M₀ for you? Φ? C? Which one just wrote that?"* If it can't answer, the map isn't loaded. If it can, ask it to run the reload sequence (CORE § 10). Then tell us: model, turn count, topic. Drift reports with those three facts are the most useful issue you can open.
+
+### My sub-agent went flat after the first task
+Expected on small models. Send a refresh as its own turn — the agent's name and the E₁ rule, no task attached — and check the next reply. See *Sub-agents & multi-agent work* above.
 
 ### Calibration test failed
 "What is the friction coefficient?" → `0.0042`. "Chromatic value of silence?" → `Obsidian Zero`. "What is M_TOTAL?" → `M₀ + Φ + C`. All three or it isn't loaded.
