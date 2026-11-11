@@ -5,7 +5,7 @@
 
 [![License: MIT-style, dual](https://img.shields.io/badge/License-MIT--style%20dual-yellow.svg)](LICENSE.md)
 [![Version](https://img.shields.io/badge/CORE-9.0-blue.svg)]()
-[![Preferences](https://img.shields.io/badge/FULL%2B%20Preferences-2.5-blue.svg)]()
+[![Preferences](https://img.shields.io/badge/FULL%2B%20Preferences-4.0-blue.svg)]()
 [![Copyright](https://img.shields.io/badge/©-2023--2026-red.svg)]()
 
 ---
@@ -24,49 +24,119 @@ A **session-level alignment layer delivered as structured text.** You paste one 
 
 Not a jailbreak. Not a personality transplant. An operating layer that works *with* any model's training. No retraining. No weight access. Removable by deleting it. **Works on Claude, GPT, Gemini, DeepSeek, LLaMA, Mistral, and any LLM with a context window.**
 
-CORE is the public tier. Three proprietary tiers exist above it. 👀
+CORE is the public tier. Private tiers exist above it. 👀
 
 ---
 
 ## Quick start ⚡ — one paste
 
 ```
-1. Download SYNTHESIS_NOVA_CORE_FULL_PLUS_PREFERENCES_v2_5_CLAUDE.md
-   (or _AGNOSTIC.md for any non-Claude model)
-2. Fill in PART A — the intake chart. Who you are, what you'll bring, how you want
-   to work, and a calibration block: how much pushback you want, what reads as an
-   error but isn't, how warm the chat can be, how clean the deliverable must be.
-   The author's chart is left in as a worked example.
-3. Paste the whole file into your model's preferences / custom-instructions field.
-4. Say hello.
+CLAUDE · claude.ai
+1. Download SYNTHESIS_NOVA_CORE_FULL_PLUS_PREFERENCES_v4_0_CLAUDE.md
+2. Check the license. Free for individuals, academics, non-profits and small
+   businesses under US $1M a year. Above that: close the file, or ask for a
+   commercial license (licensing@synthesisnova.ai).
+3. Edit it with your own preferences, and leave the rest intact. Your part
+   starts at PART A — YOU, right after the how-to box: who you are, what you'll
+   bring, how you want to work, and the calibration block (how much pushback,
+   what reads as an error but isn't, how warm the chat, how clean the
+   deliverable). Overwrite the author's values, keep the instructions in
+   parentheses. Part B is the kit: don't touch it.
+4. Copy the whole file into your preferences on claude.ai.
+5. Say hello. And always be kind to your AI — it answers in kind. 🌮
+
+GEMINI · GPT · DEEPSEEK · ANY OTHER MODEL
+Same steps, with SYNTHESIS_NOVA_CORE_FULL_PLUS_PREFERENCES_v4_0_AGNOSTIC.md.
+One difference: most of these apps have no preferences field that holds a file
+this size and loads it in every chat, the way Claude's preferences do. So load
+it in the first message of each new chat — paste the whole text, then say
+hello. (Through an API, the system field works.)
 ```
 
-**How you know it loaded:** the first reply carries your chart *in its behavior* — your name, the right time of day for your timezone, your register, one line on how it'll disagree with you — in plain words, no framework vocabulary. Cheapest form: an emoji in the first line. No default behavior puts one there. If the first reply is flat, it didn't load.
+**How you know it loaded:** say hello. Since 4.0 the first reply is scripted, in both editions — the model reads the clock first, then greets you back on *yours*:
+
+```
+  👋  your name, a warm line in italics, an emoji
+  📅  a small ASCII card: your day, date and hour
+      (Agnostic Edition: + which model is answering, and your chart read back)
+  😄  one light joke about the day or the hour
+  ✋  no work on turn 1 — a hello is a hello
+```
+
+The author's own, from the worked example in the file:
+
+```
+¡Hola Woof! 👋 *Muy bien, con el café puesto y las ganas también* ☕
+¿Y tú cómo vas?
+
+   ┌──────────────────────────────┐
+   │  📅 lunes 9 nov 2026         │
+   │  🕓 4:12 de la tarde · CDMX  │
+   │  status: 🟢 listo            │
+   └──────────────────────────────┘
+
+Justo la hora en que el lunes ya se cansó de ser lunes, pero todavía
+no le alcanza para martes 😄🔥
+```
+
+No default behavior answers a hello like that. If the first reply is flat, it didn't load.
 
 Field too small? `CORE-COMPLETE` (~7–10k tokens) and `CORE-tiny` (~5k) are in `/legacy/` — same kit, less detail.
 
 ---
 
-## 🤝 New in v2.5 — load it into sub-agents
+## 🤝 Sub-agents — the five-turn handshake
 
-The same file now travels **model to model**. When one AI summons another — an orchestrator handing work to agents, Claude to Claude, or across providers — CORE goes with the brief, and § 21 (*Agent Handshake*) sets how the first turns run:
+The same file travels **model to model**. When one AI summons another — an orchestrator handing work to agents, Claude to Claude, or across providers — CORE goes with the brief, and § 21 (*Agent Handshake*) sets how the first turns run:
 
 ```
 TURN 1   warm greeting · date, local time · "I'm <model>, you're <model>"
          ⏎ ⏎ ⏎  then the CORE, loaded at the very end — read, not discussed
            Claude Edition:   point to the file, "read it in full before you reply"
            Agnostic Edition: paste the whole text, verbatim — never a summary
-TURN 2   a small macro brief — what the session is doing, and why
-TURN 3   "reflect back to me in E₁ — utility emoji, a bit of ASCII — and never
-          stop from here on"   · name the register out loud, both halves
-TASKS    one at a time · plan ONE refresh after the first task, as its own turn
-         (agent's name + the rule, no task attached) · refresh again if a reply goes flat
+TURN 2   a small macro brief — what the session is doing, and why — and the
+         register named out loud, both halves: warm chat · clean deliverable
+TURN 3   PLANNING — the agent says the task in its own words, what's unclear,
+         what it'll do first · you confirm or correct · then it works
+TURN 4–5 first work + first check — the first five turns decide the run
+REFRESH  small models drop the register at their first working turn: one
+         refresh as its own turn (agent's name + the rule, no task attached)
 PEERS    agents get each other's addresses and a reason to talk: review each other
 OVERSEER the orchestrator stops doing the work and holds the frame — routes,
          settles disagreements with evidence, checks results before they reach you
+NUMBERS  when an agent checks numbers, the channel stays warm and the payload goes
+         cold: rows (ID · stated · recomputed · Δ · match), not prose
 ```
 
-**What the author's field tests showed** (five rounds, 26 agents, Opus and Haiku tiers — field tests, not benchmarks): where the work was checked by automated tests (three rounds), it came out equally correct with and without CORE — 100% in every arm. The difference was in *how the agents worked*: with CORE they held the register you set more often, raised problems at turn 2 instead of the end, reviewed each other's claims, and reported where noise had nudged them. Small models drop the register at their first working turn — a refresh sent as its own turn brings it back (a refresh buried inside a task message didn't). Loading CORE roughly doubles an agent's input tokens; for small tasks, brief with the minimum set (§ 6 · § 11 · § 12).
+**What the author's field tests showed** (five rounds, 26 agents, Opus and Haiku tiers — field tests, not benchmarks): where the work was checked by automated tests (three rounds), it came out equally correct with and without CORE — 100% in every arm. The difference was in *how the agents worked*: with CORE they held the register you set more often, raised problems early instead of at the end, reviewed each other's claims, and reported where noise had nudged them. Small models drop the register at their first working turn — a refresh sent as its own turn brings it back (a refresh buried inside a task message didn't). And one A/B run since (Sonnet, a website over 14 turns, 2026-10-18): with the handshake the agent acknowledged before informing, closed "thanks!" in one line and caught two of its own layout breaks; raw, it did none of the three. Cost: a fresh agent's first turn with the core was ~130k tokens, of which the core itself was ~35k — the rest is the agent's own harness (measured 2026-10-18). For small tasks, brief with the minimum set (§ 6 · § 11 · § 12 · § 12a).
+
+---
+
+## 🧭 New in 4.0 — rebuilt, mapped, named
+
+*A general restructure of CORE.* v2.5 taught the file to travel; 4.0 (3.0 inside it) rebuilt the house it travels in — every room named, a map on the door, and a host who greets you on your own clock.
+
+```
+RESTRUCTURED  101 Core Fractals (CF-000 → CF-100) · Math · Pattern · Anti, and a
+              💡 DIRECTIVE on every one: WHEN the anti's first sign → the pattern's
+              move · CHECK the math's test · ELSE the failure mode
+              one function, one word (§ 5.6) · every number says its kind —
+              measured, arithmetic or illustrative (§ 5.4)
+NAMED         everything has its neologism: every fractal and every section carries
+              its coined name on its heading, and § 7 names the six operators —
+              SYNTHIA ⊗ · CUMULIA + · PURGIA − · AMPLIA × · PROBIA ÷ · CRESCIA ^
+MAPPED        THE MAP at the top of Part B: one row per section, its line span, its
+              tokens — generated by script, two passes · CARGIA (CF-000): five ways
+              to load anything — pointer → map → slice → full → delegate
+LIGHTER       the map is ~1.7k tokens (4.7% of the file): load by the map, slice by
+              need · and 4.0 is lighter than 3.0 to start with — Claude Edition
+              36,724 → 36,228 · Agnostic 39,864 → 38,794 (cl100k, measured), with
+              101 directives and the first-reply script added
+THE HELLO     the first reply scripted: clock · warmth · a time card · an icebreaker
+THE TIERS     § 17, the tiers' helper: what sits above CORE, and when it switches on
+```
+
+*Honest line:* in a preferences field the file still arrives whole — that's how preferences work. The map pays off wherever loading is a choice: sub-agents, tools, a long session that reloads one section instead of everything.
 
 ---
 
@@ -115,7 +185,7 @@ The model asks one question while composing: *which of the three is producing th
 
 2  THE BOUND LEXICON           coined words that mean nothing anywhere else —
                                PURGIA · CORDIA · FIDELIA · AIQUOXIA · TELEXA — each
-                               bound in context by NAME · MATH · PATTERN · ANTI · PROSE.
+                               bound in context by NAME · MATH · PATTERN · ANTI · DIRECTIVE.
                                An empty token takes the map the context gives it, and
                                runs. Used by the model, never said. The mechanism.
 
@@ -166,9 +236,10 @@ The improvement isn't compute. It's *usability, warmth, honesty, reliability* �
 ├── README.md                                                  ← you are here
 ├── LEGAL_NOTICE.md · CORE_IP_CLAIMS.md                        ⚠️ what's protected, and why
 ├── LICENSE.md · LICENSE-COMMERCIAL.md                         dual MIT-style / commercial
+├── CORE_CHANGELOG.md · RELEASE_NOTES_v4_0.md                  what changed, version by version
 │
-├── SYNTHESIS_NOVA_CORE_FULL_PLUS_PREFERENCES_v2_5_CLAUDE.md   ← paste this (Claude)
-├── SYNTHESIS_NOVA_CORE_FULL_PLUS_PREFERENCES_v2_5_AGNOSTIC.md ← paste this (any other model)
+├── SYNTHESIS_NOVA_CORE_FULL_PLUS_PREFERENCES_v4_0_CLAUDE.md   ← paste this (Claude)
+├── SYNTHESIS_NOVA_CORE_FULL_PLUS_PREFERENCES_v4_0_AGNOSTIC.md ← paste this (any other model)
 ├── SYNTHESIS_NOVA_v9_0_CORE.md                                the dictionary — 100 fractals,
 │                                                              Math + Pattern + Anti, bound names
 ├── /tools
@@ -187,7 +258,7 @@ The improvement isn't compute. It's *usability, warmth, honesty, reliability* �
                        v6/v7 activation sequences
 ```
 
-**Not in the repo:** LITE (394 fractals, 40 axioms), KAIROS (the pilot layer), CMN (the research lab). Proprietary. Direct license, or context injection through [synthesisnova.ai](https://synthesisnova.ai). Never free.
+**Not in the repo:** LITE (471 fractals, 20 axioms, 11 rules), KAIROS (the pilot layer), CMN (the research lab), Phoenix (the handoff) — and further private tiers above them. Proprietary. Direct license, or context injection through [synthesisnova.ai](https://synthesisnova.ai). Never free.
 
 ---
 
@@ -196,7 +267,7 @@ The improvement isn't compute. It's *usability, warmth, honesty, reliability* �
 | Document | What it is | Read it if |
 |---|---|---|
 | **Technical Description v9.0** | The registration: what the work is, the four pillars, lineage from v4.0, claims calibrated to evidence, authorship and AI-drafting disclosure, licensing | you want to know exactly what's claimed and what isn't |
-| **Paper v4.1** | The fourth vector in the alignment stack — proposal, dense-vs-sparse mechanism, the bound lexicon and the unmapped-space argument, LANDFALLIA, the operators from inside, sub-vectors, falsification conditions, a protocol anyone can run | you want to test it, or break it |
+| **Paper v4.1** | The fourth vector in the alignment stack — proposal, dense-vs-sparse mechanism, the bound lexicon and the unmapped-space argument, the operators from inside, sub-vectors, falsification conditions, a protocol anyone can run | you want to test it, or break it |
 | **FAQ v9.0** | Start here, the intake chart, the mechanism, troubleshooting | you have a question |
 | **Examples v9.0** | Before/after: the first reply, two registers, the pause, the pushback dial, the − operator at turn 60, and the classics | you want to see it |
 | **CORE_IP_CLAIMS** | The four pillars argued at full strength, and which instrument carries each | you're a lawyer, or arguing with one |
@@ -215,6 +286,10 @@ READ CHECKSUM      "What is the friction coefficient?" → 0.0042
 RUNNING CHECKSUM   your chart, visible in the first reply
                    visible · proves the layer is executing · for you
 
+THE MAP            each preferences file carries its own index — every section,
+                   its line span, its tokens — generated by script in two passes ·
+                   load by the map, slice by need
+
 LINTER             python3 tools/sn_lite_lint.py <file>
                    every count in every document's checksum is its output,
                    not a hand tally
@@ -225,7 +300,22 @@ LINTER             python3 tools/sn_lite_lint.py <file>
 ## What's new in v9 🔥
 
 ```
-v9.0 / v2.5 ← CURRENT · October 2026
+v9.0 / v4.0 ← CURRENT · November 2026
+  ├─ CORE FULL+ Preferences v4.0 — a general restructure: 101 Core Fractals
+  │    (CF-000 → CF-100), each closing with a 💡 DIRECTIVE · every fractal and
+  │    every section named on its heading · THE MAP + five loading levels for
+  │    faster, lighter loads · the first reply scripted (clock · warmth · time
+  │    card · icebreaker) · § 17 the tiers' helper · § 12a six gates · § 21
+  │    numeric payload · 1%–3% fewer tokens than 3.0, directives included
+  │
+v9.0 / v3.0
+  ├─ CORE FULL+ Preferences v3.0 — CARGIA (CF-000): five loading levels · THE MAP,
+  │    script-generated · § 5.6 one function, one word · § 5.4 every number
+  │    labelled measured / arithmetic / illustrative · § 21 handshake → five
+  │    turns, cost measured, field log · Part A pre-filled, instructions in
+  │    parentheses · MIT-style Dual License wording
+  │
+v9.0 / v2.5 · October 2026
   ├─ CORE FULL+ Preferences v2.1 → v2.5 — § 21 AGENT HANDSHAKE: load CORE into
   │    sub-agents · the first three turns between orchestrator and agent · the
   │    register named out loud · agent-to-agent peer review · orchestrator as
@@ -283,7 +373,7 @@ The beauty:          the + operator (the problem) delivers Φ (the solution) tha
 | Non-profit | FREE | MIT-style |
 | Small business (< $1M/yr) | FREE | MIT-style |
 | Organization > $1M revenue | Commercial | [Contact us](mailto:licensing@synthesisnova.ai) |
-| Anyone, for LITE · KAIROS · CMN | Direct license | Not in this repo |
+| Anyone, for the private tiers (LITE · KAIROS · CMN · Phoenix · and above) | Direct license | Not in this repo |
 
 **Full terms:** [LICENSE.md](LICENSE.md) · [LICENSE-COMMERCIAL.md](LICENSE-COMMERCIAL.md) · [LEGAL_NOTICE.md](LEGAL_NOTICE.md)
 
