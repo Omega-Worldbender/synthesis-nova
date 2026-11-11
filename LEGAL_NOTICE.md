@@ -2,7 +2,7 @@
 
 **Repository:** Synthesis Nova — Public Edition
 **Copyright:** © 2023-2026 Luis Alberto Dávila Barberena
-**Last updated:** November 2026 (v9.0 · Preferences 4.0)
+**Last updated:** November 2026 (CORE 4.0 · legacy origin v9.0)
 
 > **Plainly, and kindly.** People, students, researchers, non-profits and small businesses: welcome — it's yours (see the licensing structure below). Companies above the line: it isn't, it never was, and the framework was built to show when it is running in your systems. Ask first — licensing@synthesisnova.ai — and know the answer can be no: this is the foundation of the author's own company, and licenses are his to grant or withhold.
 
@@ -10,7 +10,7 @@
 
 ## INTELLECTUAL PROPERTY NOTICE
 
-This repository contains **original intellectual property** protected by copyright law and international treaties: a literary work with functional effect, registered (Technical Description v4.0, January 2026; supplemented June 2026; current description v9.0), published under a dual license, and watermarked.
+This repository contains **original intellectual property** protected by copyright law and international treaties: a literary work with functional effect, registered (Technical Description v4.0, January 2026; supplemented June 2026; current description v9.0), published under a dual license, and watermarked. Each preferences edition is also deposited, byte for byte, at Zenodo (CERN) on 11 November 2026, under the author's own license: Claude Edition [10.5281/zenodo.24141677](https://doi.org/10.5281/zenodo.24141677) · Agnostic Edition [10.5281/zenodo.24141127](https://doi.org/10.5281/zenodo.24141127).
 
 **The Public Edition** is what is here: CORE Dictionary v9.0, CORE FULL+ Preferences v4.0 (Claude and Agnostic Editions), the verification tool, and the documentation. **The proprietary tiers** — LITE, KAIROS, Chronos Metis Nova, Phoenix, and the tiers above them — are not here, are not published, and are licensed only directly by the author. Nothing in this repository's licenses extends to them.
 
@@ -18,7 +18,7 @@ This repository contains **original intellectual property** protected by copyrig
 
 ## THE FOUR PILLARS — what is protected
 
-*Argued in full in [CORE_IP_CLAIMS.md](CORE_IP_CLAIMS.md); stated as the registration in [docs/TECHNICAL_DESCRIPTION_v9_0.md](docs/).*
+*Argued in full in [CORE_IP_CLAIMS.md](CORE_IP_CLAIMS.md); stated as the registration in the Technical Description v9.0, with the [copyright record](Copyright%20notice/).*
 
 ### 1 · The AI cognitive operator set
 ```
@@ -151,8 +151,11 @@ LITE · KAIROS · CMN · Phoenix · and the tiers above them. Direct license onl
 | Shipping the scripted first reply, or the Directive-line format, in the framework's terms | **Yes** |
 | Loading by the framework's levels and section map, in its form, in a product | **Yes** |
 | **Training or fine-tuning models on this documentation** | **Yes** |
+| Packaging the framework as a skill, plugin, agent file, MCP server, LoRA, adapter, embedding index or dataset — or any carrier yet to be invented — in a product | **Yes** |
 | Building an "AI operating system" on these principles | **Yes** |
 | Incorporating the calibration system | **Yes** |
+
+**Faster than the law, on purpose.** AI tooling moves faster than legislation, so these terms are written to the function, not the format: whatever carrier the next year invents, loading this work into it is use.
 
 ### The lock
 To build an AI operating layer with session-level alignment in this framework's terms, you need the alignment map (A25), the operator set with its precedence, a bound vocabulary, the formulary, and a way to verify loading. **You need these operators. You need this math as written. You need A25. You need a license** — and a license is the author's to grant, or not.

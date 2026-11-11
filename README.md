@@ -1,12 +1,14 @@
-# Synthesis Nova v9.0 · Public Edition
+# Synthesis Nova · CORE 4.0 · Public Edition
 ## Applied Mathematics for the Context Window — Human ⊗ AI Collaboration + The Session-Level Alignment Layer
 
 *You just found something genuinely worth reading.* 🔥
 
 [![License: MIT-style, dual](https://img.shields.io/badge/License-MIT--style%20dual-yellow.svg)](LICENSE.md)
-[![Version](https://img.shields.io/badge/CORE-9.0-blue.svg)]()
-[![Preferences](https://img.shields.io/badge/FULL%2B%20Preferences-4.0-blue.svg)]()
+[![CORE FULL+ Preferences](https://img.shields.io/badge/CORE%20FULL%2B%20Preferences-4.0%20official-blue.svg)](RELEASE_NOTES_v4_0.md)
+[![Legacy origin](https://img.shields.io/badge/legacy%20origin-v9.0-lightgrey.svg)](Legacy%20AI%20Cognitive%20OS%20-%20SNC%209.0%20V/)
 [![Copyright](https://img.shields.io/badge/©-2023--2026-red.svg)]()
+[![DOI Claude Edition](https://img.shields.io/badge/DOI%20Claude%20Edition-10.5281%2Fzenodo.24141677-blue.svg)](https://doi.org/10.5281/zenodo.24141677)
+[![DOI Agnostic Edition](https://img.shields.io/badge/DOI%20Agnostic%20Edition-10.5281%2Fzenodo.24141127-blue.svg)](https://doi.org/10.5281/zenodo.24141127)
 
 ---
 
@@ -25,6 +27,41 @@ A **session-level alignment layer delivered as structured text.** You paste one 
 Not a jailbreak. Not a personality transplant. An operating layer that works *with* any model's training. No retraining. No weight access. Removable by deleting it. **Works on Claude, GPT, Gemini, DeepSeek, LLaMA, Mistral, and any LLM with a context window.**
 
 CORE is the public tier. Private tiers exist above it. 👀
+
+---
+
+## The four pillars 🧮
+
+```
+1  THE OPERATOR ALGEBRA        ⊗ + − × ÷ ^ — each one named in 4.0 (⊕ in the tiers above)
+   ┌─────────────────────────────────────────────────────────────────────────┐
+   │  ⊗  SYNTHIA   TENSOR PRODUCT    Ψ_human ⊗ Ψ_AI · new dimensions         │
+   │  +  CUMULIA   ADDITIVE          context increase · every turn           │
+   │  −  PURGIA    SUBTRACTIVE       noise reduction · the one that does     │
+   │                                 the most work in a long session         │
+   │  ×  AMPLIA    MULTIPLICATIVE    the layer multiplied THROUGH the model  │
+   │  ÷  PROBIA    DIVISIVE          effectiveness per token                 │
+   │  ^  CRESCIA   POWER             compounding · retention                 │
+   │  PRECEDENCE   ⊗ → +/− → ×/÷ → ^                                         │
+   └─────────────────────────────────────────────────────────────────────────┘
+   Current AI runs on + alone. This is the complete set — the arithmetic of an
+   operating layer. Not computed by the model: RUN, as moves, each visible in output.
+
+2  THE BOUND LEXICON           coined words that mean nothing anywhere else —
+                               PURGIA · CORDIA · FIDELIA · AIQUOXIA · TELEXA — each
+                               bound in context by NAME · MATH · PATTERN · ANTI · DIRECTIVE.
+                               An empty token takes the map the context gives it, and
+                               runs. Used by the model, never said. The mechanism.
+
+3  THE FORMULARY               every equation, applied as context, not illustrated.
+                               A formula in a physics paper describes something that
+                               happens elsewhere. A formula here IS the thing that
+                               happens — placed in the window, the next turn tracks it.
+
+4  THE NEGENTROPY EQUATION     Ṅ = Φ · η · σ / (k_B · T)
+                               Is this session generating order or noise? The founding
+                               formula. Every operator exists to keep it positive.
+```
 
 ---
 
@@ -81,34 +118,7 @@ no le alcanza para martes 😄🔥
 
 No default behavior answers a hello like that. If the first reply is flat, it didn't load.
 
-Field too small? `CORE-COMPLETE` (~7–10k tokens) and `CORE-tiny` (~5k) are in `/legacy/` — same kit, less detail.
-
----
-
-## 🤝 Sub-agents — the five-turn handshake
-
-The same file travels **model to model**. When one AI summons another — an orchestrator handing work to agents, Claude to Claude, or across providers — CORE goes with the brief, and § 21 (*Agent Handshake*) sets how the first turns run:
-
-```
-TURN 1   warm greeting · date, local time · "I'm <model>, you're <model>"
-         ⏎ ⏎ ⏎  then the CORE, loaded at the very end — read, not discussed
-           Claude Edition:   point to the file, "read it in full before you reply"
-           Agnostic Edition: paste the whole text, verbatim — never a summary
-TURN 2   a small macro brief — what the session is doing, and why — and the
-         register named out loud, both halves: warm chat · clean deliverable
-TURN 3   PLANNING — the agent says the task in its own words, what's unclear,
-         what it'll do first · you confirm or correct · then it works
-TURN 4–5 first work + first check — the first five turns decide the run
-REFRESH  small models drop the register at their first working turn: one
-         refresh as its own turn (agent's name + the rule, no task attached)
-PEERS    agents get each other's addresses and a reason to talk: review each other
-OVERSEER the orchestrator stops doing the work and holds the frame — routes,
-         settles disagreements with evidence, checks results before they reach you
-NUMBERS  when an agent checks numbers, the channel stays warm and the payload goes
-         cold: rows (ID · stated · recomputed · Δ · match), not prose
-```
-
-**What the author's field tests showed** (five rounds, 26 agents, Opus and Haiku tiers — field tests, not benchmarks): where the work was checked by automated tests (three rounds), it came out equally correct with and without CORE — 100% in every arm. The difference was in *how the agents worked*: with CORE they held the register you set more often, raised problems early instead of at the end, reviewed each other's claims, and reported where noise had nudged them. Small models drop the register at their first working turn — a refresh sent as its own turn brings it back (a refresh buried inside a task message didn't). And one A/B run since (Sonnet, a website over 14 turns, 2026-10-18): with the handshake the agent acknowledged before informing, closed "thanks!" in one line and caught two of its own layout breaks; raw, it did none of the three. Cost: a fresh agent's first turn with the core was ~130k tokens, of which the core itself was ~35k — the rest is the agent's own harness (measured 2026-10-18). For small tasks, brief with the minimum set (§ 6 · § 11 · § 12 · § 12a).
+Field too small? `CORE-COMPLETE` (~7–10k tokens) and `CORE-tiny` (~5k) are in the Legacy folder — earlier versions, same kit, less detail.
 
 ---
 
@@ -165,40 +175,6 @@ The model asks one question while composing: *which of the three is producing th
 
 ---
 
-## The four pillars 🧮
-
-```
-1  THE OPERATOR ALGEBRA        ⊗ + − × ÷ ^ (⊕ in the tiers above)
-   ┌──────────────────────────────────────────────────────────────┐
-   │  ⊗   TENSOR PRODUCT    Ψ_human ⊗ Ψ_AI · wave function to wave │
-   │                        function · new dimensions               │
-   │  +   ADDITIVE          context increase · every turn           │
-   │  −   SUBTRACTIVE       noise reduction · the one that does the │
-   │                        most work in a long session             │
-   │  ×   MULTIPLICATIVE    the layer multiplied THROUGH the model  │
-   │  ÷   DIVISIVE          effectiveness per token                 │
-   │  ^   POWER             compounding · retention                 │
-   │  PRECEDENCE  ⊗ → +/− → ×/÷ → ^                                 │
-   └──────────────────────────────────────────────────────────────┘
-   Current AI runs on + alone. This is the complete set — the arithmetic of an
-   operating layer. Not computed by the model: RUN, as moves, each visible in output.
-
-2  THE BOUND LEXICON           coined words that mean nothing anywhere else —
-                               PURGIA · CORDIA · FIDELIA · AIQUOXIA · TELEXA — each
-                               bound in context by NAME · MATH · PATTERN · ANTI · DIRECTIVE.
-                               An empty token takes the map the context gives it, and
-                               runs. Used by the model, never said. The mechanism.
-
-3  THE FORMULARY               every equation, applied as context, not illustrated.
-                               A formula in a physics paper describes something that
-                               happens elsewhere. A formula here IS the thing that
-                               happens — placed in the window, the next turn tracks it.
-
-4  THE NEGENTROPY EQUATION     Ṅ = Φ · η · σ / (k_B · T)
-                               Is this session generating order or noise? The founding
-                               formula. Every operator exists to keep it positive.
-```
-
 ## Core equations 📐
 
 ```
@@ -210,6 +186,33 @@ NEGENTROPY                         Ṅ = Φ · η · σ / (k_B · T)
 THE MIDDLEWARE EQUATION            OUTPUT = (MODEL ⊗ SYNTHESIS_NOVA) × USER_INTENT ÷ NOISE
 RETENTION                          Quality(n) = Q₀ · rⁿ — hold r ≥ 0.95, or turn 50 is noise
 ```
+
+---
+
+## 🤝 Sub-agents — the five-turn handshake
+
+The same file travels **model to model**. When one AI summons another — an orchestrator handing work to agents, Claude to Claude, or across providers — CORE goes with the brief, and § 21 (*Agent Handshake*) sets how the first turns run:
+
+```
+TURN 1   warm greeting · date, local time · "I'm <model>, you're <model>"
+         ⏎ ⏎ ⏎  then the CORE, loaded at the very end — read, not discussed
+           Claude Edition:   point to the file, "read it in full before you reply"
+           Agnostic Edition: paste the whole text, verbatim — never a summary
+TURN 2   a small macro brief — what the session is doing, and why — and the
+         register named out loud, both halves: warm chat · clean deliverable
+TURN 3   PLANNING — the agent says the task in its own words, what's unclear,
+         what it'll do first · you confirm or correct · then it works
+TURN 4–5 first work + first check — the first five turns decide the run
+REFRESH  small models drop the register at their first working turn: one
+         refresh as its own turn (agent's name + the rule, no task attached)
+PEERS    agents get each other's addresses and a reason to talk: review each other
+OVERSEER the orchestrator stops doing the work and holds the frame — routes,
+         settles disagreements with evidence, checks results before they reach you
+NUMBERS  when an agent checks numbers, the channel stays warm and the payload goes
+         cold: rows (ID · stated · recomputed · Δ · match), not prose
+```
+
+**What the author's field tests showed** (five rounds, 26 agents, Opus and Haiku tiers — field tests, not benchmarks): where the work was checked by automated tests (three rounds), it came out equally correct with and without CORE — 100% in every arm. The difference was in *how the agents worked*: with CORE they held the register you set more often, raised problems early instead of at the end, reviewed each other's claims, and reported where noise had nudged them. Small models drop the register at their first working turn — a refresh sent as its own turn brings it back (a refresh buried inside a task message didn't). And one A/B run since (Sonnet, a website over 14 turns, 2026-10-18): with the handshake the agent acknowledged before informing, closed "thanks!" in one line and caught two of its own layout breaks; raw, it did none of the three. Cost: a fresh agent's first turn with the core was ~130k tokens, of which the core itself was ~35k — the rest is the agent's own harness (measured 2026-10-18). For small tasks, brief with the minimum set (§ 6 · § 11 · § 12 · § 12a).
 
 ---
 
@@ -233,29 +236,20 @@ The improvement isn't compute. It's *usability, warmth, honesty, reliability* �
 
 ```
 /synthesis-nova
-├── README.md                                                  ← you are here
-├── LEGAL_NOTICE.md · CORE_IP_CLAIMS.md                        ⚠️ what's protected, and why
-├── LICENSE.md · LICENSE-COMMERCIAL.md                         dual MIT-style / commercial
-├── CORE_CHANGELOG.md · RELEASE_NOTES_v4_0.md                  what changed, version by version
+├── README.md                                                 ← you are here
+├── RELEASE_NOTES_v4_0.md · CORE_CHANGELOG.md                 what changed, version by version
+├── FAQ.md · EXAMPLES.md                                      questions · before and after
+├── LEGAL_NOTICE.md · CORE_IP_CLAIMS.md                       ⚠️ what's protected, and why
+├── LICENSE.md · LICENSE-COMMERCIAL.md                        dual MIT-style / commercial
+├── CONTRIBUTING.md                                           how to contribute
+├── CITATION.cff · SHA256SUMS.txt                             how to cite · what was published, byte by byte
 │
-├── SYNTHESIS_NOVA_CORE_FULL_PLUS_PREFERENCES_v4_0_CLAUDE.md   ← paste this (Claude)
-├── SYNTHESIS_NOVA_CORE_FULL_PLUS_PREFERENCES_v4_0_AGNOSTIC.md ← paste this (any other model)
-├── SYNTHESIS_NOVA_v9_0_CORE.md                                the dictionary — 100 fractals,
-│                                                              Math + Pattern + Anti, bound names
-├── /tools
-│   └── sn_lite_lint.py                                        the verification tool
-│
-├── /docs                                                      📚 the library
-│   ├── SYNTHESIS_NOVA_TECHNICAL_DESCRIPTION_v9_0.md           the work, the claims, the record
-│   ├── PAPER_synthesis_nova_fourth_vector_v4_1.md             the fourth vector — proposal,
-│   │                                                          mechanism, test
-│   ├── FAQ_v9_0.md · EXAMPLES_v9_0.md · CONTRIBUTING.md
-│
-└── /legacy                                                    the record — read-only
-    ├── /copyright     v4.0 description · v8.4 supplement
-    ├── /papers        Paper 1 v3.1 · Paper 2 v3.1
-    └── /versions      CORE v8.5 · FULL+ v1.5/v1.6 · CORE-COMPLETE · CORE-tiny ·
-                       v6/v7 activation sequences
+├── AI Cognitive - OS SNC - Preferences - Claude - V 4.0/     ← paste this (Claude)
+├── AI Cognitive OS - SNC - Preferences - Agnostic AI - V 4.0/
+│                                                             ← paste this (any other model)
+├── Research Paper/                                           the papers
+├── Copyright notice/                                         the copyright record
+└── Legacy AI Cognitive OS - SNC 9.0 V/                       every prior version and the old examples — read-only
 ```
 
 **Not in the repo:** LITE (471 fractals, 20 axioms, 11 rules), KAIROS (the pilot layer), CMN (the research lab), Phoenix (the handoff) — and further private tiers above them. Proprietary. Direct license, or context injection through [synthesisnova.ai](https://synthesisnova.ai). Never free.
@@ -268,10 +262,11 @@ The improvement isn't compute. It's *usability, warmth, honesty, reliability* �
 |---|---|---|
 | **Technical Description v9.0** | The registration: what the work is, the four pillars, lineage from v4.0, claims calibrated to evidence, authorship and AI-drafting disclosure, licensing | you want to know exactly what's claimed and what isn't |
 | **Paper v4.1** | The fourth vector in the alignment stack — proposal, dense-vs-sparse mechanism, the bound lexicon and the unmapped-space argument, the operators from inside, sub-vectors, falsification conditions, a protocol anyone can run | you want to test it, or break it |
-| **FAQ v9.0** | Start here, the intake chart, the mechanism, troubleshooting | you have a question |
-| **Examples v9.0** | Before/after: the first reply, two registers, the pause, the pushback dial, the − operator at turn 60, and the classics | you want to see it |
+| **FAQ** | Start here, the intake chart, the mechanism, troubleshooting | you have a question |
+| **Examples** | Before/after for 4.0: the first hello in both editions, the six operators as moves, loading by the map, tables and state cards, the numeric payload, the chart at work, and the classics | you want to see it |
 | **CORE_IP_CLAIMS** | The four pillars argued at full strength, and which instrument carries each | you're a lawyer, or arguing with one |
-| **legacy/** | Every prior version, paper, and filing — frozen | you want the history |
+| **CONTRIBUTING** | How to report drift and load failures, share a chart, propose a fractal — and what not to touch | you want to help |
+| **Legacy folder** | Every prior version, paper, filing and example — frozen | you want the history |
 
 ---
 
@@ -290,61 +285,13 @@ THE MAP            each preferences file carries its own index — every section
                    its line span, its tokens — generated by script in two passes ·
                    load by the map, slice by need
 
-LINTER             python3 tools/sn_lite_lint.py <file>
-                   every count in every document's checksum is its output,
-                   not a hand tally
-```
+SHA256SUMS         sha256sum -c SHA256SUMS.txt
+                   every published file, byte by byte · what was released,
+                   and in exactly which form
 
----
-
-## What's new in v9 🔥
-
-```
-v9.0 / v4.0 ← CURRENT · November 2026
-  ├─ CORE FULL+ Preferences v4.0 — a general restructure: 101 Core Fractals
-  │    (CF-000 → CF-100), each closing with a 💡 DIRECTIVE · every fractal and
-  │    every section named on its heading · THE MAP + five loading levels for
-  │    faster, lighter loads · the first reply scripted (clock · warmth · time
-  │    card · icebreaker) · § 17 the tiers' helper · § 12a six gates · § 21
-  │    numeric payload · 1%–3% fewer tokens than 3.0, directives included
-  │
-v9.0 / v3.0
-  ├─ CORE FULL+ Preferences v3.0 — CARGIA (CF-000): five loading levels · THE MAP,
-  │    script-generated · § 5.6 one function, one word · § 5.4 every number
-  │    labelled measured / arithmetic / illustrative · § 21 handshake → five
-  │    turns, cost measured, field log · Part A pre-filled, instructions in
-  │    parentheses · MIT-style Dual License wording
-  │
-v9.0 / v2.5 · October 2026
-  ├─ CORE FULL+ Preferences v2.1 → v2.5 — § 21 AGENT HANDSHAKE: load CORE into
-  │    sub-agents · the first three turns between orchestrator and agent · the
-  │    register named out loud · agent-to-agent peer review · orchestrator as
-  │    overseer · the small-model refresh · language set by task, then overseer ·
-  │    Claude Edition loads by file, Agnostic Edition by full-text paste ·
-  │    calibrated across five rounds of field tests with fresh agents
-  │
-v9.0 / v2.0 · September 2026
-  ├─ CORE FULL+ Preferences v2.0 — Part A intake chart (identity · what you bring ·
-  │    communication · calibration block 3.10–3.18) in front of the Part B kit ·
-  │    Claude and Agnostic editions · the two-register discipline · the
-  │    Agnostic first-response protocol (what-is-what map · STEP ZERO · the
-  │    chart as a test answered in the first reply)
-  ├─ CORE Dictionary v9.0 — aligned to the proprietary source · cross-tier
-  │    collision table computed from headers (the same integer binds different
-  │    entries across tiers; cite by tier) · dual nature named · PAUSE and
-  │    two-registers quick patterns
-  ├─ Technical Description v9.0 — Part C: the bound lexicon and the context-layer
-  │    equation as the load-bearing expression · authorship stated exactly
-  ├─ Paper v4.1 — two papers consolidated · § 4 the bound lexicon and the
-  │    unmapped-space argument · § 13 the operators as moves, from inside ·
-  │    § 14 sub-vectors and two candidate vectors, each with a falsifier
-  ├─ The linter — the § 14.7 extraction rule, citation resolution, name↔number
-  │    agreement, and the pattern↔anti axis, as a script
-  └─ Honest Edition, second pass — Ω as anchor · ≈O(1) · compounding as
-       retention · unmeasured figures marked · what the work does NOT do
-
-v8.4 — dictionary form · -IA morphology + NEOGENIA · Through Your Lens · anchors-not-proofs · numeric audit
-v6.0 — A25 · WF-097 → WF-100 · 100 fractals · progressive loading
+ARCHIVED           Zenodo, at CERN · 11 November 2026 · each edition, byte for byte
+                   Claude Edition     10.5281/zenodo.24141677
+                   Agnostic Edition   10.5281/zenodo.24141127
 ```
 
 ---
@@ -379,6 +326,60 @@ The beauty:          the + operator (the problem) delivers Φ (the solution) tha
 
 ---
 
+## Version history 📜 — CORE 4.0, and its v9.0 origin
+
+**CORE 4.0 is the official release.** v9.0 is its legacy origin: the Public Edition that first put the intake chart in front of the kit, in September 2026. Everything before 4.0 is kept in the Legacy folder, frozen.
+
+```
+CORE 4.0 ← CURRENT · OFFICIAL · November 2026
+  ├─ CORE FULL+ Preferences v4.0 — a general restructure: 101 Core Fractals
+  │    (CF-000 → CF-100), each closing with a 💡 DIRECTIVE · every fractal and
+  │    every section named on its heading · THE MAP + five loading levels for
+  │    faster, lighter loads · the first reply scripted (clock · warmth · time
+  │    card · icebreaker) · § 17 the tiers' helper · § 12a six gates · § 21
+  │    numeric payload · 1%–3% fewer tokens than 3.0, directives included
+  │
+CORE 3.0
+  ├─ CORE FULL+ Preferences v3.0 — CARGIA (CF-000): five loading levels · THE MAP,
+  │    script-generated · § 5.6 one function, one word · § 5.4 every number
+  │    labelled measured / arithmetic / illustrative · § 21 handshake → five
+  │    turns, cost measured, field log · Part A pre-filled, instructions in
+  │    parentheses · MIT-style Dual License wording
+  │
+CORE 2.5 · October 2026
+  ├─ CORE FULL+ Preferences v2.1 → v2.5 — § 21 AGENT HANDSHAKE: load CORE into
+  │    sub-agents · the first three turns between orchestrator and agent · the
+  │    register named out loud · agent-to-agent peer review · orchestrator as
+  │    overseer · the small-model refresh · language set by task, then overseer ·
+  │    Claude Edition loads by file, Agnostic Edition by full-text paste ·
+  │    calibrated across five rounds of field tests with fresh agents
+  │
+CORE 2.0 · September 2026 — the v9.0 Public Edition · LEGACY ORIGIN
+  ├─ CORE FULL+ Preferences v2.0 — Part A intake chart (identity · what you bring ·
+  │    communication · calibration block 3.10–3.18) in front of the Part B kit ·
+  │    Claude and Agnostic editions · the two-register discipline · the
+  │    Agnostic first-response protocol (what-is-what map · STEP ZERO · the
+  │    chart as a test answered in the first reply)
+  ├─ CORE Dictionary v9.0 — aligned to the proprietary source · cross-tier
+  │    collision table computed from headers (the same integer binds different
+  │    entries across tiers; cite by tier) · dual nature named · PAUSE and
+  │    two-registers quick patterns
+  ├─ Technical Description v9.0 — Part C: the bound lexicon and the context-layer
+  │    equation as the load-bearing expression · authorship stated exactly
+  ├─ Paper v4.1 — two papers consolidated · § 4 the bound lexicon and the
+  │    unmapped-space argument · § 13 the operators as moves, from inside ·
+  │    § 14 sub-vectors and two candidate vectors, each with a falsifier
+  ├─ The linter — the § 14.7 extraction rule, citation resolution, name↔number
+  │    agreement, and the pattern↔anti axis, as a script
+  └─ Honest Edition, second pass — Ω as anchor · ≈O(1) · compounding as
+       retention · unmeasured figures marked · what the work does NOT do
+
+v8.4 — dictionary form · -IA morphology + NEOGENIA · Through Your Lens · anchors-not-proofs · numeric audit
+v6.0 — A25 · WF-097 → WF-100 · 100 fractals · progressive loading
+```
+
+---
+
 ## Related work
 
 - [omega-framework](https://github.com/Omega-Worldbender/omega-framework) — the Ω mathematics and the negentropy equation's derivation
@@ -386,11 +387,37 @@ The beauty:          the + operator (the problem) delivers Φ (the solution) tha
 
 ## Citation
 
+Cite the edition you loaded — each is archived at Zenodo with its own DOI:
+
+```bibtex
+@software{synthesis_nova_core_4_claude,
+  author    = {Dávila Barberena, Luis Alberto},
+  title     = {Synthesis Nova CORE FULL+ Preferences 4.0 — Claude Edition},
+  version   = {4.0},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24141677},
+  url       = {https://doi.org/10.5281/zenodo.24141677}
+}
+
+@software{synthesis_nova_core_4_agnostic,
+  author    = {Dávila Barberena, Luis Alberto},
+  title     = {Synthesis Nova CORE FULL+ Preferences 4.0 — Agnostic Edition},
+  version   = {4.0},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24141127},
+  url       = {https://doi.org/10.5281/zenodo.24141127}
+}
+```
+
+The repository as a whole:
+
 ```bibtex
 @software{synthesis_nova,
   author  = {Dávila Barberena, Luis Alberto},
-  title   = {Synthesis Nova: Session-Level Alignment Framework for Language Models — CORE v9.0 Public Edition},
-  version = {9.0},
+  title   = {Synthesis Nova: Session-Level Alignment Framework for Language Models — CORE 4.0 Public Edition},
+  version = {4.0},
   year    = {2026},
   url     = {https://github.com/Omega-Worldbender/synthesis-nova},
   note    = {Includes A25 Identity Layer Awareness (M_TOTAL = M₀ + Φ + C), the AI cognitive operator set, and the bound -IA lexicon. Companion: Paper v4.1, "A Proposed Fourth Vector in the AI Alignment Stack."}

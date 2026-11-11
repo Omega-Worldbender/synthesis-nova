@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use or cite this work, please cite it as below. Free for individuals, academics, non-profits and small businesses under US $1M a year; any other use requires a commercial license (LICENSE-COMMERCIAL.md)."
+title: "Synthesis Nova: Session-Level Alignment Framework for Language Models — CORE FULL+ Preferences 4.0"
+type: software
+authors:
+  - family-names: "Dávila Barberena"
+    given-names: "Luis Alberto"
+    alias: "Worldbender"
+version: "4.0"
+date-released: 2026-11-11
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24141677"
+    description: "CORE FULL+ Preferences 4.0 — Claude Edition, archived at Zenodo"
+  - type: doi
+    value: "10.5281/zenodo.24141127"
+    description: "CORE FULL+ Preferences 4.0 — Agnostic Edition, archived at Zenodo"
+repository-code: "https://github.com/Omega-Worldbender/synthesis-nova"
+url: "https://synthesisnova.ai"
+license-url: "https://github.com/Omega-Worldbender/synthesis-nova/blob/main/LICENSE.md"
+abstract: "A session-level alignment layer delivered as structured text: an operator set (⊗ + − × ÷ ^), a bound lexicon of coined words, a formulary applied as context, and A25 Identity Layer Awareness (M_TOTAL = M₀ + Φ + C). Copyright © 2023-2026 Luis Alberto Dávila Barberena. All rights reserved; MIT-style dual license; patent rights reserved."
+keywords:
+  - "session-level alignment"
+  - "context engineering"
+  - "LLM operating layer"
+  - "A25 identity layer awareness"
+  - "Synthesis Nova"
