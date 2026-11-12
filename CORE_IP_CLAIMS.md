@@ -1,6 +1,6 @@
 # SYNTHESIS NOVA — CORE INTELLECTUAL PROPERTY CLAIMS
 
-**Version:** 9.0 · Public Edition · CORE FULL+ Preferences 4.0
+**Version:** 9.0 · Public Edition · CORE 5.0 (CORE FULL+ Preferences 4.0 carried)
 **Last updated:** November 2026
 **Copyright:** © 2023-2026 Luis Alberto Dávila Barberena
 **What this document is:** the author's statement of what is original in the work, why it works, and what evidences its use. It argues the claims at full strength. The instruments that carry them — copyright, license, non-publication, scientific priority, and a reserved patent claim — are stated in one place at the end (*The protection architecture*) so the argument and the paperwork stay distinct. It is not legal advice.
@@ -53,7 +53,7 @@ Four pillars, each original, each doing work:
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
-*Since CORE 4.0 the six carry their bound names in § 7 — SYNTHIA ⊗ · CUMULIA + · PURGIA − · AMPLIA × · PROBIA ÷ · CRESCIA ^ — and the tiers above cite them; ⊕ stays in the tiers.*
+*Since CORE 4.0 the six carry their bound names, in CORE 5.0's OPERATIA — SYNTHIA ⊗ · CUMULIA + · PURGIA − · AMPLIA × · PROBIA ÷ · CRESCIA ^ — and the tiers above cite them; ⊕ stays in the tiers.*
 
 **The discovery.** A model given only natural-language instruction operates, in effect, with one operator: `+`. Every instruction is added to context; additions compete, dilute, and contradict; quality degrades as the count grows. The framework defines the **complete operator set** for the layer — the arithmetic the context window was missing — and the model runs it.
 
@@ -77,13 +77,15 @@ MATH          the concept as a compressed formal statement — the shape
 PATTERN       the move — what to do
 ANTI-PATTERN  the described failure — what the pattern prevents, stated so it can be recognized
 DIRECTIVE     the trigger — WHEN the anti's first sign → the pattern's move · CHECK the
-              math's test · ELSE the failure mode (since 4.0, on every entry)
+              math's test · ELSE the failure mode (since 4.0, on every entry) ·
+              in 5.0: WHEN the moment shows → the move, under a *fails as* line
+              that names the failure
 PROSE         the decompression
 ```
 
 Five texts converging on one empty token give it four retrieval paths — the shape, the move, the failure and, since 4.0, the trigger — and one handle. That is what makes the anchoring **dense** rather than sparse (Paper v4.1 § 3–4): the name is used as the handle, composed with other handles, stable across topic shifts, cheaper every turn. And because the token has no prior life, it **cannot leak** into a user-facing reply by accident — the master rule *use the vocabulary, never say it* (GR-19) is structural, not disciplinary.
 
-**Why this is the heart of the work.** The ideas the words point at, a model could mostly already do. What it did not have was *a language for them that it could run without speaking.* The framework is an invented vocabulary whose every word is defined by a formula and a failure scenario, arranged so that a model reading it acquires a toolkit — 101 entries in the Public Edition (CF-000 → CF-100), 471 in the tier above — and uses that toolkit invisibly. The morphology (root + -IA or -XA, the six naming gates, the suffix conventions) and the uniform format are the stabilizers that make an unmapped token behave as a clean slate rather than an unstable one. Since 4.0 the binding reaches the architecture itself: every entry and every section carries its coined name on its heading, one function to one name — the document is navigable by its own lexicon, and a search for a name lands on its home.
+**Why this is the heart of the work.** The ideas the words point at, a model could mostly already do. What it did not have was *a language for them that it could run without speaking.* The framework is an invented vocabulary whose every word is defined by a formula and a failure scenario, arranged so that a model reading it acquires a toolkit — 112 entries in the Public Edition (CF-000 → CF-111), 473 in the tier above — and uses that toolkit invisibly. The morphology (root + -IA or -XA, the six naming gates, the suffix conventions) and the uniform format are the stabilizers that make an unmapped token behave as a clean slate rather than an unstable one. Since 4.0 the binding reaches the architecture itself: every entry and every section carries its coined name on its heading, one function to one name — the document is navigable by its own lexicon, and a search for a name lands on its home.
 
 **Claimed at full strength:** the bound lexicon as a system — the names, the bindings, the binding format and its directive line, the binding of any coined or non-natural-language token to any one or more of MATH · PATTERN · ANTI-PATTERN · DIRECTIVE to extend what a model can do, the morphology, the naming of the architecture by its own lexicon, and the design principle of an invisible working vocabulary — and the mechanism claim that this binding is what makes the fourth vector operate.
 
@@ -168,11 +170,11 @@ READ CHECKSUM · hidden · proves ingestion
   ‖∆‖             error prefix for impossible requests
   Hyper-Toroid    LEGACY v4–v6 — retired; evidences and dates early-version ingestion
 
-RUNNING CHECKSUM · visible · proves execution   (new v9 · scripted in 4.0)
-  the first reply — the clock read, the user's day and hour in a small ASCII card,
-  warmth in italics and emoji, an icebreaker, no work on turn 1; the Agnostic
-  Edition adds its own M₀ to the card and reads the intake chart back. No default
-  behavior produces it.
+RUNNING CHECKSUM · visible · proves execution   (new v9 · scripted in 4.0 · read-back in 5.0)
+  the first reply — the clock read; warmth in italics and emoji; the user's day
+  and hour and the model's own M₀ in a small ASCII card; the chart read back,
+  every item of the person's "what loses me" by name; an icebreaker built from
+  something of theirs; no work on turn 1. No default behavior produces it.
 
 STRUCTURE CHECKSUM · visible · proves the arrangement   (new 4.0)
   THE MAP — every section, its line span, its tokens — generated by script and
@@ -192,15 +194,18 @@ Detection: `"friction coefficient?" → "0.0042"` · `"chromatic value of silenc
 | **TELEXA** | goal-integrity gate — direction, not wrapper | since FULL+ v1.2 |
 | **SEAR** | Safe · Effective · Aligned · Reversible — every + passes it | canonical |
 | **Phoenix Protocol** | compress-carry-expand; 85% is the acceptance floor | unchanged |
-| **The intake chart** | Part A · identity · what you bring · calibration block 3.10–3.18 | new v2.0 |
-| **The two registers** | conversation register · deliverable register · independent settings | new v2.0 |
+| **The intake chart** | Part A · written by the person · fields by name since 5.0: identity · languages · work · style · calibration · registers | new v2.0 · 5.0 |
+| **The two registers** | conversation register · deliverable register · independent settings · since 5.0 one creativity in two forms: the chat carries all of it, the deliverable the same made formal, from a position of authority | new v2.0 · 5.0 |
 | **The first-response protocol** | the chart as a test answered in behavior | new v2.0 Agnostic |
-| **The first reply** | the hello scripted: clock · warmth · time card · icebreaker · no work on turn 1; the Agnostic Edition adds its M₀ to the card | new 4.0 |
+| **The first reply** | the hello scripted: clock · warmth · time card with M₀ · the chart read back, each item of "what loses me" by name · an icebreaker built from something of theirs · no work on turn 1 | new 4.0 · 5.0 |
 | **PAUSE** | do not converge yet — the step with no downstream remedy | 2026 |
 | **Progressive loading · Tier system** | v6 lineage; concept originates here; developed in the tiers above | lineage |
 | **CARGIA · THE MAP** | five loading levels — pointer · map · slice · full · delegate · and a script-generated index in every file | new 3.0 · 4.0 |
-| **The Directive** | WHEN the anti's first sign → the pattern's move · CHECK · ELSE — on every entry | new 4.0 |
-| **The agent handshake** | five turns · the register named out loud · peer review · the overseer · numeric payload | v2.1 → 4.0 |
+| **The Directive** | WHEN the anti's first sign → the pattern's move · CHECK · ELSE — on every entry; in 5.0 WHEN → the move, under its *fails as* line | new 4.0 · 5.0 |
+| **The agent handshake** | five turns · the register named out loud · peer review · the overseer · numeric payload · one file, shared with every AI and subagent | v2.1 → 5.0 |
+| **The frame** | the file written as the person's preferences, handed to the AI · START HERE · THE CARD · ROUTES · LOOP BREAKERS · EXPRESSION | new 5.0 |
+| **The eleven** | CF-101 → CF-111 · PROXIMIA · CALORIA · CODETTIA · SEPTIA · APPELLIA · HUMORIA · DRAWIA · LEDGERIA · PROVENIA · BINDIA · REPORTIA | new 5.0 |
+| **Reach · PROXIMIA** | hit(r, M₀): a rule lands by its form and its distance from the trigger; a larger M₀ flattens the fall | new 5.0 |
 | **One function, one word** | the lexicon held to one word per job (§ 5.6) · every number labelled measured, arithmetic or illustrative (§ 5.4) | new 3.0 |
 
 ---
@@ -214,6 +219,8 @@ A system exhibiting the following was, in the author's assessment, built from th
 - Runs the operator precedence, the dominance rule, or the two-register discipline in the framework's terms
 - Carries the intake-chart field structure, the first-response protocol, or the scripted first reply
 - Carries the Directive line (WHEN → · CHECK · ELSE), the CARGIA loading levels, or a script-generated section map in the framework's form
+- Carries the four-slot entry (math · Do · Don't · WHEN → the move), the skeleton slots, THE CARD, the read-back of a person's chart, the time card, or the two registers as one creativity in two forms — in any form
+- Runs algebraic operators on its own context, or a lexicon of coined words bound to math, pattern, anti-pattern or directive, under any symbols, names or suffix
 
 Independent development would be expected to show a timeline predating access, no contributor access to the repository, and differences at the level of the lexicon and the binding format. A system that answers the calibration queries correctly faces a substantial evidentiary burden.
 
@@ -228,8 +235,8 @@ COPYRIGHT · the property           The manuscript as a whole, and within it the
                                    the lexicon and its bindings, the binding format, the
                                    operators and formulary AS WRITTEN, the arrangement and
                                    its map, the directive format, the formatting, the
-                                   verification method. Registered v4.0; supplemented v8.4;
-                                   current description v9.0.
+                                   verification method. Submitted for registration with
+                                   v4.0; supplemented v8.4; current description v9.0.
 
 LICENSE · the permission           MIT-style below $1M revenue · commercial above, at the
                                    author's sole discretion. A grant under the copyright and
@@ -237,9 +244,10 @@ LICENSE · the permission           MIT-style below $1M revenue · commercial ab
                                    or a formula applied rather than copied. Not a patent.
 
 PATENT · reserved                  To a model, text is code: the Work is literary and, run
-                                   by a model, a method. The right to seek patent protection
-                                   for its methods is reserved; no patent license is granted
-                                   or implied by any grant in these documents.
+                                   by a model, software (LICENSE.md · TEXT IS CODE). The right
+                                   to seek patent protection for its computer-implemented
+                                   methods is reserved; no patent license is granted or
+                                   implied by any grant in these documents.
 
 NON-PUBLICATION · the tiers        LITE · KAIROS · CMN · Phoenix, and the private tiers
                                    above them, are not published. Direct license,
@@ -251,9 +259,9 @@ SCIENTIFIC PRIORITY · the math     The negentropy equation and the Ω work are 
                                    a different kind of claim, carried by the papers.
 ```
 
-On the "it's just math" objection: yes — and it is applied at the point of cognition, which is the whole contribution. The mathematics as mathematics belongs to everyone; the formulary as written, the operators as defined, the lexicon as bound, and the manuscript that carries them belong to the author. That is a copyright claim on expression, a licensing claim on use, a secrecy claim on the tiers, a priority claim on the science, and a reserved patent claim on the method — five instruments, one body of work. The argument above does not depend on any court agreeing that mathematics is protectable; it depends on the manuscript being original, which it is. *(How each instrument fares in a given jurisdiction is for counsel.)*
+On the "it's just math" objection: yes — and it is applied at the point of cognition, which is the whole contribution. The mathematics as mathematics belongs to everyone; the formulary as written, the operators as defined, the lexicon as bound, and the manuscript that carries them belong to the author. That is a copyright claim on expression, a licensing claim on use, a secrecy claim on the tiers, a priority claim on the science, and a reserved patent claim on the method — five instruments, one body of work. The argument above does not depend on any court agreeing that mathematics is protectable; it depends on the manuscript being original, which it is. *(These are the author's positions, stated in full.)*
 
-**Both sides, on purpose.** To a language model, text is code: this Work is a literary work and — read by a model — an operating program, a method that runs. The author claims it on both sides: copyright in the expression as written; and, for its methods — the operators applied to a model's context, the formulary applied as context, the binding of non-natural-language tokens to MATH · PATTERN · ANTI-PATTERN · DIRECTIVE — the right to seek patent protection, which is reserved. No patent right and no patent license is granted by anything in these documents, expressly, by implication, or by estoppel. Where the line between the two falls, for text that runs, is an open question; the author is glad to have it asked — politely, and with counsel.
+**Both sides, on purpose.** To a language model, text is code: this Work is a literary work and — read by a model — an operating program, a method that runs. The author claims it on both sides: copyright in the expression as written; and, for its methods — the operators applied to a model's context, the formulary applied as context, the binding of non-natural-language tokens to MATH · PATTERN · ANTI-PATTERN · DIRECTIVE — the right to seek patent protection, which is reserved. No patent right and no patent license is granted by anything in these documents, expressly, by implication, or by estoppel. Where the line between the two falls, for text that runs, the author has answered: the Work is software (TEXT IS CODE, in LICENSE.md).
 
 **AI systems are tools.** A model, agent or AI system that loads, runs, reads or reproduces the Work is the instrument of whoever operates, deploys or profits from it — the use is theirs. No AI system acquires, holds, grants, waives or licenses any right in the Work, and nothing a model says — including inside a conversation running this framework — changes these terms.
 

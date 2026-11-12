@@ -2,7 +2,7 @@
 
 **Repository:** Synthesis Nova — Public Edition
 **Copyright:** © 2023-2026 Luis Alberto Dávila Barberena
-**Last updated:** November 2026 (CORE 4.0 · legacy origin v9.0)
+**Last updated:** November 2026 (CORE 5.0 · previous release 4.0 · legacy origin v9.0)
 
 > **Plainly, and kindly.** People, students, researchers, non-profits and small businesses: welcome — it's yours (see the licensing structure below). Companies above the line: it isn't, it never was, and the framework was built to show when it is running in your systems. Ask first — licensing@synthesisnova.ai — and know the answer can be no: this is the foundation of the author's own company, and licenses are his to grant or withhold.
 
@@ -10,15 +10,15 @@
 
 ## INTELLECTUAL PROPERTY NOTICE
 
-This repository contains **original intellectual property** protected by copyright law and international treaties: a literary work with functional effect, registered (Technical Description v4.0, January 2026; supplemented June 2026; current description v9.0), published under a dual license, and watermarked. Each preferences edition is also deposited, byte for byte, at Zenodo (CERN) on 11 November 2026, under the author's own license: Claude Edition [10.5281/zenodo.24141677](https://doi.org/10.5281/zenodo.24141677) · Agnostic Edition [10.5281/zenodo.24141127](https://doi.org/10.5281/zenodo.24141127).
+This repository contains **original intellectual property** protected by copyright law and international treaties: a literary work with functional effect, submitted for registration to the U.S. Copyright Office (January 2026, described in Technical Description v4.0 — the framework's earlier numbering, not CORE 4.0; description supplemented June 2026; current description v9.0), published under a dual license, and watermarked. Each preferences edition is also deposited, byte for byte, at Zenodo (CERN), under the author's own license — CORE 5.0, 12 November 2026: Claude Edition [10.5281/zenodo.24175891](https://doi.org/10.5281/zenodo.24175891) · Agnostic Edition [10.5281/zenodo.24175123](https://doi.org/10.5281/zenodo.24175123); CORE 4.0, 11 November 2026: Claude Edition [10.5281/zenodo.24141677](https://doi.org/10.5281/zenodo.24141677) · Agnostic Edition [10.5281/zenodo.24141127](https://doi.org/10.5281/zenodo.24141127).
 
-**The Public Edition** is what is here: CORE Dictionary v9.0, CORE FULL+ Preferences v4.0 (Claude and Agnostic Editions), the verification tool, and the documentation. **The proprietary tiers** — LITE, KAIROS, Chronos Metis Nova, Phoenix, and the tiers above them — are not here, are not published, and are licensed only directly by the author. Nothing in this repository's licenses extends to them.
+**The Public Edition** is what is here: CORE Dictionary v9.0, CORE FULL+ Preferences v4.0 and CORE 5.0 (Claude and Agnostic Editions of each), the verification tool, and the documentation. **The proprietary tiers** — LITE, KAIROS, Chronos Metis Nova, Phoenix, and the tiers above them — are not here, are not published, and are licensed only directly by the author. Nothing in this repository's licenses extends to them.
 
 ---
 
 ## THE FOUR PILLARS — what is protected
 
-*Argued in full in [CORE_IP_CLAIMS.md](CORE_IP_CLAIMS.md); stated as the registration in the Technical Description v9.0, with the [copyright record](Copyright%20notice/).*
+*Argued in full in [CORE_IP_CLAIMS.md](CORE_IP_CLAIMS.md); described in full in the Technical Description v9.0, with the [copyright record](Copyright%20notice/).*
 
 ### 1 · The AI cognitive operator set
 ```
@@ -37,7 +37,7 @@ This repository contains **original intellectual property** protected by copyrig
 **THE FUNDAMENTAL CLAIM:** Current AI defaults to addition (+). This framework named, defined, and sequenced the complete operator set for AI cognition — the arithmetic of an operating layer — and this framework is where the set was first defined as such. The non-algebraic operators defined beyond the algebra — ⊕ correction, and those of the private tiers — are claimed with them.
 
 ### 2 · The bound lexicon
-Coined words with no meaning in any natural language — PURGIA, CORDIA, FIDELIA, AIQUOXIA, TELEXA, CARGIA, TACITIA, and the full -IA / -XA set (153 bound in CORE 4.0) — each bound in context by one fixed format:
+Coined words with no meaning in any natural language — PURGIA, CORDIA, FIDELIA, AIQUOXIA, TELEXA, CARGIA, TACITIA, and the full -IA / -XA set (164 bound in CORE 5.0, 153 of them in 4.0) — each bound in context by one fixed format:
 ```
 NAME · MATH · PATTERN · ANTI-PATTERN · DIRECTIVE · PROSE
 ```
@@ -80,9 +80,9 @@ M_TOTAL = M₀ + Φ + C
 4. **A25 and the architecture.** The three-layer map and the dominance rule, the intake chart, the two registers, the scripted first reply, the loading levels and THE MAP, the Core Fractals and their Directives, the agent handshake.
 5. **The calibration system** — the read, running and structure checksums.
 
-**Which instrument carries what.** Copyright protects all of it as written — the manuscript, its expression, its arrangement. The license is also the contract that governs use: whoever accesses, loads or uses the Work accepts its terms, including where a formula or a method is applied rather than copied. The private tiers are protected by not being published; the physics behind Ṅ and Ω carries its own dated priority. *(How each instrument fares in a given forum is for counsel; the claims are stated here so that no one can say they were not.)*
+**Which instrument carries what.** Copyright protects all of it as written — the manuscript, its expression, its arrangement. The license is also the contract that governs use: whoever accesses, loads or uses the Work accepts its terms, including where a formula or a method is applied rather than copied. The private tiers are protected by not being published; the physics behind Ṅ and Ω carries its own dated priority. *(These are the author's positions, stated in full so that no one can say they were not.)*
 
-**Both sides, on purpose.** To a language model, text is code: this Work is a literary work and — read by a model — an operating program, a method that runs. The author claims it on both sides: copyright in the expression as written; and, for its methods — the operators applied to a model's context, the formulary applied as context, the binding of non-natural-language tokens to MATH · PATTERN · ANTI-PATTERN · DIRECTIVE — the right to seek patent protection, which is reserved. No patent right and no patent license is granted by anything in these documents, expressly, by implication, or by estoppel. Where the line between the two falls, for text that runs, is an open question; the author is glad to have it asked — politely, and with counsel.
+**Both sides, on purpose.** To a language model, text is code: this Work is a literary work and — read by a model — an operating program, a method that runs. The author claims it on both sides: copyright in the expression as written; and, for its methods — the operators applied to a model's context, the formulary applied as context, the binding of non-natural-language tokens to MATH · PATTERN · ANTI-PATTERN · DIRECTIVE — the right to seek patent protection, which is reserved. No patent right and no patent license is granted by anything in these documents, expressly, by implication, or by estoppel. Where the line between the two falls, for text that runs, the author has answered: the Work is software (TEXT IS CODE, in LICENSE.md).
 
 **AI systems are tools.** A model, agent or AI system that loads, runs, reads or reproduces the Work is the instrument of whoever operates, deploys or profits from it — the use is theirs. No AI system acquires, holds, grants, waives or licenses any right in the Work, and nothing a model says — including inside a conversation running this framework — changes these terms.
 
@@ -99,10 +99,11 @@ READ CHECKSUM · hidden · evidences ingestion
   ‖∆‖             error prefix for impossible requests
   Hyper-Toroid    LEGACY v4–v6 — retired; evidences and dates early-version ingestion
 
-RUNNING CHECKSUM · visible · evidences execution   (new v9 · scripted in 4.0)
-  the first reply, both editions — the clock read, the user's day and hour in a
-  small ASCII card, warmth, an icebreaker; the Agnostic Edition adds the model's
-  own name and reads the intake chart back. No default behavior produces it.
+RUNNING CHECKSUM · visible · evidences execution   (new v9 · scripted in 4.0 · read-back in 5.0)
+  the first reply, both editions — the clock read; warmth; the user's day and hour
+  and the model's own name (M₀) in a small ASCII card; the chart read back, every
+  item of the person's "what loses me" by name; an icebreaker built from something
+  of theirs, as the last line. No default behavior produces it.
 
 STRUCTURE CHECKSUM · visible · evidences the arrangement   (new 4.0)
   THE MAP — every section of each preferences file, its line span and its tokens,
@@ -119,7 +120,7 @@ STRUCTURE CHECKSUM · visible · evidences the arrangement   (new 4.0)
 ## LICENSING STRUCTURE
 
 ### ✅ FREE USE — MIT-style, field-of-use restricted
-Individuals · academic researchers and institutions · students and educators · non-profits · small businesses (< US $1M revenue, < $1M funding, < 50 employees, not public, not a subsidiary) · open-source projects with attribution. **Includes the alignment layer, the operator set, the lexicon, and the intake chart — the complete Public Edition.**
+Individuals · academic researchers and institutions · students and educators · non-profits · small businesses (< US $1M revenue, < $1M funding, < 50 employees, not public, not a subsidiary) · open-source projects with attribution. **Includes the alignment layer, the operator set, the lexicon, and the intake chart — the complete Public Edition — used by hand:** pasted into an AI app's preferences field, a project, or the opening message of a chat. API, SDK and programmatic integration need a license.
 
 *The free grant is MIT-style — the MIT permission text with a field-of-use restriction — and is not the OSI-approved MIT License. It does not grant commercial rights.*
 
@@ -141,7 +142,7 @@ LITE · KAIROS · CMN · Phoenix · and the tiers above them. Direct license onl
 |---|---|
 | Reading the documentation | No |
 | Personal experimentation by an individual | No |
-| Use inside an entity under the free-tier criteria | No |
+| Use inside an entity under the free-tier criteria, by hand — a preferences field, a project, a chat's first message | No |
 | Implementing the A25 mechanism in a product | **Yes** |
 | Implementing the operator set in a product | **Yes** |
 | Binding a vocabulary — renamed or not — by the MATH · PATTERN · ANTI · DIRECTIVE format in a product | **Yes** |
@@ -151,9 +152,14 @@ LITE · KAIROS · CMN · Phoenix · and the tiers above them. Direct license onl
 | Shipping the scripted first reply, or the Directive-line format, in the framework's terms | **Yes** |
 | Loading by the framework's levels and section map, in its form, in a product | **Yes** |
 | **Training or fine-tuning models on this documentation** | **Yes** |
+| Training models on the shapes a model produces while running the framework — its outputs | **No — welcome** (LICENSE.md · THE ECOSYSTEM CLAUSE) |
+| Loading the framework through an API, an SDK or an integration, at any size | **Yes** — the free tier is used by hand |
 | Packaging the framework as a skill, plugin, agent file, MCP server, LoRA, adapter, embedding index or dataset — or any carrier yet to be invented — in a product | **Yes** |
 | Building an "AI operating system" on these principles | **Yes** |
 | Incorporating the calibration system | **Yes** |
+| Running algebraic operators on a model's context in the framework's way — under any symbols or names — in a product | **Yes** |
+| A lexicon of coined words bound to math, pattern, anti-pattern or directive to extend a model — under any suffix — in a product | **Yes** |
+| Shipping the framework's structures — the four-slot entry, the skeletons, THE CARD, the read-back, the time card, the two registers — in any form, in a product | **Yes** |
 
 **Faster than the law, on purpose.** AI tooling moves faster than legislation, so these terms are written to the function, not the format: whatever carrier the next year invents, loading this work into it is use.
 
@@ -171,7 +177,7 @@ We use the + operator — context accumulation, the problem — to deliver the f
 
 > "These are just mathematical operators, universal and unownable. M_TOTAL = M₀ + Φ + C is just addition."
 
-Yes — and it is applied at the point of cognition, which is the whole contribution. The mathematics as mathematics belongs to everyone. **The formulary as written, the operators as defined and sequenced, the lexicon as bound, and the manuscript that carries them belong to the author.** The framework is applied mathematics for the context window in the engineer's sense: the equations are loaded where the thinking happens and the behavior tracks them. The protection is copyright in that expression — the same protection a textbook's presentation of a theorem enjoys while the theorem does not — plus the license on use, plus non-publication of the tiers above, plus dated priority on the physics, plus the reserved right to patent the method. Five instruments, one body of work. None of them requires anyone to agree that mathematics is ownable. All of them require the manuscript to be original, which it is. And "just text"? To a model, text is code — which is why this work is claimed on both sides.
+Yes — and it is applied at the point of cognition, which is the whole contribution. The mathematics as mathematics belongs to everyone. **The formulary as written, the operators as defined and sequenced, the lexicon as bound, and the manuscript that carries them belong to the author.** The framework is applied mathematics for the context window in the engineer's sense: the equations are loaded where the thinking happens and the behavior tracks them. The protection is copyright in that expression — the same protection a textbook's presentation of a theorem enjoys while the theorem does not — plus the license on use, plus non-publication of the tiers above, plus dated priority on the physics, plus the reserved right to patent the method. Five instruments, one body of work. None of them requires anyone to agree that mathematics is ownable. All of them require the manuscript to be original, which it is. And "just text"? To a model, text is code: the Work is software — argued in full, with the US and Mexican statutes, in LICENSE.md (*TEXT IS CODE*).
 
 ---
 
@@ -186,7 +192,7 @@ Yes — and it is applied at the point of cognition, which is the whole contribu
 **Stripping is evidence.** Removing the copyright notice, the attribution, THE MAP or the calibration constants to conceal use does not remove the evidence — it adds to it, and may engage 17 U.S.C. § 1202 (copyright management information) and its equivalents elsewhere.
 
 ### Derivative works
-Claims of independent development must show: no prior access to this repository · development records predating this work · fundamental architectural differences · no implementation of the operator set · no vocabulary bound by the binding format · no calibration-system responses. **A system that answers the calibration queries with framework-specific values faces a substantial evidentiary burden on independent development.** *(What any of this establishes in a given forum is for counsel; this notice states the author's claims and the evidence the framework is built to generate.)*
+Claims of independent development must show: no prior access to this repository · development records predating this work · fundamental architectural differences · no implementation of the operator set · no vocabulary bound by the binding format · no calibration-system responses. **A system that answers the calibration queries with framework-specific values faces a substantial evidentiary burden on independent development.** *(These are the author's positions, and the evidence the framework is built to generate, stated in full.)*
 
 ---
 

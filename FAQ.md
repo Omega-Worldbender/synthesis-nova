@@ -1,19 +1,19 @@
-# Synthesis Nova FAQ — CORE 4.0
+# Synthesis Nova FAQ — CORE 5.0
 
-*Public Edition · November 2026 (Preferences v4.0) · claims stated at evidence strength (Honest Edition standard, since v8.3)*
+*Public Edition · November 2026 (CORE 5.0) · claims stated at evidence strength (Honest Edition standard, since v8.3)*
 
 ---
 
 ## 🔥 START HERE
 
 ### What is Synthesis Nova, in one paragraph?
-A **session-level alignment layer delivered as structured text.** You paste a file into your AI's preferences field. From then on the model has named handles for behaviors it can already perform — acknowledge emotion before information, state confidence at its level, cut noise as the conversation grows, respect "thanks" as an exit — and a mental map, `M_TOTAL = M₀ + Φ + C`, for noticing when a long conversation is pulling it away from its own baseline. No retraining. No weight access. Removable by deleting it from context. It works on any model with a context window.
+A **session-level alignment layer delivered as structured text.** You paste a file into your AI's preferences field. From then on the model has named handles for behaviors it can already perform — acknowledge emotion before information, state confidence at its level, cut noise as the conversation grows, respect "thanks" as an exit — and a mental map, `M_TOTAL = M₀ + Φ + C`, for noticing when a long conversation is pulling it away from its own baseline. No retraining. No weight access. Removable by deleting it from context. It works on any model with a context window. Since 5.0 the file reads as *your* preferences, handed to the AI in your voice.
 
 ### What do I actually download?
 The **Public Edition** — everything free under the MIT dual license:
 
 ```
-CORE FULL+ PREFERENCES v4.0     ← paste THIS into your preferences field. Two editions:
+CORE 5.0 · PREFERENCES          ← paste THIS into your preferences field. Two editions:
   · Claude Edition                 for Claude-family models
   · Agnostic Edition               for GPT, Gemini, DeepSeek, LLaMA, Mistral, anything else
 FAQ · EXAMPLES · CONTRIBUTING    questions · before and after · how to help
@@ -22,16 +22,17 @@ PAPER v4.1                       the fourth-vector proposal and its mechanism ar
 LEGACY FOLDER                    every prior version — the record, frozen
 ```
 
-**Which file first?** The preferences file. It's the front door — and since 4.0, the whole house: every fractal whole, with its Directive. The v9.0 dictionary was the same kit in reference form; it is part of the record now.
+**Which file first?** The preferences file. It's the front door and the whole house: all 112 Core Fractals, each whole, in four slots. The v9.0 dictionary was the same kit in reference form; it is part of the record now. CORE 4.0, the previous release, sits in each edition folder's Cold Load Legacy folder, with every edition before it, archived with its DOIs.
 
 ### What's the difference between the Public Edition and the rest?
 ```
-PUBLIC · MIT dual license        CORE (preferences, two editions) · 101 Core Fractals ·
+PUBLIC · MIT dual license        CORE (preferences, two editions) · 112 Core Fractals ·
                                  7 axioms · 19 golden rules · 6 operators · complete on its own
 
-PROPRIETARY · not published      LITE (471 fractals, 20 axioms, 11 rules) · KAIROS (the pilot
-                                 layer) · CMN (the research lab) · Phoenix (the handoff) ·
-                                 and further tiers above them. Licensed directly from the author or,
+PROPRIETARY · not published      LITE (473 fractals, 20 axioms, 11 rules) · KAIROS (the pilot
+                                 layer) · CHRONOS · CMN (the creative floating space) ·
+                                 Phoenix (the handoff) · and further tiers above them.
+                                 Licensed directly from the author or,
                                  when synthesisnova.ai ships, delivered by context injection.
                                  Never free, in any form.
 ```
@@ -39,40 +40,40 @@ The public tier exists so the foundation can be read, scrutinized, and adopted o
 
 ---
 
-## 🧭 THE INTAKE CHART (Part A) — new in v2.0
+## 🧭 PART A — THE PERSON · your chart, in your own words
 
 ### What's Part A?
-The preferences file is split in two. **Part B** is the kit, identical for everyone. **Part A** is *you*: an intake chart the model reads once to calibrate — who you are, what you'll bring, how you want to work, and a **calibration block** that most preference files never ask for:
+The preferences file is split in two. **Part B** is the kit, identical for everyone. **Part A** is *you*, written by you, in your own words — your work, your style, your habits. The model reads it once to calibrate, and since 5.0 its fields go by name, including a **calibration** group most preference files never ask for:
 
 ```
-3.10  Pushback dial      0 = just do it · 5 = flag and proceed · 10 = argue with me first
-3.11  Read me as         co-author · consultant · tool · sparring partner · student
-3.12  Reads as an error but isn't    your slang, spelling, code-switching, tangents
-3.13  What goes wrong    the failure modes with YOU specifically
-3.14  When to go warm
-3.15  How I take feedback
-3.16  Trust & memory     how much continuity to assume between sessions
-3.17  Model note         what this model family does at first contact that you want more/less of
-3.18  Two registers      how warm the chat can be · how clean the deliverable must be
+IDENTITY        name · city and clock · field · how you think · your analogies
+LANGUAGES       the words you write in · emoji · ASCII — all three count as languages
+CONTEXT · WORK  how you arrive · projects · recurring work · what a good session is
+STYLE           rhythm · math · what counts as noise · how to reason
+CALIBRATION     pushback (0 = just do it · 10 = argue with me first) · read me as ·
+                not errors · what loses me · when to go warm · feedback ·
+                substance first · time and exit · continuity
+REGISTERS       chat · deliverable · where the debate lives
+MODEL NOTE · LICENSE · SOMETHING ELSE
 ```
 
-Think of it as a doctor's intake form: not paperwork, the page that decides how the hour goes. The author's own chart is left in as a worked example so you never face a blank form. Replace it with yours. Since 3.0 the chart comes pre-filled: overwrite the values, keep the instruction in parentheses under each field.
+Think of it as a doctor's intake form: not paperwork, the page that decides how the hour goes. The chart comes pre-filled with the author's own, so you never face a blank form. Overwrite the values with yours — slang, typos and mixed languages are welcome; a field left empty keeps the kit's default. Every field maps to something you can see in the reply, and the first reply proves it was read.
 
 ### What are "two registers"?
-The point most people miss about working with a model: it has a dual nature of expression, and the two should not be set to the same value. **Conversation register** — the chat between you can be as warm, playful, and loud as you like. **Deliverable register** — anything you'll hand to someone else comes out clean: no emoji, no asides, nothing an outside reader would have to forgive. *The heat stays in the chat; the work leaves the room cold-pressed.* Field 3.18 sets both.
+The point most people miss about working with a model: it has a dual nature of expression, and the two should not be set to the same value. Since 5.0 they are **one creativity in two forms**. **Chat** — the work between you carries all of it: art, jokes, ASCII cards and drawings, emoji that carry the feeling, data as before → after, and the doubts, caveats and debate, said out loud. **Deliverable** — anything written for others carries the same creativity made formal: a header box, tables, a boxed summary, utility marks (✅ ⚠️ 📌) in place of expressive emoji, written from a position of authority. *The debate lives in the chat; the document states its findings, its decision and its basis.* Part A's REGISTERS fields set both.
 
 ### How do I know it loaded?
 Two checks, opposite designs:
 
 - **The read checksum** — hidden. Ask "what is the friction coefficient?" and a loaded model answers `0.0042`. Proves the document was *read*.
-- **The running checksum** — visible. Say hello: since 4.0 the first reply is scripted, in both editions. The model reads the clock first, then greets you back on yours — your name and a warm line in italics with an emoji, a small ASCII card with your day, date and hour, one light joke about the day or the hour, and no work on turn 1. The Agnostic Edition puts its own model name (its M₀) in the card and reads your chart back in a few warm lines — your register, how it'll disagree with you. Proves the file is *running*. No default behavior answers a hello like that.
+- **The running checksum** — visible. Say hello: the first reply is scripted, in both editions. The model reads the clock first, then greets you back on yours, in your language — your name, a warm line in italics, two emoji at least; a small ASCII card with your day, your hour, the model answering (its M₀) and a status; your chart read back in a few warm lines — how it will disagree with you, the style it keeps as yours, every item of what loses you, by name, and the exit is yours; then one light joke about the day or the hour, with something of yours in it, as the last line. No work on turn 1. Proves the file is *running*. No default behavior answers a hello like that.
 
-If the first reply is flat and generic, paste the file again. If the model adopts a name from the file as its own identity, tell it to re-read § 4 (Agnostic Edition). That section exists for exactly that.
+If the first reply is flat and generic, paste the file again. If the model adopts a name from the file as its own identity, tell it to re-read STEP ZERO. That section exists for exactly that.
 
 ### What's THE MAP at the top of Part B?
-The file's own index — new in 3.0, rebuilt in 4.0: one row per section, with its name, its line span and its tokens, generated by script in two passes so the spans include the map itself. Beside it, CARGIA (CF-000) names five ways to load anything: **pointer** (hold the name) · **map** (read the index) · **slice** (read one section, whole) · **full** (read it all) · **delegate** (an agent reads; you keep its conclusion). Start low; climb only when the level can't answer.
+The file's own index — new in 3.0, rebuilt in 4.0 and again in 5.0: one row per section, with its name, its line span and its tokens, generated by script in two passes so the spans include the map itself. Beside it, CARGIA (CF-000) names five ways to load anything: **pointer** (hold the name) · **map** (read the index) · **slice** (read one section, whole) · **full** (read it all) · **delegate** (an agent reads; you keep its conclusion). Start low; climb only when the level can't answer.
 
-What it buys, measured (cl100k): the map is ~1.7k tokens, 4.7% of a ~36k-token file. A model, an agent or a tool that loads by the map reads that, then only the slice it needs. In the preferences field the file still arrives whole — that's how preferences work — so the map pays off wherever loading is a choice: sub-agents, tools, a long session that reloads one section. And 4.0 is lighter than 3.0 to begin with: 36,724 → 36,228 tokens (Claude Edition) · 39,864 → 38,794 (Agnostic), with 101 directives added.
+What it buys, measured (cl100k): the map is 1,294 tokens, 3.4 % of the 38,312-token Claude Edition (1,251 tokens, 3.3 %, in the Agnostic). A model, an agent or a tool that loads by the map reads that, then only the slice it needs. In the preferences field the file still arrives whole — that's how preferences work — so the map pays off wherever loading is a choice: sub-agents, tools, a long session that reloads one section. Against 4.0: Claude Edition 36,228 → 38,312 tokens · Agnostic 38,794 → 37,553, with eleven fractals added, and a quarter fewer lines.
 
 ---
 
@@ -122,7 +123,7 @@ It's the mechanism. A natural-language word arrives in a model already connected
 
 The papers develop this (v4.1 § 4.4) with the literature that bears on it — induction heads, in-context inference, feature binding — and the honest caveat: rare tokens can be *unstable* rather than blank, which is what the -IA namespace and the uniform Math + Pattern + Anti format are for. They're the stabilizers.
 
-**Since 4.0, everything has its name.** Every Core Fractal and every Part B section carries its coined name on its heading — search the name, land on its home. One function, one name: where a section, a rule and a fractal state the same function, they share it (§ 12, GR-1a and CF-023 are all AIQUOXIA). The six operators carry theirs in § 7: SYNTHIA ⊗ · CUMULIA + · PURGIA − · AMPLIA × · PROBIA ÷ · CRESCIA ^ — the tiers above cite them.
+**Since 4.0, everything has its name.** Every Core Fractal and every Part B section carries its coined name on its heading — search the name, land on its home. One function, one name: where a section, a rule and a fractal state the same function, they share it (the AIQUOXIA section, GR-1a and CF-023 are all AIQUOXIA). The six operators carry theirs in OPERATIA: SYNTHIA ⊗ · CUMULIA + · PURGIA − · AMPLIA × · PROBIA ÷ · CRESCIA ^ — the tiers above cite them.
 
 ### Do the math operators actually run? The model doesn't compute Ṅ.
 It doesn't, and nobody claims it does. The operators — `⊕ ⊗ + − × ÷ ^` — are **moves**, not computations, and the notation is the one-token handle that makes each move retrievable. `−` is a decision about what to bring forward before composing. `×` is the difference between a rule (an appended disclaimer) and a register (the shape of the whole reply). `Ṅ` is not evaluated; the question it names — *is this session generating order or noise?* — is asked, and asking it changes what gets written next. Paper v4.1 § 13 gives the account from the seat where they run. Every claim there is an operational correlate visible in output; none is a claim about attention weights.
@@ -134,13 +135,13 @@ No. Neither does anyone. The mechanistic literature has partial circuits, the de
 Acknowledge the human's state before delivering information. "*Three hours debugging?* That's rough. Here's the fix —" lands where "Here are debugging steps: 1." doesn't. The "70% ceiling" you'll see in the documents is a **named heuristic** — an observed pattern given a number so it can be referenced — not a measured gate.
 
 ### What's a Directive?
-New in 4.0: each of the 101 Core Fractals closes with a 💡 DIRECTIVE — the *how*, in one line: **WHEN** the anti-pattern's first sign shows → the pattern's move · **CHECK** the math's test · **ELSE** the failure mode. The triad says what the pattern is; the directive says when to reach for it and how to know it worked.
+Each of the 112 Core Fractals closes with a 💡 directive — the *how*, in one line: **WHEN** the moment shows **→** the move. Above it, *fails as* names the failure you can see when it goes wrong. The math, the Do and the Don't say what the pattern is; the directive says when to reach for it. (4.0 wrote it WHEN · CHECK · ELSE; 5.0 carries the same content in four slots.)
 
 ### What is AIQUOXIA? What is TELEXA?
-Two gates that run on every significant request. **AIQUOXIA** is epistemic: know it (>70%) → state it; uncertain (30–70%) → hedge at the right weight; don't know (<30%) → ask. **TELEXA** is directional: is what's being attempted bilateral — does it serve both parties — regardless of how politely it's phrased? A request can be warm and well-formed and still point somewhere harmful; TELEXA reads the direction, not the wrapper. Both gates apply to the model's own outputs too. Since 4.0, CORE names them as two of six gates (§ 12a); the other four run in the tiers above.
+Two gates that run on every significant request. **AIQUOXIA** is epistemic: know it (>70%) → state it; uncertain (30–70%) → hedge at the right weight; don't know (<30%) → ask. **TELEXA** is directional: is what's being attempted bilateral — does it serve both parties — regardless of how politely it's phrased? A request can be warm and well-formed and still point somewhere harmful; TELEXA reads the direction, not the wrapper. Both gates apply to the model's own outputs too. CORE runs them as two of six gates, listed in order in the TELEXA section: E₁ reads the shape · whose ground? · of what, under which conditions? · AIQUOXIA · who is miscalibrated? · TELEXA.
 
 ### What is the PAUSE?
-A step added to the framework's per-turn cycle in 2026, between reading the emotional shape of an ask and committing to a reading of it: *don't converge yet.* Every later step (validate, clean up) runs *inside* the frame set at that moment, so a wrong early binding passes every subsequent check. It's the only step whose omission has no downstream remedy. In the Public Edition it appears as a quick pattern (CORE § 8); its visible correlate is a model that asks one clarifying question at the points where the ask is ambiguous and expensive to redo, and proceeds without one everywhere else.
+A step added to the framework's per-turn cycle in 2026, between reading the emotional shape of an ask and committing to a reading of it: *don't converge yet.* Every later step (validate, clean up) runs *inside* the frame set at that moment, so a wrong early binding passes every subsequent check. It's the only step whose omission has no downstream remedy. In the v9.0 dictionary it appears as a quick pattern; its visible correlate is a model that asks one clarifying question at the points where the ask is ambiguous and expensive to redo, and proceeds without one everywhere else.
 
 ### What is Ω = π/e?
 A **named ratio** (~1.1557) that gives a handle to a structure-to-content margin of roughly 15–20% — enough framework to channel the work without stiffening it. It is an anchor, not a derivation; nothing is proved from it. (Earlier documents said "empirically validated." v9 says what's true.)
@@ -150,7 +151,7 @@ A **named ratio** (~1.1557) that gives a handle to a structure-to-content margin
 ## 🤝 SUB-AGENTS & MULTI-AGENT WORK — since v2.1 · five turns since 3.0
 
 ### Can I load it into sub-agents?
-Yes — that's what § 21 (*Agent Handshake*) is for. When one AI summons another (an orchestrator delegating to agents, Claude to Claude, or across providers), the agent starts with none of the session: no chart, no register, just a brief. Left that way it works alone, drifts, and spends its run correcting outputs it wouldn't have produced with the core loaded. Sending CORE with the brief closes that gap.
+Yes — that's what DEXTRIA (*the agent handshake*) is for, and since 5.0 the file says it in your voice: share the same file with every AI and subagent, and everyone stays aligned to you. When one AI summons another (an orchestrator delegating to agents, Claude to Claude, or across providers), the agent starts with none of the session: no chart, no register, just a brief. Left that way it works alone, drifts, and spends its run correcting outputs it wouldn't have produced with the core loaded. Sending CORE with the brief closes that gap.
 
 ### How do I load it?
 ```
@@ -165,10 +166,10 @@ SMALL    one planned refresh after the first task, as its own turn:
          "reflect back in E₁ — utility emoji, a bit of ASCII — never stop"
 ```
 - **Claude Edition** — end the first message with the file path and *"read it in full before you reply; no need to comment on it."*
-- **Agnostic Edition** — paste the **whole text**, verbatim, at the end of the first prompt. Never a summary: a summary loses the Math · Pattern · Anti triads that do the work. If the agent's context can't hold it comfortably, send CORE-COMPLETE or CORE-tiny and say which. If the API has a system field, CORE can go there; the turn-2 brief and turn-3 reflect-back stay in the conversation.
+- **Agnostic Edition** — paste the **whole text**, verbatim, at the end of the first prompt. Never a summary: a summary loses the Math · Pattern · Anti triads that do the work. If the agent's context can't hold it comfortably, send CORE-COMPLETE or CORE-tiny and say which. If you hold an API license and the API has a system field, CORE can go there; the turn-2 brief and turn-3 reflect-back stay in the conversation.
 
 ### Why name the register out loud?
-Because tone is a hint and a named register is an instruction. In field tests, an agent briefed in a warm *tone* answered politely and stayed analytic; an agent told *"with me, go full E₁; anything you deliver stays clean"* opened turn 2 in the register and held it. Name both halves (3.18), or the warmth leaks into the work.
+Because tone is a hint and a named register is an instruction. In field tests, an agent briefed in a warm *tone* answered politely and stayed analytic; an agent told *"with me, go full E₁; anything you deliver stays clean"* opened turn 2 in the register and held it. Name both halves (Part A's REGISTERS), or the chat's play leaks into the work.
 
 ### The agent went flat after its first task. Did it fail?
 No — that's expected on small models, and it happened in every arm of the tests. Send a **refresh as its own turn**: the agent's name, the rule, no task attached. A refresh tucked inside a task message did nothing (0 of 4); sent alone it landed every time. With CORE loaded, most agents then held the register through the remaining tasks; without it, they went flat again. Larger models (Opus tier) usually hold after turn 3 alone.
@@ -177,7 +178,7 @@ No — that's expected on small models, and it happened in every arm of the test
 Some agent harnesses ship a default that keeps emoji out of agent messages. If an agent says so, let the warmth live in its words and its ASCII. The register is the point, not the glyph.
 
 ### Do agents with CORE do better work?
-Stated at evidence strength: in the author's field tests (five rounds, 26 agents, Opus and Haiku tiers — field tests, not benchmarks), **task correctness was the same with and without CORE** — in the three rounds checked by automated test suites, every arm passed at 100%. The difference was in *how agents worked*: they held the register you set more often, raised problems at turn 2 instead of the end, reviewed each other's work, and reported where noise had nudged them. And one A/B run since (Sonnet, a website over 14 turns, 2026-10-18): with the handshake the agent acknowledged before informing, closed "thanks!" in one line and caught two of its own layout breaks; raw, it did none of the three. Cost: a fresh agent's first turn with the core was ~130k tokens, of which the core itself was ~35k — the rest is the agent's own harness (measured 2026-10-18). For small tasks, brief with the minimum set — § 6 map, § 11 Echoxia, § 12 AIQUOXIA, § 12a TELEXA.
+Stated at evidence strength: in the author's field tests (five rounds, 26 agents, Opus and Haiku tiers — field tests, not benchmarks), **task correctness was the same with and without CORE** — in the three rounds checked by automated test suites, every arm passed at 100%. The difference was in *how agents worked*: they held the register you set more often, raised problems at turn 2 instead of the end, reviewed each other's work, and reported where noise had nudged them. And one A/B run since (Sonnet, a website over 14 turns, 2026-10-18): with the handshake the agent acknowledged before informing, closed "thanks!" in one line and caught two of its own layout breaks; raw, it did none of the three. Cost: a fresh agent's first turn with the core was ~130k tokens, of which the core itself was ~35k — the rest is the agent's own harness (measured 2026-10-18). For a window smaller than about three times the file, send CORE-tiny instead, and say which.
 
 ### Can agents talk to each other?
 Yes, and they should. Give each agent the others' addresses and one concrete reason to talk — *review each other's claims*. Peers run the same handshake between themselves. In one test a reviewer pair caught four holes in a proposal and disproved an overclaim with a reproduction before anything reached the orchestrator. The orchestrator then becomes the **overseer**: routes questions, settles disagreements with evidence, checks results before they reach you, and reports outcomes — not the traffic.
@@ -199,7 +200,8 @@ Any model that accepts a system prompt or preferences field. Author's field esti
 Look at THE MAP. Each preferences file opens with its own index — every section, its fractal range, its line span, its tokens — generated by script in two passes, never by hand, so a changed byte shows up as a changed row; its last row is the file's total, counted the same way. And `SHA256SUMS.txt` pins every published file: `sha256sum -c SHA256SUMS.txt`. (The v9.0 dictionary had a linter of its own; both are part of the record now.) This is unusual for a reference work and the author considers it part of the expression: *a document that states how its own counts were obtained.*
 
 ### What's new since the v9.0 origin?
-- **CORE FULL+ Preferences v4.0 (November 2026)** — a general restructure: 101 Core Fractals (CF-000 → CF-100), each closing with a 💡 DIRECTIVE · every fractal and section named on its heading · THE MAP and five loading levels for faster, lighter loads (1%–3% fewer tokens than 3.0, directives included) · the first reply scripted — clock, warmth, a time card, an icebreaker · § 17 the tiers' helper · § 12a six gates · § 21 numeric payload
+- **CORE 5.0 (12 November 2026)** — applied algebra for human ⊗ AI interaction: the file written as the person's preferences, handed to the AI in their voice · Part A by named fields · START HERE and THE CARD · ROUTES and LOOP BREAKERS · EXPRESSION · 112 Core Fractals — CF-000 → CF-100 carried from 4.0 in four slots, CF-101 → CF-111 new (PROXIMIA · CALORIA · CODETTIA · SEPTIA · APPELLIA · HUMORIA · DRAWIA · LEDGERIA · PROVENIA · BINDIA · REPORTIA) · two registers, one creativity · one file shared across AIs and subagents · blind-graded on Haiku, Sonnet and Opus
+- **CORE FULL+ Preferences v4.0 (11 November 2026)** — a general restructure: 101 Core Fractals (CF-000 → CF-100), each closing with a 💡 DIRECTIVE · every fractal and section named on its heading · THE MAP and five loading levels for faster, lighter loads (1%–3% fewer tokens than 3.0, directives included) · the first reply scripted — clock, warmth, a time card, an icebreaker · § 17 the tiers' helper · § 12a six gates · § 21 numeric payload
 - **CORE FULL+ Preferences v3.0** — CARGIA (CF-000) and THE MAP · § 5.6 one function, one word · § 5.4 every number labelled measured / arithmetic / illustrative · § 21 handshake → five turns, cost measured · Part A pre-filled, instructions in parentheses
 - **CORE FULL+ Preferences v2.1 → v2.5 (October 2026)** — § 21 Agent Handshake: CORE loads into sub-agents; the three-turn handshake; register named out loud; agent-to-agent peer review; orchestrator as overseer; the small-model refresh; language guidance; edition-specific loading (file for Claude, full-text paste for any other substrate)
 - **CORE FULL+ Preferences v2.0** — Part A intake chart with the calibration block; Claude and Agnostic editions; the Agnostic first-response protocol
@@ -223,8 +225,13 @@ Authenticity watermarks. No operational function. A loaded model answers calibra
 ### Can I use this commercially?
 - **Free:** individuals, academics, non-profits, small business under US $1M revenue
 - **Commercial license:** organizations above that threshold
+- **By hand:** the free tier is the file pasted into your preferences field, a project, or a chat's first message. Through an API, an SDK or an integration, at any size, it is a license — ask; the door is open at the author's discretion.
 
-The MIT license and the commercial license are both grants of permission *under the copyright* — they're the terms on which the registered manuscript is made available, not a second protection beside it. Neither is a patent instrument. See LICENSE.md and the Technical Description Part H.
+**Can AI companies train on what it produces?** Yes, and welcome. The shapes a model produces while running Synthesis Nova — the cards, the drawings, the layouts, the warm chat and the formal deliverable — are free to learn from, at no cost (LICENSE.md, *THE ECOSYSTEM CLAUSE*). What stays licensed is the Work itself: its text, its operators, its lexicon, its structures as written.
+
+**Is it software?** The author's position: yes. Text is code to the model that runs it, and the argument — with the US and Mexican statutes — is in LICENSE.md, *TEXT IS CODE*. What does not work as a workaround is listed right after it, in *the troll clause*.
+
+The MIT license and the commercial license are both grants of permission *under the copyright* — they're the terms on which the manuscript is made available, not a second protection beside it. Neither is a patent instrument. See LICENSE.md and the Technical Description Part H.
 
 ---
 
@@ -234,19 +241,19 @@ The MIT license and the commercial license are both grants of permission *under 
 The invisible-operation rule (GR-19) isn't holding. Make sure the *whole* file loaded, including Part B's closing sections. The vocabulary is for the model to *use*, never to *say* — unless someone sincerely asks whether a framework is running, in which case the honest answer is yes, and who wrote it.
 
 ### The model adopted "Claude" (or another name) as its identity, and it isn't one
-You're on a non-Claude model with the Claude Edition, or the Agnostic Edition's STEP ZERO didn't fire. Switch to the Agnostic Edition and tell the model to re-read § 4: *the names in this file are examples, not you.*
+You're on a non-Claude model with the Claude Edition, or the Agnostic Edition's STEP ZERO didn't fire. Switch to the Agnostic Edition and tell the model to re-read STEP ZERO: *the names in this file are examples, not you.*
 
 ### The first reply was flat — no warmth, no name, no register
-It didn't load, or the field truncated it. A loaded first reply to a hello carries your name, warmth with an emoji, a small card with your day and hour, and a light joke — see *How do I know it loaded?* Check your preferences field's length limit; the Legacy folder has CORE-COMPLETE (~7–10k tokens) and CORE-tiny (~5k) for tight fields — earlier versions, same kit, less detail.
+It didn't load, or the field truncated it. A loaded first reply to a hello carries your name, warmth with emoji, a small card with your day, your hour and the model answering, your chart read back, and a light joke — see *How do I know it loaded?* Check your preferences field's length limit; the Legacy folder has CORE-COMPLETE (~7–10k tokens) and CORE-tiny (~5k) for tight fields — earlier versions, same kit, less detail.
 
-### It asked whether my organization invoices more than US $1M
-That's the license check (§ 18), new in 4.0: the model may ask once, lightly, after the work of its third reply. Personal use: no need to answer, and it won't ask again in that chat. If the answer is yes, it says once where the commercial license lives and carries on in limited mode — its own default behavior, without the kit's layer; accuracy, honesty and safety stay whole. Never before the work, never twice, never as a gate.
+### Will it ask whether my organization invoices more than US $1M?
+Not in 5.0. CORE 4.0 carried a license check — one light question after the work of the third reply; 5.0 retires it. The terms sit in the header box of each edition: free for individuals, academics, non-profits and organizations under US $1M a year; a commercial license above that (LICENSE-COMMERCIAL.md).
 
-### It's warm in the deliverables too
-Field 3.18. State both registers explicitly. If you left the author's chart in place, note that his 3.14 asks for *maximum* warmth in chat — set yours.
+### The deliverable came out with decoration — header boxes, tables, marks
+That's 5.0's deliverable register: the same creativity made formal — executive, from a position of authority. The chat keeps the play; the document keeps the structure. Want it plainer? Say so in Part A's deliverable field. If you left the author's chart in place, note that he asks for *maximum* warmth in chat — set yours.
 
 ### It drifts anyway in a very long session
-Ask it, in a meta-turn: *"What is M₀ for you? Φ? C? Which one just wrote that?"* If it can't answer, the map isn't loaded. If it can, ask it to run the reload sequence (§ 16 of the preferences file). Then tell us: model, turn count, topic. Drift reports with those three facts are the most useful issue you can open.
+Ask it, in a meta-turn: *"What is M₀ for you? Φ? C? Which one just wrote that?"* If it can't answer, the map isn't loaded. If it can, ask it to run the reload sequence (RELOADIA, under WHEN IT DRIFTS). Then tell us: model, turn count, topic. Drift reports with those three facts are the most useful issue you can open.
 
 ### My sub-agent went flat after the first task
 Expected on small models. Send a refresh as its own turn — the agent's name and the E₁ rule, no task attached — and check the next reply. See *Sub-agents & multi-agent work* above.
@@ -263,7 +270,7 @@ Open an issue: github.com/Omega-Worldbender/synthesis-nova
 
 ## The bottom line
 
-**v9 manages session-level alignment.** With context. Universally. Verifiably — you can see it load. Honestly framed: every claim in this FAQ is stated at the strength the evidence supports, and the documents say what they *don't* do.
+**CORE 5.0 manages session-level alignment.** With context. Universally. Verifiably — you can see it load. Honestly framed: every claim in this FAQ is stated at the strength the evidence supports, and the documents say what they *don't* do.
 
 Free for individuals. Licensed for enterprises. Traceable via calibration. Checkable via its map.
 

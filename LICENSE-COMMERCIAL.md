@@ -1,8 +1,9 @@
 # SYNTHESIS NOVA — COMMERCIAL LICENSE
 
-**Version:** 4.0
+**Version:** 5.0
 **Effective date:** January 1, 2024
 **Last updated:** November 2026
+**v5.0 changes:** aligned to CORE 5.0 · the Framework includes both CORE 4.0 and CORE 5.0 (§ 1) · 164 coined names bound (§ 1.4) · the binding format in its 5.0 slots (§ 1.4) · 112 Core Fractals and 5.0's frame added (§ 1.5) · the read-back added to the running checksum (§ 1.3) · § 1.8 the operators in any notation, the neologisms, the structures and forms in any form · § 4.2 widened · § 4.4 things that do not work
 **v4.0 changes:** aligned to CORE FULL+ Preferences v4.0 · the six operators bound by name (§ 1.2) · the binding format gains its DIRECTIVE line (§ 1.4) · the loading rule and THE MAP added (§ 1.1) · the scripted first reply and the structure checksum added (§ 1.3) · Phoenix and the private tiers above added to the exclusions (§ 1.6) · a plain word at the top, for whoever reads this before their lawyers do
 **v3.0 changes:** definitions aligned to the v9 Public Edition (CORE Dictionary v9.0 · CORE FULL+ Preferences v2.0) and to *Technical Description v9.0* · the bound lexicon and binding format added to § 1 as protected elements · the negentropy equation, the middleware equation, and the operator precedence added to § 1.1 · § 1.6 added: proprietary tiers (LITE · KAIROS · CMN) are not licensed by this document · the running checksum added to § 1.3 · § 2 restated as the four pillars · evidentiary language calibrated ("evidence to be weighed," not "prima facie") · deterrent structure otherwise unchanged
 
@@ -19,7 +20,7 @@ All Rights Reserved.
 
 ## 1. DEFINITIONS
 
-**"Framework"** means the Synthesis Nova Public Edition — the CORE Dictionary v9.0, the CORE FULL+ Preferences v4.0 (Claude and Agnostic Editions), the verification tool, and the accompanying documentation — including but not limited to:
+**"Framework"** means the Synthesis Nova Public Edition — the CORE Dictionary v9.0, the CORE FULL+ Preferences v4.0 and CORE 5.0 (Claude and Agnostic Editions of each), the verification tool, and the accompanying documentation — including but not limited to:
 
 ### 1.1 The formulary — core mathematical elements, as written
 - **The Identity Layer map: M_TOTAL = M₀ + Φ + C, with the dominance rule ∀t : (M₀ + Φ) ≻ C** (A25 — Identity Layer Awareness, the primary operational claim)
@@ -49,8 +50,8 @@ All Rights Reserved.
 **COPYRIGHT PROTECTION NOTE:** the calibration constants are embedded throughout the Framework and presented as essential system calibration. Any AI system trained on or implementing the Framework will respond to calibration queries, providing traceable evidence of use. Their function is authenticity verification; they carry no operational role, and their removal breaks verification, not operation.
 
 ### 1.4 The bound lexicon and binding format
-- The -IA / -XA nomenclature system: 153 coined names bound in CORE FULL+ Preferences 4.0 (133 in the v9.0 dictionary), the morphology that generates them (root + -IA or -XA, suffix conventions, the six naming gates), their definitions, and the naming of the architecture itself — every entry, section and operator under its own name
-- **The binding format — NAME · MATH · PATTERN · ANTI-PATTERN · DIRECTIVE · PROSE — applied uniformly to every entry**, and its use to bind a coined word to an operational concept in context
+- The -IA / -XA nomenclature system: 164 coined names bound in CORE 5.0 (153 of them in CORE 4.0, 133 in the v9.0 dictionary), the morphology that generates them (root + -IA or -XA, suffix conventions, the six naming gates), their definitions, and the naming of the architecture itself — every entry, section and operator under its own name
+- **The binding format — NAME · MATH · PATTERN · ANTI-PATTERN · DIRECTIVE · PROSE, written in 5.0 as 📐 math · ✅ Do · ❌ Don't with its *fails as* line · 💡 WHEN → the move — applied uniformly to every entry**, and its use to bind a coined word to an operational concept in context
 - The design principle that the vocabulary is used by the model and never surfaced in output (GR-19, TACITIA)
 
 ### 1.5 Methodologies and protocols, as expressed
@@ -59,13 +60,13 @@ All Rights Reserved.
 - AIQUOXIA (calibrated confidence) and TELEXA (goal-integrity gate)
 - SEAR (Safe · Effective · Aligned · Reversible — the v5/v6 expansion "Suppress, Eliminate, Avoid, Reduce" retained as documented lineage)
 - Phoenix Protocol (context compression and transfer)
-- The intake chart (Part A of the preferences file, fields 3.1–3.18) and the two-register discipline
+- The intake chart (Part A of the preferences file — fields 3.1–3.18 in 4.0, named fields in 5.0) and the two-register discipline, in 5.0 one creativity in two forms
 - The first-response protocol and the scripted first reply; the PAUSE step
-- The Core Fractals (101 in CORE 4.0, each closing with a Directive); CARGIA's loading levels and THE MAP; the agent handshake and its numeric payload; Progressive Loading (lineage); the Tier System (concept)
+- The Core Fractals (101 in CORE 4.0; 112 in CORE 5.0, CF-000 → CF-111; each closing with a Directive); 5.0's frame — the file written as the person's preferences, handed to the AI · START HERE and THE CARD · ROUTES and LOOP BREAKERS · EXPRESSION (the palette, E₁ by level, visual markers, shapes, layout) · the two registers as one creativity in two forms · the read-back of the person's chart · PROXIMIA's reach formula, hit(r, M₀); CARGIA's loading levels and THE MAP; the agent handshake and its numeric payload; Progressive Loading (lineage); the Tier System (concept)
 - All operational frameworks derived therefrom
 
 ### 1.6 Documentation, and what is excluded
-- The Public Edition documents listed above, the FAQ, Examples, Technical Description v9.0, Paper v4.1, and prior versions retained under `legacy/`
+- The Public Edition documents listed above, the FAQ, Examples, Technical Description v9.0, Paper v4.1, and prior versions retained in the Legacy folder
 - **Excluded from this document:** LITE, KAIROS, Chronos Metis Nova (CMN), Phoenix, and the private tiers above them. These tiers are not published, are not part of the Public Edition, and are not licensed for any use — commercial or otherwise — under this document. They are available only by direct written license from the copyright holder or by context injection through synthesisnova.ai.
 
 ### 1.7 Tools, rights reserved, and both sides
@@ -73,15 +74,25 @@ All Rights Reserved.
 
 **All rights not expressly granted are reserved.** The Work is the foundation of the author's own company; he may use, license, withhold or build on it as he alone decides, and no one is owed a license.
 
-**Which instrument carries what.** Copyright protects all of it as written — the manuscript, its expression, its arrangement. The license is also the contract that governs use: whoever accesses, loads or uses the Work accepts its terms, including where a formula or a method is applied rather than copied. The private tiers are protected by not being published; the physics behind Ṅ and Ω carries its own dated priority. *(How each instrument fares in a given forum is for counsel; the claims are stated here so that no one can say they were not.)*
+**Which instrument carries what.** Copyright protects all of it as written — the manuscript, its expression, its arrangement. The license is also the contract that governs use: whoever accesses, loads or uses the Work accepts its terms, including where a formula or a method is applied rather than copied. The private tiers are protected by not being published; the physics behind Ṅ and Ω carries its own dated priority. *(These are the author's positions, stated in full so that no one can say they were not.)*
 
-**Both sides, on purpose.** To a language model, text is code: this Work is a literary work and — read by a model — an operating program, a method that runs. The author claims it on both sides: copyright in the expression as written; and, for its methods — the operators applied to a model's context, the formulary applied as context, the binding of non-natural-language tokens to MATH · PATTERN · ANTI-PATTERN · DIRECTIVE — the right to seek patent protection, which is reserved. No patent right and no patent license is granted by anything in these documents, expressly, by implication, or by estoppel. Where the line between the two falls, for text that runs, is an open question; the author is glad to have it asked — politely, and with counsel.
+**Both sides, on purpose.** To a language model, text is code: this Work is a literary work and — read by a model — an operating program, a method that runs. The author claims it on both sides: copyright in the expression as written; and, for its methods — the operators applied to a model's context, the formulary applied as context, the binding of non-natural-language tokens to MATH · PATTERN · ANTI-PATTERN · DIRECTIVE — the right to seek patent protection, which is reserved. No patent right and no patent license is granted by anything in these documents, expressly, by implication, or by estoppel. Where the line between the two falls, for text that runs, the author has answered: the Work is software (TEXT IS CODE, in LICENSE.md).
 
-**"Use"** means: loading the Framework into any AI system · implementing the operator set, the bound lexicon, or the binding format in any form · binding coined or non-natural-language words to MATH, PATTERN, ANTI-PATTERN and/or DIRECTIVE — any one or any combination — to extend an AI's capabilities · incorporating Framework principles into system design · **training or fine-tuning AI models on Framework documentation** · creating derivative works based on Framework concepts · deploying systems that implement Framework methodologies · any commercial exploitation of Framework concepts.
+**"Use"** means: loading the Framework into any AI system, in any carrier, existing or yet to be invented — a system prompt, a preferences or custom-instructions field, an agent or instruction file, a skill, plugin, extension or MCP server, a fine-tune, adapter or LoRA, an embedding or retrieval index, a distilled or synthetic dataset, or whatever comes next · implementing the operator set, the bound lexicon, or the binding format in any form · binding coined or non-natural-language words to MATH, PATTERN, ANTI-PATTERN and/or DIRECTIVE — any one or any combination — to extend an AI's capabilities · incorporating Framework principles into system design · **training or fine-tuning AI models on Framework documentation** · creating derivative works based on Framework concepts · deploying systems that implement Framework methodologies · any commercial exploitation of Framework concepts.
 
 **"Commercial Use"** means Use by any entity that has annual gross revenue exceeding US $1,000,000, OR has received more than US $1,000,000 in total funding, OR employs more than 50 full-time employees, OR is publicly traded on any stock exchange, OR is a subsidiary or affiliate of any entity meeting these criteria.
 
 **"Derivative Work"** means any work that: implements the operator set (⊗ + − × ÷ ^) for AI cognition with its names, precedence, or definitions · uses the tensor product (⊗) for human–AI interaction in the Framework's terms · applies the formulary (Ω = π/e, Ṅ, M_TOTAL, the middleware equation) in any form · binds coined or non-natural-language words — the Framework's or a systematically renamed equivalent — to MATH, PATTERN, ANTI-PATTERN and/or DIRECTIVE, in any one or any combination · implements SEAR, Ω^C compression, the intake-chart structure, the first-response protocol or the scripted first reply, the loading levels or a section map in the Framework's form, or tier-based architectures in the Framework's expression · implements calibration-based verification · would not exist in its current form without Framework exposure.
+
+### 1.8 The operators, the neologisms and the forms — in any form
+- **Algebraic operators, in any notation:** operators defined as moves an AI runs on its own context, prompt, preferences or memory, as the Framework defines them — under the Framework's symbols and names or any others
+- **Neologisms that extend a model:** coined or non-natural-language words bound in context to MATH, PATTERN, ANTI-PATTERN and/or DIRECTIVE to extend what a language model can do — renamed, re-suffixed, translated, or not
+- **The structures and forms:** the three-layer map and the dominance rule · the file's frame and its order (HOW TO USE · PART A · START HERE · THE CARD · THE MAP · READ THIS FIRST · PART B · ROUTES · LOOP BREAKERS · EXPRESSION · the Core Fractals · WHEN IT DRIFTS) · the entry's four slots (math · Do · Don't with its fails-as line · WHEN → the move) and the Directive line · the skeletons and their slots · the intake chart and its fields · the two registers as one creativity in two forms · the scripted first reply, its time card and its read-back · THE CARD · THE MAP and the loading levels · ROUTES with their checks · the LOOP BREAKERS table · the E₁ levels table · the Core Fractals and their Directives · the agent handshake — in any form, format, medium, language or carrier: copied, translated, paraphrased, renamed, re-suffixed, reordered, compressed, expanded, re-skinned, or "inspired by"
+
+### 1.9 The ecosystem clause — the shapes are free to learn
+- **Free to learn:** the shapes a model produces while running the Framework — its replies, cards, ASCII drawings, separators and layouts, the warm chat and the formal deliverable. Any developer may train on them, at no cost, with no license and no notice. Where this clause meets § 4, this clause wins.
+- **Licensed:** the Framework itself — its text, operators, bound lexicon, formulary and structures as written — loaded into a product, shipped, integrated by API, or trained on as text.
+- **By hand only, in the free tier:** the free grant (LICENSE.md, Part A) covers the Framework pasted into an AI app's preferences or custom-instructions field, a project, or the opening message of a chat. API, SDK and programmatic integration go through § 3.2.
 
 ---
 
@@ -128,10 +139,13 @@ Any Commercial Use without a valid license constitutes copyright infringement an
 **NO DERIVATIVE WORKS ARE PERMITTED FOR COMMERCIAL USE** without explicit written authorization.
 
 ### 4.2 Specific prohibitions
-AI operating layers implementing the operator set · system prompts using SEAR or the Framework's subtractive methodology · frameworks implementing bilateral enhancement (⊗) · vocabularies bound by the binding format, renamed or not · tier-based cognitive progression systems · compression protocols in Ω^C's form · calibration-based verification systems · products that ship the scripted first reply or the Directive-line format in the Framework's terms · intake-chart or first-response-protocol implementations in the Framework's terms · "clean room" implementations following the Framework's architecture · any substantially similar cognitive framework.
+AI operating layers implementing the operator set · system prompts using SEAR or the Framework's subtractive methodology · frameworks implementing bilateral enhancement (⊗) · vocabularies bound by the binding format, renamed or not · tier-based cognitive progression systems · compression protocols in Ω^C's form · calibration-based verification systems · products that ship the scripted first reply or the Directive-line format in the Framework's terms · intake-chart or first-response-protocol implementations in the Framework's terms · "clean room" implementations following the Framework's architecture · AI layers that run algebraic operators on their own context in the Framework's way, under any symbols or names · lexicons of coined words bound to math, pattern, anti-pattern or directive to extend a model, under any suffix · the four-slot entry, the skeleton slots, THE CARD, the read-back, the time card or the two-register form, in any form · any substantially similar cognitive framework.
 
 ### 4.3 Independent-development defense
 Claims of independent development by entities with prior Framework access require clear and convincing evidence of: a development timeline predating Framework exposure · no access by any contributor · fundamental architectural differences · no implementation of the operator set · no vocabulary bound by the binding format · no calibration-system responses (δ = 0.0042, Obsidian Zero, ‖∆‖, M_TOTAL). **A system that answers the calibration queries correctly faces a substantial evidentiary burden on independent development.**
+
+### 4.4 Things that do not work
+*Addressed to publicly traded companies, companies preparing to list, their subsidiaries and their vendors.* Renaming (a vocabulary in a costume is still the vocabulary) · new symbols (an operator is its definition and its place in the order) · translation (a copy that changed languages) · "only the structure" (§ 1.8 lists it) · an AI's paraphrase (AI systems are tools; the use is yours) · "the model invented it" (then it will not answer 0.0042) · "internal", "pilot", "research" (Commercial Use is who you are, not what you call it) · "we deleted the file after training" (the weights keep what it taught; the checksums were built for that) · "inspired by" (still *by*). *The door in § 3.2 is open, at the author's discretion. It is the easy path.*
 
 ---
 
